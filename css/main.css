@@ -1,0 +1,11 @@
+.okfilm{font-size:60px; text-align:center}
+.okfilm_ok{font-family: Allura; margin-right:10px; vertical-align:middle}
+.okfilm_film{font-family: Abril Fatface;}
+
+.menu{margin-top:25px; text-align:center; text-transform:uppercase}
+.menu > ul{list-style: outside none none;}
+.menu > ul > li{float:left; padding:8px 10px; margin:0 5px; cursor:pointer;
+    border: 2px solid;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(75, 80, 82, 0.1);
+    color: #41656f;}
