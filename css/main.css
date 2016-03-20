@@ -1,8 +1,22 @@
+/* Общие классы */
+*{box-sizing:border-box}
+.box{width:100%;position:relative}
+.box:after,.form:after{content:"";display:block;clear:both}
+
+body{color:#777777; background-color:#887db2;}
+/* .tm_background{background-image: url("/images/body.jpg"); background-repeat:no-repeat} */
+.container{max-width:1200px; padding:0 25px}
+
+.navbar{text-align:center;margin:90px 0;}
+.navbar a{text-decoration:none; color:inherit;}
+
+/* Логотип */
 .okfilm{font-size:60px; text-align:center}
 .okfilm_ok{font-family: Allura; margin-right:10px; vertical-align:middle}
 .okfilm_film{font-family: Abril Fatface;}
 
-.menu{margin-top:25px; text-align:center; text-transform:uppercase}
+/* Главное меню */
+.menu{margin-top:25px; display:inline-block; width:auto; text-transform:uppercase;}
 .menu > ul{list-style: outside none none;}
 .menu > ul > li{float:left; padding:8px 10px; margin:0 5px; cursor:pointer;
     border: 2px solid;
