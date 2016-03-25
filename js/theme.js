@@ -5,6 +5,10 @@
  */
 
 
+// Глобальный объект для хранения таймеров из функции setInterval
+var timerObj = {};
+
+
 // Parallax Scrolling Speed.
 // Set the scrolling speed of the background parallax image.
 // Рекомендуется устанавливать значения 1.5, 3 или 6
@@ -28,3 +32,15 @@ var requestAnimationFrame = window.requestAnimationFrame
         requestAnimationFrame(animloop);
     }());
 }());
+
+$(function(){
+    var slideshow = document.getElementById('home_slideshow');      // весь список <ul></ul> с элементами слайдшоу
+    var elements = $('li', slideshow);                              // список всех элементов слайдшоу
+    var el = elements.first();
+    el.show();
+    setInterval(function(){
+        el.hide();
+        el = el.next().length ? el.next() : elements.first();
+        el.show();
+    }, 5000);
+});

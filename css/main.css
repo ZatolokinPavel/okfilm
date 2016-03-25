@@ -3,6 +3,7 @@
 .box{width:100%;position:relative}
 .box:after,.form:after{content:"";display:block;clear:both}
 .center{text-align: center;}
+img{border: 0 none; height: auto; max-width: 100%; vertical-align: middle;}
 
 body{color:#777777; background-color:#887db2; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size:15px; line-height: 22px; margin:0}
 .container{max-width:1200px; padding:0 25px; margin:0 auto;}
@@ -54,3 +55,11 @@ h3{font-size: 20px; line-height: 26px;}
 h4{font-size: 18px; line-height: 24px;}
 h5{font-size: 15px; line-height: 22px;}
 h6{font-size: 14px; line-height: 20px;}
+
+
+/* Слайдшой на главной */
+.home-slideshow{list-style: outside none none; padding: 0; margin: 0; min-height: 1px;}
+.home-slideshow > li{display: none;}
+.home-slideshow > li > img{max-width: 100%; height: auto; vertical-align: middle;}
+.home-slideshow > li > h3{position: absolute; top: 30px; left: 50px; color: white;
+                          background-color: rgba(39,43,78,0.7); box-shadow: 0 0 6px 10px rgba(39,43,78,0.7);}
