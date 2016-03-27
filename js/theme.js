@@ -33,9 +33,9 @@ var requestAnimationFrame = window.requestAnimationFrame
     }());
 }());
 
+// Слайдшоу на главной странице
 $(function(){
-    var slideshow = document.getElementById('home_slideshow');      // весь список <ul></ul> с элементами слайдшоу
-    var elements = $('li', slideshow);                              // список всех элементов слайдшоу
+    var elements = $('#home_slideshow > li');                              // список всех элементов слайдшоу
     var el = elements.first();
     el.show();
     setInterval(function(){
