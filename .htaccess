@@ -1,0 +1,5 @@
+# Делаем ссылки ЧПУ
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^([a-z]+)$ /pages/$1.htm
