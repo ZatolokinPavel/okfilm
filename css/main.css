@@ -14,8 +14,8 @@ hr{box-sizing:content-box; height:0; margin: 15px 0; border:0; border-top: 1px s
 .tm_background:after{content: ""; left: 0; right: 0; top: 0; bottom: -1px; position: absolute;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 70%, #887db2 100%);}
 
-.navbar{text-align:center;margin:90px 0;}
-.navbar a{text-decoration:none; color:inherit;}
+.navbar{text-align: center; margin:180px 0; color: #4b5052;}
+.navbar a{text-decoration:none; color:inherit; display: inline-block;}
 
 /* Логотип */
 .okfilm{font-size:60px; text-align:center}
@@ -25,10 +25,15 @@ hr{box-sizing:content-box; height:0; margin: 15px 0; border:0; border-top: 1px s
 /* Главное меню */
 .menu{margin-top:25px; display:inline-block; width:auto; text-transform:uppercase;}
 .menu > ul{list-style: outside none none;}
-.menu > ul > li{float:left; padding:8px 10px; margin:0 5px; cursor:pointer;
-    border: 2px solid rgba(75,80,82,0.1);
-    background-color: rgba(0,0,0,0);
-    color: #41656f;}
+.menu > ul > li{float:left; margin:0 5px; background-color: rgba(0,0,0,0);}
+.menu > ul > li > a{cursor:pointer; height: 40px; line-height: 40px; padding:0 10px; font-size: 16px;
+    border: 2px solid rgba(75,80,82,0.1);}
+.menu a:hover{color: #41656f;}
+
+/* Хлебные крошки */
+.breadcrumb{margin-bottom: 25px; padding: 25px 40px; background: #f6f8f9; list-style: outside none none; font-size: 0.001px;}
+.breadcrumb > li{display: inline-block; font-size: 1rem;}    /* Для всего ul шрифт минимален, а тут обычный. Это чтобы убрать отступ между элементами списка. */
+.breadcrumb > li:nth-child(n+2):before{content: "/"; display: inline-block; margin: 0 8px; color: #babab7;}
 
 
 /* Контент - секции, блоки и колонки */
@@ -43,6 +48,7 @@ section{margin-top:25px;}
 .footer{color: #c3bdd8; padding-top: 15px; margin-bottom: 50px;}
 .footer h4{color: #fdfdfe;}
 .footer a{color: #fdfdfe;}
+.footer a:hover{color: #fdfdfe;}
 
 .col33{float:left; width:33.333%;}
 .col25{float:left; width:25%;}
@@ -59,6 +65,11 @@ h3{font-size: 20px; line-height: 26px;}
 h4{font-size: 18px; line-height: 24px;}
 h5{font-size: 15px; line-height: 22px;}
 h6{font-size: 14px; line-height: 20px;}
+
+a{background: transparent;}        /* Remove the gray background color from active links in IE 10. */
+a:active, a:hover {outline: 0;}    /* Improves readability when focused and also mouse hovered in all browsers. */
+a, .link {color: #41656f; text-decoration: none; cursor: pointer;}
+a:hover, .link:hover {color: #41656f; text-decoration: underline;}
 
 .button{color: #4b5052; line-height: 30px; min-height: 30px; padding: 0 12px; display: inline-block; cursor: pointer;
         text-align: center; text-decoration: none; text-transform: uppercase; vertical-align: middle;
