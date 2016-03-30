@@ -5,16 +5,21 @@
 .center{text-align: center;}
 img{border: 0 none; height: auto; max-width: 100%; vertical-align: middle;}
 
+/* Подгонка под старые браузеры*/
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {display: block;}   /* Делаем HTML5 элементы блочными */
+/* Конец подгонки под старые браузеры*/
+
 body{color:#777777; background-color:#887db2; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size:15px; line-height: 22px; margin:0}
 .container{max-width:1200px; padding:0 25px; margin:0 auto;}
 hr{box-sizing:content-box; height:0; margin: 15px 0; border:0; border-top: 1px solid #d2d3d4;}
 
 /* Фоновый рисунок вверху. ВАЖНО: здесь нужно указать такой же цвет фона, как и для body! */
 .tm_background{width: 100%; height: 80vh; position: absolute; background-size: auto;}
-@media (min-width:  480px) { .tm_background{background: url("/images/body.jpg") no-repeat top center;} }
-@media (min-width:  768px) { .tm_background{background: url("/images/body.jpg") no-repeat top center;} }
-@media (min-width:  960px) { .tm_background{background: url("/images/body.jpg") no-repeat top center;} }
-@media (min-width: 1220px) { .tm_background{background: url("/images/body.jpg") no-repeat top center;} }
+@media (max-width:  480px) { .tm_background{background: url("/images/body_480.jpg") no-repeat top center;} }
+@media (min-width:  480px) { .tm_background{background: url("/images/body_768.jpg") no-repeat top center;} }
+@media (min-width:  768px) { .tm_background{background: url("/images/body_960.jpg") no-repeat top center;} }
+@media (min-width:  960px) { .tm_background{background: url("/images/body1220.jpg") no-repeat top center;} }
+@media (min-width: 1220px) { .tm_background{background: url("/images/body_max.jpg") no-repeat top center;} }
 .tm_background:after{content: ""; left: 0; right: 0; top: 0; bottom: -1px; position: absolute;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 70%, #887db2 100%);}
 
