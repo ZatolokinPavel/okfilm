@@ -1,3 +1,6 @@
+@import 'https://fonts.googleapis.com/css?family=Allura';
+@import 'https://fonts.googleapis.com/css?family=Abril+Fatface';
+
 /* Общие классы */
 *{box-sizing:border-box}
 .box{width:100%;position:relative}
@@ -25,6 +28,7 @@ hr{box-sizing:content-box; height:0; margin: 15px 0; border:0; border-top: 1px s
 
 .navbar{text-align: center; margin:180px 0; color: #4b5052;}
 .navbar a{text-decoration:none; color:inherit; display: inline-block;}
+.navbar a:hover{text-decoration: none; color:inherit;}
 
 /* Логотип */
 .okfilm{font-size:60px; text-align:center}
@@ -32,12 +36,18 @@ hr{box-sizing:content-box; height:0; margin: 15px 0; border:0; border-top: 1px s
 .okfilm_film{font-family: Abril Fatface;}
 
 /* Главное меню */
-.menu{margin-top:25px; display:inline-block; width:auto; text-transform:uppercase;}
-.menu > ul{list-style: outside none none;}
-.menu > ul > li{float:left; margin:0 5px; background-color: rgba(0,0,0,0);}
-.menu > ul > li > a{cursor:pointer; height: 40px; line-height: 40px; padding:0 10px; font-size: 16px;
-    border: 2px solid rgba(75,80,82,0.1);}
+.menu{margin:40px auto 0 auto; display:inline-block; width:auto; text-transform:uppercase; list-style: outside none none;}
+.menu > li{float:left; margin:0 5px; background-color: rgba(0,0,0,0); display:inline-block;}
+.menu > li > a{height: 40px; line-height: 40px; padding:0 10px; font-size: 16px;
+               background-color: rgba(226,112,1,0.4); border: 2px solid rgba(75,80,82,0.1);}
+.menu > li > a:hover{background-color: rgba(253,253,254,0.2); border: 2px solid rgba(75,80,82,0.2);}
+.menu a{cursor:pointer;}
 .menu a:hover{color: #41656f;}
+
+.submenu{position: absolute; margin-top: 10px; padding: 20px; list-style: outside none none;
+         text-align: left; width: auto; min-width: 150px; display: none;
+         background-color: rgba(253,253,254,0.4); border: 2px solid rgba(75,80,82,0.2);}
+.submenu > li > a{padding: 5px 10px; text-transform:none;}
 
 /* Хлебные крошки */
 .breadcrumb{margin-bottom: 25px; padding: 25px 40px; background: #f6f8f9; list-style: outside none none; font-size: 0.001px;}
@@ -83,6 +93,7 @@ a:hover, .link:hover {color: #41656f; text-decoration: underline;}
 .button{color: #4b5052; line-height: 30px; min-height: 30px; padding: 0 12px; display: inline-block; cursor: pointer;
         text-align: center; text-decoration: none; text-transform: uppercase; vertical-align: middle;
         background: #e7ebec none repeat scroll 0 0;}
+.button:hover{text-decoration: none;}
 .button-large{font-size: 16px; line-height: 40px; min-height: 40px; padding: 0 15px;}
 .primary .button{color: #e1eaec; background: #2e325c none repeat scroll 0 0;}
 .primary .button:hover{background: #333866 none repeat scroll 0 0;}
