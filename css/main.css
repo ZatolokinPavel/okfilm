@@ -94,3 +94,17 @@ a:hover, .link:hover {color: #41656f; text-decoration: underline;}
 .home-slideshow > li > img{max-width: 100%; height: auto; vertical-align: middle;}
 .home-slideshow > li > h3{position: absolute; left: 50px; color: white; padding: 3px 20px;
                           background-color: rgba(255,255,255,0.3);}
+
+
+/* Размеры для картинок ставим так */
+@media (max-width: 767px) { }
+@media (min-width: 768px) and (max-width: 991px) { }
+@media (min-width: 992px) and (max-width: 1199px) { }
+@media (min-width: 1200px) { }
+
+
+/* Размеры для стилей можно ставить так. Кроме того, писать общие параметры для всех экранов. */
+@media (max-width: 767px) { }
+@media (min-width: 768px) { }
+@media (min-width: 992px) { }
+@media (min-width: 1200px) { }
