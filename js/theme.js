@@ -33,6 +33,15 @@ var requestAnimationFrame = window.requestAnimationFrame
     }());
 }());
 
+// Главное меню
+$(function() {
+    var menu = $('#main_menu > li');
+    menu.hover(on, off);
+});
+function on() { $("ul", this).show(); }
+function off() { $("ul", this).hide(); }
+
+
 // Слайдшоу на главной странице
 $(function(){
     var elements = $('#home_slideshow > li');                              // список всех элементов слайдшоу
