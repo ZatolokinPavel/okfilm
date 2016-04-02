@@ -33,13 +33,18 @@ var requestAnimationFrame = window.requestAnimationFrame
     }());
 }());
 
-// Главное меню
+
+// Главное меню - раскрытие подменю
 $(function() {
     var menu = $('#main_menu > li');
-    menu.hover(on, off);
+    menu.hover(function(){
+        // при наведении мыши останавливаем текущую анимацию и разворачиваем подменю
+        $("div",this).stop(true,false).slideDown(200);
+    }, function(){
+        // когда убираем курсор, останавливаем текущую анимацию и сворачиваем подменю
+        $("div",this).stop(true,false).slideUp(200);
+    });
 });
-function on() { $("ul", this).show(); }
-function off() { $("ul", this).hide(); }
 
 
 // Слайдшоу на главной странице
