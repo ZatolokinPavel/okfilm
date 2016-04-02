@@ -2,4 +2,5 @@
 Options +FollowSymLinks
 RewriteEngine On
 
-RewriteRule ^([a-z]+)$ /pages/$1.htm
+RewriteRule ^([a-z0-9]+)$ /pages/$1.htm
+RewriteRule ^([a-z0-9]+)/([a-z0-9]+)$ /pages/$1/$2.htm

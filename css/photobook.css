@@ -1,0 +1,19 @@
+/**
+ * Стили для калькулятора стоимости фотокниг
+ */
+
+.pb_params{width:47%; float:left; margin-right: 3%}
+.pb_result{float:left; width:50%}
+.pb_field{clear:both}
+.pb_field > b{display:inline-block; width:160px}
+.pb_field > select{width: 240px; padding: 4px 6px; margin-bottom: 11px;
+                   font-size: inherit; color: inherit; cursor: pointer;}
+.pb_format{float:left; width:132px; margin:0 10px 10px 0}
+.pb_price{float:left; width:60%}
+
+@media (max-width: 830px) {
+    .pb_price{width:100%}
+}
+@media (max-width: 610px) {
+    .pb_result{width:100%}
+}
