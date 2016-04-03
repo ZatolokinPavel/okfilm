@@ -14,37 +14,9 @@
     <div id="parallaxBackground" class="tm_background" style="top: 0"></div>
 
     <div class="container box">
-    
-        <nav class="navbar">
-            <!-- Логотип -->
-            <div class="okfilm">
-                <a href="/"><span class="okfilm_ok">Ok</span><span class="okfilm_film">FILM</span></a>
-            </div>
-            <!-- Главное меню -->
-            <ul id="main_menu" class="menu box">
-                <li><a href="/">Главная</a></li>
-                <li>
-                    <a>Портфолио</a>
-                    <div class="submenu box">
-                        <ul>
-                            <li><a href="/photoalbum/lovestory">LoveStory</a></li>
-                            <li><a href="/photoalbum/wedding">Свадьба</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li><a href="/video">Видео</a></li>
-                <li>
-                    <a>Услуги</a>
-                    <div class="submenu box">
-                        <ul>
-                            <li><a href="/uslugi/photobook">Фотокниги</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li><a href="/price">Стоимость</a></li>
-            </ul>
-        </nav>
-        
+
+        <!--#include virtual="/include/header.html" -->
+
         <section class="antipad25 box">
             <div class="col66 pad25">
                 <ul id="home_slideshow" class="home-slideshow">
@@ -146,24 +118,7 @@
             </div>
         </section>
 
-        <!--Footer-->
-        <section class="antipad25 box footer">
-            <div class="col33 pad25">
-                <div>&nbsp;</div>
-                <div class="okfilm">
-                    <span class="okfilm_ok">Ok</span><span class="okfilm_film">FILM</span>
-                </div>
-            </div>
-            <div class="col33 pad25">&nbsp;</div>
-            <div class="col33 pad25">
-                <h4>Контакты</h4>
-                <p>
-                    Телефон: +38 067 281 91 34<br>
-                    Страница ВКонтакте: <a href="https://vk.com/naidenko_oksana_ok" target="_blank">vk.com/naidenko_oksana_ok</a><br>
-                    Email: <a href="mailto:naidenko-oksana@mail.ru">naidenko-oksana@mail.ru</a>
-                </p>
-            </div>
-        </section>
+        <!--#include virtual="/include/footer.html" -->
     
     </div>
 
