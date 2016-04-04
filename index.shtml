@@ -113,8 +113,35 @@
                         </div>
                     </div>
                 </div>
-                <!-- Отзывы -->
-                <section class="block">Отзывы молодоженов</section>
+                <!-- Отзывы молодоженов -->
+                <section class="otzivi box">
+                    <div>
+                        <div>
+                            <img src="/images/otzivi_na_glavnoi/Silchuk.jpg">
+                            <h4>Света</h4>
+                            Я давно мечтала о профессиональной фотосессии...
+                        </div>
+                        <div>
+                            <img src="/images/otzivi_na_glavnoi/rodkin.jpg">
+                            <h4>Сергей</h4>
+                            Делали свадьбу на память родителям и детям. Но были приятно удивлены...
+                        </div>
+                        <div>
+                            <img src="/images/otzivi_na_glavnoi/Nastya_Zaberzhevskaya.jpg">
+                            <h4>Настя</h4>
+                            Приглашали Оксану на видео и фото съемку детского дня рождения...
+                        </div>
+                        <div>
+                            <img src="/images/otzivi_na_glavnoi/Sulaeva.jpg">
+                            <h4>Юля</h4>
+                        </div>
+                        <div>
+                            <img src="/images/otzivi_na_glavnoi/Sulaeva.jpg">
+                            <h4>Юля</h4>
+                            отзыв
+                        </div>
+                    </div>
+                </section>
             </div>
         </section>
 

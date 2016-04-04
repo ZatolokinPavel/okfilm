@@ -58,3 +58,8 @@ $(function(){
         el.show();
     }, 5000);
 });
+
+// Анимация отзывов на главной странице
+$(function(){
+    $('.otzivi > div').css('margin-left', 0);
+});
