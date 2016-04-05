@@ -7,3 +7,7 @@
 .youtube > button{position: absolute; left: 50%; top: 50%; width: 68px;
                   height: 48px; margin-left: -34px; margin-top: -24px;
                   border: 0; background-color: transparent; padding: 0;}
+
+/* Фирменная кнопка YouTube. По умолчанию она серая, при наведении на блок с видео - красная. */
+.youtube-play-button-bg {fill: #1f1f1f; fill-opacity: 0.81; transition: fill 0.1s cubic-bezier(0.4, 0, 1, 1) 0s, fill-opacity 0.1s cubic-bezier(0.4, 0, 1, 1) 0s;}
+.youtube:hover .youtube-play-button-bg {fill: #cc181e; fill-opacity: 1; transition: fill 0.1s cubic-bezier(0, 0, 0.2, 1) 0s, fill-opacity 0.1s cubic-bezier(0, 0, 0.2, 1) 0s;}
