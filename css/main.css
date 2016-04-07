@@ -109,11 +109,12 @@ a:hover, .link:hover {color: #41656f; text-decoration: underline;}
                           background-color: rgba(255,255,255,0.3);}
 
 /* Отзывы на главной */
-.otzivi{margin-left:-15px; width:auto; color: #fdfdfe; overflow: hidden;}
-.otzivi > div > div{float: left; width: 20%; padding-left: 15px;}
-.otzivi h4{margin: 10px 0 0 0; color: #c3bdd8; text-transform: none;}
+.reviews{margin-left:-15px; width:auto; color: #fdfdfe; overflow: hidden;}
+.reviews > div > div{float: left; width: 20%; padding-left: 15px;}
+.reviews h4{margin: 10px 0 0 0; color: #c3bdd8; text-transform: none;}
 /* для анимации */
-.otzivi > div{width: 100%; margin-left: 100%; transition: margin-left 5s cubic-bezier(0, 0, 1, 1);}
+.reviews > div{width: 100%; margin-left: 100%; opacity: 0;
+    transition: margin-left 0.4s cubic-bezier(0, 0, 1, 1), opacity 0.4s ease-in;}
 
 
 /* Размеры для картинок ставим так */

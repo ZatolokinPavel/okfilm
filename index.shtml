@@ -114,7 +114,7 @@
                     </div>
                 </div>
                 <!-- Отзывы молодоженов -->
-                <section class="otzivi box">
+                <section id="reviews" class="reviews box">
                     <div>
                         <div>
                             <img src="/images/otzivi_na_glavnoi/Silchuk.jpg">
