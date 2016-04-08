@@ -17,6 +17,18 @@
 
         <!--#include virtual="/include/header.html" -->
 
+        <section class="box">
+            <div class="home_slides slide_c">
+                <img src="images/home_slides/vinnica.jpg">
+            </div>
+            <div class="home_slides slide_l">
+                <img src="images/home_slides/piter.jpg">
+            </div>
+            <div class="home_slides slide_r">
+                <img src="images/home_slides/praga.jpg">
+            </div>
+        </section>
+
         <section class="antipad25 box">
             <div class="col66 pad25">
                 <ul id="home_slideshow" class="home-slideshow">
