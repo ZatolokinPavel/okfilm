@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Портфолио — Фотограф, видеооператор Оксана Найденко | OkFILM</title>
+    <meta name="keywords" content="Оксана Найденко, фотограф, видеооператор, видеооператор на свадьбу, свадьба, фотосессия, LoveStory, свадебный фотограф" />
+    <meta name="description" content="Фотограф и видеооператор Оксана Найденко. Я с удовольствием сохраню тёплые и яркие моменты Вашей свадьбы, Love Story и радостных событий." />
+
+    <link rel="stylesheet" href="/css/theme.css" type="text/css">
+    <link rel="stylesheet" href="/css/gallery.css" type="text/css">
+</head>
+<body>
+
+<div id="parallaxBackground" class="tm_background" style="top: 0"></div>
+
+<div class="container box">
+
+    <!--#include virtual="/include/header.html" -->
+
+    <!-- Breadcrumb -->
+    <ul class="breadcrumb">
+        <li><a href="/">Главная</a></li>
+        <li>Портфолио</li>
+    </ul>
+
+    <article class="article">
+        <div class="gallery">/images/portfolio/Artem_and_Lena_LoveStory/</div>
+    </article>
+
+    <!--#include virtual="/include/footer.html" -->
+
+</div>
+
+<script src="/js/jquery-1.12.2.min.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/gallery.js"></script>
+
+</body>
+</html>
