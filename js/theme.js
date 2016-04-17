@@ -61,19 +61,21 @@ $(function(){
 
 // Анимация элементов в зависимости от прокрутки.
 $(function() {
-    showReviewsBlock();
+    var reviewsBlock = $('#reviews');
+    showReviewsBlock(reviewsBlock);
     $(window).scroll(function(){
-        showReviewsBlock();
+        showReviewsBlock(reviewsBlock);
     });
 });
 
 // Отображение блока отзывов в зависимости от того,
 // находится ли он сейчас в видимой области экрана.
-function showReviewsBlock() {
-    var reviewsBlock = $('#reviews');
-    var isSeenReviews = scrolledToTheItem(reviewsBlock);
-    reviewsBlock.children(0).css('margin-left', (isSeenReviews ? 0 : '100%'));
-    reviewsBlock.children(0).css('opacity', (isSeenReviews ? 1 : 0));
+function showReviewsBlock(reviewsBlock) {
+    if (reviewsBlock.length > 0) {
+        var isSeenReviews = scrolledToTheItem(reviewsBlock);
+        reviewsBlock.children(0).css('margin-left', (isSeenReviews ? 0 : '100%'));
+        reviewsBlock.children(0).css('opacity', (isSeenReviews ? 1 : 0));
+    }
 }
 
 // Проверка, что элемент находится над нижней границей
