@@ -1,1 +1,4 @@
-.gallery{display: none;}
+.gallery{width: auto; text-align: center; margin: 0 auto -15px auto}
+.gallery > a{display: inline-block; float: left; max-width: 100%; margin: 0 15px 15px 0;}
+
+@media (min-width: 835px) { .gallery{width: 720px} }

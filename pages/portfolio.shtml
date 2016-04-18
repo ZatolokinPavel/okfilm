@@ -25,7 +25,23 @@
     </ul>
 
     <article class="article">
-        <div class="gallery">/images/portfolio/Artem_and_Lena_LoveStory/</div>
+        <div class="gallery box">
+            <a href="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0227.JPG" title="Артём и Лена">
+                <img src="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0227.JPG" alt="Артём и Лена" height="300" width="345">
+            </a>
+            <a href="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0241.JPG" title="Артём и Лена">
+                <img src="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0241.JPG" alt="Артём и Лена" height="300" width="345">
+            </a>
+            <a href="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0256.JPG" title="Артём и Лена">
+                <img src="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0256.JPG" alt="Артём и Лена" height="300" width="345">
+            </a>
+            <a href="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0366.JPG" title="Артём и Лена">
+                <img src="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0366.JPG" alt="Артём и Лена" height="300" width="345">
+            </a>
+            <a href="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0410.JPG" title="Артём и Лена">
+                <img src="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0410.JPG" alt="Артём и Лена" height="300" width="345">
+            </a>
+        </div>
     </article>
 
     <!--#include virtual="/include/footer.html" -->
