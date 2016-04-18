@@ -7,11 +7,13 @@
 $(function() {
     var allGallerys = document.getElementsByClassName('gallery');
     for (var i=0; i < allGallerys.length; i++) {
-        showGalleryPhotos(allGallerys[i]);
+        var gallery = $(allGallerys[i]);
+        gallery.children().click(function(link) {showOnePhoto(link);});
     }
 });
 
-function showGalleryPhotos(gallery) {
+function showOnePhoto(link) {
 
-    console.log(gallery.innerHTML);
+    console.log(link);
+    return false;
 }
