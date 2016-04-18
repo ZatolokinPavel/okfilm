@@ -25,22 +25,25 @@
     </ul>
 
     <article class="article">
-        <div class="gallery box">
-            <a href="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0227.JPG" title="Артём и Лена">
-                <img src="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0227.JPG" alt="Артём и Лена" height="300" width="345">
-            </a>
-            <a href="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0241.JPG" title="Артём и Лена">
-                <img src="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0241.JPG" alt="Артём и Лена" height="300" width="345">
-            </a>
-            <a href="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0256.JPG" title="Артём и Лена">
-                <img src="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0256.JPG" alt="Артём и Лена" height="300" width="345">
-            </a>
-            <a href="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0366.JPG" title="Артём и Лена">
-                <img src="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0366.JPG" alt="Артём и Лена" height="300" width="345">
-            </a>
-            <a href="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0410.JPG" title="Артём и Лена">
-                <img src="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0410.JPG" alt="Артём и Лена" height="300" width="345">
-            </a>
+        <h1 class="article-title">Артём и Лена</h1>
+        <div class="gallery-wrapper box">
+            <div class="gallery">
+                <a href="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0227.JPG" title="Артём и Лена">
+                    <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0227.JPG" alt="Артём и Лена" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0241.JPG" title="Артём и Лена">
+                    <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG" alt="Артём и Лена" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0256.JPG" title="Артём и Лена">
+                    <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0256.JPG" alt="Артём и Лена" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0366.JPG" title="Артём и Лена">
+                    <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0366.JPG" alt="Артём и Лена" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0410.JPG" title="Артём и Лена">
+                    <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0410.JPG" alt="Артём и Лена" height="300" width="345">
+                </a>
+            </div>
         </div>
     </article>
 

@@ -1,4 +1,11 @@
-.gallery{width: auto; text-align: center; margin: 0 auto -15px auto}
-.gallery > a{display: inline-block; float: left; max-width: 100%; margin: 0 15px 15px 0;}
+.gallery-wrapper{width: auto; margin: 0 -15px -15px 0}
 
-@media (min-width: 835px) { .gallery{width: 720px} }
+.gallery{width: auto; text-align: center; margin: 0 auto}
+.gallery > a{display: block; float: left; margin: 0 15px 15px 0;
+             max-width: 345px; max-height: 300px; overflow: hidden;}
+
+@media (max-width: 834px) { .gallery{max-width: 345px}
+                            .gallery-wrapper{margin: 0 0 -15px 0}
+                            .gallery > a{margin: 0 0 15px 0} }
+@media (min-width: 835px) { .gallery{max-width: 720px} }
+@media (min-width:1195px) { .gallery{max-width:1080px} }
