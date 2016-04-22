@@ -9,3 +9,10 @@
                             .gallery > a{margin: 0 0 15px 0} }
 @media (min-width: 835px) { .gallery{max-width: 720px} }
 @media (min-width:1195px) { .gallery{max-width:1080px} }
+
+
+#lightbox_overlay{display: none; position: fixed; left: 0; top: 0; width: 100%; z-index: 100;
+                  background-color: #777; opacity: 0.7; cursor: pointer; height: 100%;}
+#lightbox_wrap{display: none; position: absolute; z-index: 101;}
+#lightbox_content{border: 10px solid #fff; box-shadow: 0 0 15px #555; height: 100%}
+#lightbox_img{height: 100%; width: 100%;}
