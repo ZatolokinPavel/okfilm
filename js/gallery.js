@@ -5,9 +5,15 @@
  */
 
 
+var nextLink, prevLink;
+
+
 // Навешиваем обработчики клика на все фотки всех галерей на странице.
 $(function() {
     document.getElementById('lightbox_overlay').addEventListener('click', closeLightBox);
+    var wrap = document.getElementById('lightbox_wrap');
+    wrap.addEventListener('wheel', changePhoto_wheel);
+
     var allGallerys = document.getElementsByClassName('gallery');
     for (var i=0; i < allGallerys.length; i++) {
         allGallerys[i].onclick = function(e) {
@@ -40,8 +46,6 @@ function showOnePhoto(link) {
     img.alt = link.title;
     img.id  = 'lightbox_img';
     img.onload = function() {
-        var imgW = img.naturalWidth;
-        var imgH = img.naturalHeight;
         var ratio = img.naturalWidth / img.naturalHeight;
         var H = winHeight * ratio * 0.9 <= winWidth ? winHeight * 0.9 : winWidth * 0.9 / ratio;
         var W = (H - 20) * ratio + 20;
@@ -54,26 +58,28 @@ function showOnePhoto(link) {
         wrap.style.display = "block";
     };
 
-    //link = $(link);
-    //var nextLink = link.next('a')[0];
-    //var prevLink = link.prev('a')[0];
-    //
-    //wrap.addEventListener('wheel', function(e){
-    //    e = e || window.event;
-    //    var delta = e.deltaY || e.detail || e.wheelDelta;
-    //    if (delta > 0 && nextLink) { console.log(nextLink); }
-    //    else if (prevLink) { console.log(prevLink); }
-    //    e.preventDefault ? e.preventDefault() : (e.returnValue = false);
-    //});
+    link = $(link);
+    nextLink = link.next('a')[0];
+    prevLink = link.prev('a')[0];
 }
 
-//function changePhoto(link) {
-//    document.getElementById('lightbox_content').innerHTML = "";
-//    showOnePhoto(link);
-//}
+function changePhoto_wheel(e) {
+    e = e || window.event;
+    var delta = e.deltaY || e.detail || e.wheelDelta;
+    if (delta > 0 && nextLink) {
+        document.getElementById('lightbox_content').innerHTML = "";
+        showOnePhoto(nextLink);
+    } else if (delta < 0 && prevLink) {
+        document.getElementById('lightbox_content').innerHTML = "";
+        showOnePhoto(prevLink);
+    }
+    e.preventDefault ? e.preventDefault() : (e.returnValue = false);
+}
 
 // Закрытие модального окна с фотографией
 function closeLightBox() {
+    nextLink = undefined;
+    prevLink = undefined;
     document.getElementById('lightbox_wrap').style.display = "none";
     document.getElementById('lightbox_overlay').style.display = "none";
     document.getElementById('lightbox_content').innerHTML = "";
