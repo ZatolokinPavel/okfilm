@@ -10,9 +10,11 @@ var nextLink, prevLink;
 
 // Навешиваем обработчики клика на все фотки всех галерей на странице.
 $(function() {
-    document.getElementById('lightbox_overlay').addEventListener('click', closeLightBox);
-    var wrap = document.getElementById('lightbox_wrap');
-    wrap.addEventListener('wheel', changePhoto_wheel);
+    document.getElementById('lightbox_overlay').addEventListener('click', closeLightBox);   // серая подложка закрывает просмотр
+    document.getElementById('lightbox_close').addEventListener('click', closeLightBox);     // крестик в углу закрывает просмотр
+    document.getElementById('lightbox_left').addEventListener('click', showPrevPhoto);      // стрелка влево на фото переключает на предыдущую фотку
+    document.getElementById('lightbox_right').addEventListener('click', showNextPhoto);     // стрелка вправо на фото переключает на следующую фотку
+    document.getElementById('lightbox_wrap').addEventListener('wheel', changePhoto_wheel);  // вращение колёсика мышки на фотографии меняет фотографию
 
     var allGallerys = document.getElementsByClassName('gallery');
     for (var i=0; i < allGallerys.length; i++) {
@@ -59,21 +61,34 @@ function showOnePhoto(link) {
     };
 
     link = $(link);
-    nextLink = link.next('a')[0];
-    prevLink = link.prev('a')[0];
+    nextLink = link.next('a')[0];       // сохраняем в глобальную переменную следующую за этой фотографию
+    prevLink = link.prev('a')[0];       // сохраняем в глобальную переменную предыдущую перед этой фотографию
+    // Показать или скрыть стрелки переключения фотографий
+    if (nextLink) { $('#lightbox_right').show(); } else { $('#lightbox_right').hide(); }
+    if (prevLink) { $('#lightbox_left').show();  } else { $('#lightbox_left').hide(); }
 }
-
-function changePhoto_wheel(e) {
-    e = e || window.event;
-    var delta = e.deltaY || e.detail || e.wheelDelta;
-    if (delta > 0 && nextLink) {
+// Смена фотографии на следующую
+function showNextPhoto() {
+    if (nextLink) {
         document.getElementById('lightbox_content').innerHTML = "";
         showOnePhoto(nextLink);
-    } else if (delta < 0 && prevLink) {
+    }
+}
+// Смена фотографии на предыдущую
+function showPrevPhoto() {
+    if (prevLink) {
         document.getElementById('lightbox_content').innerHTML = "";
         showOnePhoto(prevLink);
     }
-    e.preventDefault ? e.preventDefault() : (e.returnValue = false);
+}
+
+// Смена фотографии с помощью колёсика мыши
+function changePhoto_wheel(e) {
+    e = e || window.event;
+    var delta = e.deltaY || e.detail || e.wheelDelta;   // величина поворота колеса мыши
+    if (delta > 0) { showNextPhoto(); }                 // колесо повернули к себе
+    else if (delta < 0) { showPrevPhoto(); }            // колесо повернули от себя
+    e.preventDefault ? e.preventDefault() : (e.returnValue = false);    // отменяем стандартную прокрутку
 }
 
 // Закрытие модального окна с фотографией
