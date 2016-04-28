@@ -16,8 +16,10 @@ $(function() {
 // Расширение картинки, над которой сейчас курсор, сжатие всех остальных
 function selectSliderElement() {
     var li = $(this).parent();
-    li.siblings().width('70px');
-    li.width('300px');
+    console.log(li.parent().width());
+    var W = (li.parent().width() - 300) / 5;
+    li.siblings().outerWidth(W+'px');
+    li.outerWidth('300px');
 }
 // Восстановление обычного размера картинок
 function deselectSliderElement() {
