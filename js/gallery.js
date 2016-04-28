@@ -17,9 +17,9 @@ $(function() {
 function selectSliderElement() {
     var li = $(this).parent();
     console.log(li.parent().width());
-    var W = (li.parent().width() - 300) / 5;
+    var W = (li.parent().width() - 345) / 5;
     li.siblings().outerWidth(W+'px');
-    li.outerWidth('300px');
+    li.outerWidth('345px');
 }
 // Восстановление обычного размера картинок
 function deselectSliderElement() {
