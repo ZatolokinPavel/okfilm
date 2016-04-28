@@ -11,6 +11,12 @@
 @media (min-width:1195px) { .gallery{max-width:1080px} }
 
 
+.gallery_slider{width: 100%; margin: 0; padding: 0; list-style: outside none none;}
+.gallery_slider > li{width: 16.6666%; height: 300px; display: block; float: left; border-right: solid 3px white;
+                    background: center center no-repeat;}
+.gallery_slider a{display: block; width: 100%; height: 100%;}
+
+
 #lightbox_overlay{display: none; position: fixed; left: 0; top: 0; width: 100%; z-index: 100;
                   background-color: #777; opacity: 0.7; cursor: pointer; height: 100%;}
 #lightbox_wrap{display: none; position: absolute; z-index: 101;}

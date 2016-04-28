@@ -8,6 +8,19 @@
 var nextLink, prevLink;
 
 
+$(function() {
+    var allSliders = document.getElementsByClassName('gallery_slider');
+    for (var i=0; i < allSliders.length; i++) {
+        allSliders[i].addEventListener('mouseover', function(e,i) {
+            console.log(e.target);
+            if (e.target.nodeName == 'A') {
+
+            }
+        });
+    }
+});
+
+
 // Навешиваем обработчики клика на все фотки всех галерей на странице.
 $(function() {
     document.getElementById('lightbox_overlay').addEventListener('click', closeLightBox);   // серая подложка закрывает просмотр

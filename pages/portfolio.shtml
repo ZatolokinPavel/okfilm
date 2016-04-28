@@ -25,6 +25,31 @@
     </ul>
 
     <article class="article">
+        <h1 class="article-title">Bолшебство в мгновениях</h1>
+        <h3>LoveStory</h3>
+        <ul class="gallery_slider">
+            <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG')">
+                <a href=""></a>
+            </li>
+            <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG')">
+                <a href=""></a>
+            </li>
+            <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG')">
+                <a href=""></a>
+            </li>
+            <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG')">
+                <a href=""></a>
+            </li>
+            <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG')">
+                <a href=""></a>
+            </li>
+            <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG')">
+                <a href=""></a>
+            </li>
+        </ul>
+
+
+
         <h1 class="article-title">Артём и Лена</h1>
         <div class="gallery-wrapper box">
             <div class="gallery">
