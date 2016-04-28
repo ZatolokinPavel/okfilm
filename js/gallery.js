@@ -8,17 +8,21 @@
 var nextLink, prevLink;
 
 
+// На все ссылки всех галерей навешиваем обработку события наведения и убирания мыши
 $(function() {
-    var allSliders = document.getElementsByClassName('gallery_slider');
-    for (var i=0; i < allSliders.length; i++) {
-        allSliders[i].addEventListener('mouseover', function(e,i) {
-            console.log(e.target);
-            if (e.target.nodeName == 'A') {
-
-            }
-        });
-    }
+    $('.gallery_slider a').mouseover(selectSliderElement).mouseleave(deselectSliderElement);
 });
+
+// Расширение картинки, над которой сейчас курсор, сжатие всех остальных
+function selectSliderElement() {
+    var li = $(this).parent();
+    li.siblings().width('70px');
+    li.width('300px');
+}
+// Восстановление обычного размера картинок
+function deselectSliderElement() {
+    $(this).parent().parent().children().width('');
+}
 
 
 // Навешиваем обработчики клика на все фотки всех галерей на странице.
