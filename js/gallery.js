@@ -15,6 +15,7 @@ $(function() {
     document.getElementById('lightbox_left').addEventListener('click', showPrevPhoto);      // стрелка влево на фото переключает на предыдущую фотку
     document.getElementById('lightbox_right').addEventListener('click', showNextPhoto);     // стрелка вправо на фото переключает на следующую фотку
     document.getElementById('lightbox_wrap').addEventListener('wheel', changePhoto_wheel);  // вращение колёсика мышки на фотографии меняет фотографию
+    document.addEventListener('keydown', changePhoto_keyboard);                             // смена фотографии клавиатурой
 
     var allGallerys = document.getElementsByClassName('gallery');
     for (var i=0; i < allGallerys.length; i++) {
@@ -79,6 +80,18 @@ function showPrevPhoto() {
     if (prevLink) {
         document.getElementById('lightbox_content').innerHTML = "";
         showOnePhoto(prevLink);
+    }
+}
+
+// Смена фотографии с помощью стрелок на клавиатуре
+function changePhoto_keyboard(e) {
+    e = e || window.event;
+    var lightBox = document.getElementById('lightbox_wrap');
+    if (lightBox.style.display == 'block') {
+        switch (e.keyCode) {
+            case 37: showPrevPhoto(); e.preventDefault ? e.preventDefault() : (e.returnValue = false); break;
+            case 39: showNextPhoto(); e.preventDefault ? e.preventDefault() : (e.returnValue = false); break;
+        }
     }
 }
 
