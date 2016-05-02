@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Портфолио LoveStory — Фотограф, видеооператор Оксана Найденко | OkFILM</title>
+    <meta name="keywords" content="Оксана Найденко, фотограф, видеооператор, видеооператор на свадьбу, свадьба, фотосессия, LoveStory, свадебный фотограф" />
+    <meta name="description" content="Фотограф и видеооператор Оксана Найденко. Я с удовольствием сохраню тёплые и яркие моменты Вашей свадьбы, Love Story и радостных событий." />
+
+    <link rel="stylesheet" href="/css/theme.css" type="text/css">
+    <link rel="stylesheet" href="/css/gallery.css" type="text/css">
+</head>
+<body>
+
+<div id="parallaxBackground" class="tm_background" style="top: 0"></div>
+
+<div class="container box">
+
+    <!--#include virtual="/include/header.html" -->
+
+    <!-- Breadcrumb -->
+    <ul class="breadcrumb">
+        <li><a href="/">Главная</a></li>
+        <li><a href="/portfolio">Портфолио</a></li>
+        <li>LoveStory</li>
+    </ul>
+
+    <article class="article">
+        <h3>LoveStory</h3>
+        <p class="back-to-portfolio"><a href="/portfolio">&larr; Назад к портфолио</a></p>
+        <div class="gallery_slider">
+            <ul>
+                <li style="background-image: url('/images/portfolio/Misha_and_Tanya_LoveStory/thumbnails/Misha_and_Tanya_LoveStory_05.jpg')">
+                    <a href="/portfolio/lovestory/mikhail-i-tatyana"></a>
+                </li>
+                <li style="background-image: url('/images/portfolio/Vlad_and_Kristina_LoveStory/thumbnails/Vlad_and_Kristina_LoveStory_01.jpg')">
+                    <a href="/portfolio/lovestory/vlad-i-kristina"></a>
+                </li>
+                <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_06.jpg')">
+                    <a href="/portfolio/lovestory/artjom-i-lena"></a>
+                </li>
+                <li style="background-image: url('/images/portfolio/Zhenya_and_Nata_LoveStory/thumbnails/Zhenya_and_Nata_LoveStory_06.jpg')">
+                    <a href="/portfolio/lovestory/zhenya-i-natasha"></a>
+                </li>
+                <li style="background-image: url('/images/portfolio/Misha_and_Lena_LoveStory/thumbnails/Misha_and_Lena_LoveStory_08.jpg')">
+                    <a href="/portfolio/lovestory/misha-i-lenochka"></a>
+                </li>
+                <li style="background-image: url('/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_02.jpg')">
+                    <a href="/portfolio/lovestory/igor-i-aljona"></a>
+                </li>
+            </ul>
+        </div>
+    </article>
+
+    <!--#include virtual="/include/footer.html" -->
+
+</div>
+
+<!-- LightBox -- START -->
+<div id="lightbox_overlay"></div>
+<div id="lightbox_wrap">
+    <div id="lightbox_content"></div>
+    <a id="lightbox_close"></a>
+    <a id="lightbox_left"><span id="lightbox_left_ico"></span></a>
+    <a id="lightbox_right"><span id="lightbox_right_ico"></span></a>
+</div>
+<!-- LightBox -- END -->
+
+<script src="/js/jquery-1.12.2.min.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/gallery.js"></script>
+
+</body>
+</html>
