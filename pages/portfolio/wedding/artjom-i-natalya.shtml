@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Портфолио — Фотограф, видеооператор Оксана Найденко | OkFILM</title>
+    <meta name="keywords" content="Оксана Найденко, фотограф, видеооператор, видеооператор на свадьбу, свадьба, фотосессия, LoveStory, свадебный фотограф" />
+    <meta name="description" content="Фотограф и видеооператор Оксана Найденко. Я с удовольствием сохраню тёплые и яркие моменты Вашей свадьбы, Love Story и радостных событий." />
+
+    <link rel="stylesheet" href="/css/theme.css" type="text/css">
+    <link rel="stylesheet" href="/css/gallery.css" type="text/css">
+</head>
+<body>
+
+<div id="parallaxBackground" class="tm_background" style="top: 0"></div>
+
+<div class="container box">
+
+    <!--#include virtual="/include/header.html" -->
+
+    <!-- Breadcrumb -->
+    <ul class="breadcrumb">
+        <li><a href="/">Главная</a></li>
+        <li><a href="/portfolio">Портфолио</a></li>
+        <li><a href="/portfolio/wedding">Свадьба</a></li>
+        <li>Артём и Наталья</li>
+    </ul>
+
+    <article class="article">
+        <h1 class="article-title">Артём и Наталья</h1>
+        <p class="back-to-portfolio"><a href="/portfolio">&larr; Назад к портфолио</a></p>
+        <div class="gallery-wrapper box">
+            <div class="gallery">
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_01.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_01.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_02.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_02.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_03.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_03.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_04.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_04.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_05.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_05.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_06.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_06.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_07.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_07.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_08.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_08.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_09.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_09.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_10.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_10.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_11.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_11.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_12.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_12.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_13.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_13.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_14.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_14.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_15.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_15.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_16.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_16.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_17.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_17.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_18.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_18.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_19.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_19.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_20.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_20.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_21.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_21.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_22.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_22.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_23.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_23.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_24.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_24.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_25.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_25.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_26.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_26.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_27.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_27.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_28.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_28.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_29.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_29.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_30.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_30.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_31.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_31.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_32.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_32.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_33.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_33.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_34.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_34.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+                <a href="/images/portfolio/Artem_and_Natalia_Wedding/Artem_and_Natalia_Wedding_35.jpg" title="Артём и Наталья">
+                    <img src="/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_35.jpg" alt="Артём и Наталья" height="300" width="345">
+                </a>
+            </div>
+        </div>
+    </article>
+
+    <!--#include virtual="/include/footer.html" -->
+
+</div>
+
+<!-- LightBox -- START -->
+<div id="lightbox_overlay"></div>
+<div id="lightbox_wrap">
+    <div id="lightbox_content"></div>
+    <a id="lightbox_close"></a>
+    <a id="lightbox_left"><span id="lightbox_left_ico"></span></a>
+    <a id="lightbox_right"><span id="lightbox_right_ico"></span></a>
+</div>
+<!-- LightBox -- END -->
+
+<script src="/js/jquery-1.12.2.min.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/gallery.js"></script>
+
+</body>
+</html>
