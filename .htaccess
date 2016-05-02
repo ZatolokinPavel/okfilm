@@ -3,10 +3,13 @@ Options +Includes
 AddType text/html .shtml
 AddHandler server-parsed .shtml
 
+# На старом сайте страница фото-портфолио имела другой адрес
+RedirectPermanent /photoalbum /portfolio
 
 # Делаем ссылки ЧПУ
 Options +FollowSymLinks
 RewriteEngine On
+RewriteBase /
 
 RewriteRule ^([a-z0-9]+)$ /pages/$1.shtml
 RewriteRule ^([a-z0-9]+)/([a-z0-9]+)$ /pages/$1/$2.shtml
