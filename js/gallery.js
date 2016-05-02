@@ -17,7 +17,7 @@ $(function() {
 function selectSliderElement() {
     var li = $(this).parent();
     console.log(li.parent().width());
-    var W = (li.parent().width() - 345) / 5;
+    var W = (li.parent().width() / 2 - 345) / 5;
     li.siblings().outerWidth(W+'px');
     li.outerWidth('345px');
 }

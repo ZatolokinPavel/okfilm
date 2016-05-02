@@ -27,26 +27,28 @@
     <article class="article">
         <h1 class="article-title">Bолшебство в мгновениях</h1>
         <h3>LoveStory</h3>
-        <ul class="gallery_slider">
-            <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG')">
-                <a href=""></a>
-            </li>
-            <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG')">
-                <a href=""></a>
-            </li>
-            <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG')">
-                <a href=""></a>
-            </li>
-            <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG')">
-                <a href=""></a>
-            </li>
-            <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG')">
-                <a href=""></a>
-            </li>
-            <li style="background-image: url('/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Photo02.JPG')">
-                <a href=""></a>
-            </li>
-        </ul>
+        <div class="gallery_slider">
+            <ul>
+                <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG')">
+                    <a href=""></a>
+                </li>
+                <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG')">
+                    <a href=""></a>
+                </li>
+                <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG')">
+                    <a href=""></a>
+                </li>
+                <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG')">
+                    <a href=""></a>
+                </li>
+                <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG')">
+                    <a href=""></a>
+                </li>
+                <li style="background-image: url('/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Photo02.JPG')">
+                    <a href=""></a>
+                </li>
+            </ul>
+        </div>
 
 
 
