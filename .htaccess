@@ -10,3 +10,4 @@ RewriteEngine On
 
 RewriteRule ^([a-z0-9]+)$ /pages/$1.shtml
 RewriteRule ^([a-z0-9]+)/([a-z0-9]+)$ /pages/$1/$2.shtml
+RewriteRule ^([a-z0-9]+)/([a-z0-9]+)/([a-z0-9-]+)$ /pages/$1/$2/$3.shtml

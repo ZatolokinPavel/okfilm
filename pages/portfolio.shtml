@@ -29,48 +29,49 @@
         <h3>LoveStory</h3>
         <div class="gallery_slider">
             <ul>
-                <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG')">
-                    <a href=""></a>
+                <li style="background-image: url('/images/portfolio/Misha_and_Tanya_LoveStory/thumbnails/Misha_and_Tanya_LoveStory_05.jpg')">
+                    <a href="/portfolio/lovestory/mikhail-i-tatyana"></a>
                 </li>
-                <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG')">
-                    <a href=""></a>
+                <li style="background-image: url('/images/portfolio/Vlad_and_Kristina_LoveStory/thumbnails/Vlad_and_Kristina_LoveStory_01.jpg')">
+                    <a href="/portfolio/lovestory/vlad-i-kristina"></a>
                 </li>
-                <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG')">
-                    <a href=""></a>
+                <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_06.jpg')">
+                    <a href="/portfolio/lovestory/artjom-i-lena"></a>
                 </li>
-                <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG')">
-                    <a href=""></a>
+                <li style="background-image: url('/images/portfolio/Zhenya_and_Nata_LoveStory/thumbnails/Zhenya_and_Nata_LoveStory_06.jpg')">
+                    <a href="/portfolio/lovestory/zhenya-i-natasha"></a>
                 </li>
-                <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG')">
-                    <a href=""></a>
+                <li style="background-image: url('/images/portfolio/Misha_and_Lena_LoveStory/thumbnails/Misha_and_Lena_LoveStory_08.jpg')">
+                    <a href="/portfolio/lovestory/misha-i-lenochka"></a>
                 </li>
-                <li style="background-image: url('/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Photo02.JPG')">
-                    <a href=""></a>
+                <li style="background-image: url('/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_02.jpg')">
+                    <a href="/portfolio/lovestory/igor-i-aljona"></a>
                 </li>
             </ul>
         </div>
 
-
-
-        <h1 class="article-title">Артём и Лена</h1>
-        <div class="gallery-wrapper box">
-            <div class="gallery">
-                <a href="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0227.JPG" title="Артём и Лена">
-                    <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0227.JPG" alt="Артём и Лена" height="300" width="345">
-                </a>
-                <a href="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0241.JPG" title="Артём и Лена">
-                    <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0241.JPG" alt="Артём и Лена" height="300" width="345">
-                </a>
-                <a href="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0256.JPG" title="Артём и Лена">
-                    <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0256.JPG" alt="Артём и Лена" height="300" width="345">
-                </a>
-                <a href="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0366.JPG" title="Артём и Лена">
-                    <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0366.JPG" alt="Артём и Лена" height="300" width="345">
-                </a>
-                <a href="/images/portfolio/Artem_and_Lena_LoveStory/DSC_0410.JPG" title="Артём и Лена">
-                    <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/DSC_0410.JPG" alt="Артём и Лена" height="300" width="345">
-                </a>
-            </div>
+        <h3>Свадьба</h3>
+        <div class="gallery_slider">
+            <ul>
+                <li style="background-image: url('/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_08.jpg')">
+                    <a href=""></a>
+                </li>
+                <li style="background-image: url('/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_04.jpg')">
+                    <a href=""></a>
+                </li>
+                <li style="background-image: url('/images/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_04.jpg')">
+                    <a href=""></a>
+                </li>
+                <li style="background-image: url('/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_16.jpg')">
+                    <a href=""></a>
+                </li>
+                <li style="background-image: url('/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/default.jpg')">
+                    <a href=""></a>
+                </li>
+                <li style="background-image: url('/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_19.jpg')">
+                    <a href=""></a>
+                </li>
+            </ul>
         </div>
     </article>
 
@@ -78,7 +79,15 @@
 
 </div>
 
-<!--#include virtual="/include/lightbox.html" -->
+<!-- LightBox -- START -->
+<div id="lightbox_overlay"></div>
+<div id="lightbox_wrap">
+    <div id="lightbox_content"></div>
+    <a id="lightbox_close"></a>
+    <a id="lightbox_left"><span id="lightbox_left_ico"></span></a>
+    <a id="lightbox_right"><span id="lightbox_right_ico"></span></a>
+</div>
+<!-- LightBox -- END -->
 
 <script src="/js/jquery-1.12.2.min.js"></script>
 <script src="/js/theme.js"></script>
