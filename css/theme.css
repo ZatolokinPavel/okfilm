@@ -101,19 +101,20 @@ a:hover, .link:hover {color: #41656f; text-decoration: underline;}
 .primary .button:hover{background: #333866 none repeat scroll 0 0;}
 
 
-/* Слайдшой на главной */
+/* Фотоплёнка на главной */
+.photo_film_wrap{overflow: hidden;}
+.photo_film{position: relative; height: 150px; width: 200%; left: -25%; overflow: hidden; box-sizing: content-box;
+            border: 15px solid #000; border-left: 0; border-right: 0;}
+.photo_film > img{max-height: 100%; display: block; float: left;
+                  border: 3px solid #000; border-top: 0; border-bottom: 0;}
+
+/* Слайдшоу на главной */
 .home-slideshow{list-style: outside none none; padding: 0; margin: 0; min-height: 1px;}
 .home-slideshow > li{display: none;}
 .home-slideshow > li > img{max-width: 100%; height: auto; vertical-align: middle;}
 .home-slideshow > li > h3{position: absolute; left: 50px; color: white; padding: 3px 20px;
                           background-color: rgba(255,255,255,0.3);}
 
-/* Пробные слайды на главной */
-.home_slides{background-color: #f1ebe2; width: 60%; margin: 0 auto; padding: 15px; box-shadow: 0 0 15px 1px #383e70;}
-.home_slides > img{max-width: 100%; max-height: 100%;}
-.home_slides.slide_c{position: relative; z-index: 2; top: 0;}
-.home_slides.slide_l{position: absolute; z-index: 1; top:5%; height: 90%; left: 0;}
-.home_slides.slide_r{position: absolute; z-index: 1; top:5%; height: 90%; right:0; text-align: right;}
 
 /* Отзывы на главной */
 .reviews{margin-left:-15px; width:auto; color: #fdfdfe; overflow: hidden;}
