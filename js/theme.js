@@ -47,6 +47,42 @@ $(function() {
 });
 
 
+// Фотоплёнка на главной странице. Скрытие случайного кадра.
+$(function() {
+    for (var i=0; i < photoFilm.length; i++) {
+        photoFilm[i].firstElementChild.addEventListener('transitionend', photoFilmTransitionEnd);
+    }
+    setInterval(function () {
+        var showNum = Math.floor(Math.random() * shotsFit); // номер случайного кадра из тех, что видно
+        var showEl = $('img', photoFilm[showNum]);          // случайный кадр из тех, что видны
+        var showWA = showEl.parent();                       // ссылка, в которую обёрнута картинка
+        showWA.width(showEl.width());                       // задаём ширину обёртки равную ширине картинки в ней
+        //if (showEl.css('opacity') == 0) {
+        //
+        //}
+        showEl.css('opacity', 0);                           // плавно скрываем картинку, которую видно
+    }, 5000)
+});
+
+// Фотоплёнка на главной странице. Подстановка нового кадра.
+function photoFilmTransitionEnd(ev) {
+    if (ev.propertyName == 'opacity' && ev.target.style.opacity == 0) {     // если завершилась анимация прозрачности до нуля
+        var showEl = $(ev.target);                          // тот кадр, что скрываем
+        var showWA = showEl.parent();                       // ссылка, в которую обёрнута картинка
+        // номер случайного кадра из запасных
+        var hideNum = Math.floor(Math.random() * (photoFilm.length - shotsFit) + shotsFit);
+        var hideEl = $('img', photoFilm[hideNum]);          // случайный кадр из тех, что не попали на страницу
+        var hideWA = hideEl.parent();                       // ссылка, в которую обёрнута картинка
+        // резко делаем прозрачной картинку, которую будем подставлять
+        hideEl.css('transition','none').css('opacity',0).css('transition','');
+        showWA.width(hideEl.width());                       // теперь меняем ширину обёртки на новую
+        showWA.append(hideEl);                              // переносим новый кадр в видимую область
+        hideWA.append(showEl);                              // переносим старый кадр за пределы окна
+        setTimeout(function(){ hideEl.css('opacity',1); }, 5);  // в новом потоке показываем новую картинку с анимацией
+    }
+}
+
+
 // Слайдшоу на главной странице
 $(function(){
     var elements = $('#home_slideshow > li');                              // список всех элементов слайдшоу

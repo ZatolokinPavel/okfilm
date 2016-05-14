@@ -14,17 +14,49 @@
     <div id="parallaxBackground" class="tm_background" style="top: 0"></div>
 
     <div class="photo_film_wrap">
-        <div class="photo_film">
-            <img src="images/home-slideshow/home_photo_film-01.jpg">
-            <img src="images/home-slideshow/home_photo_film-02.jpg">
-            <img src="images/home-slideshow/home_photo_film-03.jpg">
-            <img src="images/home-slideshow/home_photo_film-09.jpg">
-            <img src="images/home-slideshow/home_photo_film-10.jpg">
-            <img src="images/home-slideshow/home_photo_film-11.jpg">
-            <img src="images/home-slideshow/home_photo_film-13.jpg">
-            <img src="images/home-slideshow/home_photo_film-14.jpg">
+        <div id="photo_film" class="photo_film">
+            <a href="" title="">
+                <img src="images/home-slideshow/home_photo_film-01.jpg" alt="" height="150">
+            </a>
+            <a href="" title="">
+                <img src="images/home-slideshow/home_photo_film-02.jpg" alt="" height="150">
+            </a>
+            <a href="" title="">
+                <img src="images/home-slideshow/home_photo_film-03.jpg" alt="" height="150">
+            </a>
+            <a href="" title="">
+                <img src="images/home-slideshow/home_photo_film-09.jpg" alt="" height="150">
+            </a>
+            <a href="" title="">
+                <img src="images/home-slideshow/home_photo_film-10.jpg" alt="" height="150">
+            </a>
+            <a href="" title="">
+                <img src="images/home-slideshow/home_photo_film-11.jpg" alt="" height="150">
+            </a>
+            <a href="" title="">
+                <img src="images/home-slideshow/home_photo_film-13.jpg" alt="" height="150">
+            </a>
+            <a href="" title="">
+                <img src="images/home-slideshow/home_photo_film-14.jpg" alt="" height="150">
+            </a>
         </div>
     </div>
+
+    <script>
+        var filmLength = 0, shotsFit = 1, photoFilm;                    // длина фотоплёнки, количество видимых кадров и все кадры плёнки
+        (function() {
+            var photoFilmBlock = document.getElementById('photo_film'); // фотоплёнка
+            photoFilm = photoFilmBlock.children;                        // все кадры плёнки
+            var winWidth = window.innerWidth;                           // ширина окна браузера
+            var photoWidth;                                             // ширина текущего кадра
+            for (shotsFit; shotsFit <= photoFilm.length; shotsFit++) {
+                photoWidth = photoFilm[shotsFit-1].children[0].width;
+                filmLength = filmLength + photoWidth + 6;               // суммируем ширину кадров плюс рамка
+                if(filmLength > winWidth) break;                        // суммируем пока кадры видны в окне
+            }
+            photoFilmBlock.style.left = ((filmLength-winWidth) / -2) + "px";    // сдвигаем плёнку так, чтобы отображаемые кадры были по центру окна
+        })();
+    </script>
 
     <div class="container box">
 
