@@ -15,30 +15,46 @@
 
     <div class="photo_film_wrap">
         <div id="photo_film" class="photo_film">
-            <a href="" title="">
-                <img src="images/home-slideshow/home_photo_film-01.jpg" alt="" height="150">
-            </a>
-            <a href="" title="">
-                <img src="images/home-slideshow/home_photo_film-02.jpg" alt="" height="150">
-            </a>
-            <a href="" title="">
-                <img src="images/home-slideshow/home_photo_film-03.jpg" alt="" height="150">
-            </a>
-            <a href="" title="">
-                <img src="images/home-slideshow/home_photo_film-09.jpg" alt="" height="150">
-            </a>
-            <a href="" title="">
-                <img src="images/home-slideshow/home_photo_film-10.jpg" alt="" height="150">
-            </a>
-            <a href="" title="">
-                <img src="images/home-slideshow/home_photo_film-11.jpg" alt="" height="150">
-            </a>
-            <a href="" title="">
-                <img src="images/home-slideshow/home_photo_film-13.jpg" alt="" height="150">
-            </a>
-            <a href="" title="">
-                <img src="images/home-slideshow/home_photo_film-14.jpg" alt="" height="150">
-            </a>
+            <div class="photo_film_block">
+                <a href="" title="">
+                    <img src="images/home-slideshow/home_photo_film-01.jpg" alt="" height="150">
+                </a>
+            </div>
+            <div class="photo_film_block">
+                <a href="" title="">
+                    <img src="images/home-slideshow/home_photo_film-02.jpg" alt="" height="150">
+                </a>
+            </div>
+            <div class="photo_film_block">
+                <a href="" title="">
+                    <img src="images/home-slideshow/home_photo_film-03.jpg" alt="" height="150">
+                </a>
+            </div>
+            <div class="photo_film_block">
+                <a href="" title="">
+                    <img src="images/home-slideshow/home_photo_film-09.jpg" alt="" height="150">
+                </a>
+            </div>
+            <div class="photo_film_block">
+                <a href="" title="">
+                    <img src="images/home-slideshow/home_photo_film-10.jpg" alt="" height="150">
+                </a>
+            </div>
+            <div class="photo_film_block">
+                <a href="" title="">
+                    <img src="images/home-slideshow/home_photo_film-11.jpg" alt="" height="150">
+                </a>
+            </div>
+            <div class="photo_film_block">
+                <a href="" title="">
+                    <img src="images/home-slideshow/home_photo_film-13.jpg" alt="" height="150">
+                </a>
+            </div>
+            <div class="photo_film_block">
+                <a href="" title="">
+                    <img src="images/home-slideshow/home_photo_film-14.jpg" alt="" height="150">
+                </a>
+            </div>
         </div>
     </div>
 
@@ -50,7 +66,7 @@
             var winWidth = window.innerWidth;                           // ширина окна браузера
             var photoWidth;                                             // ширина текущего кадра
             for (shotsFit; shotsFit <= photoFilm.length; shotsFit++) {
-                photoWidth = photoFilm[shotsFit-1].children[0].width;
+                photoWidth = photoFilm[shotsFit-1].children[0].children[0].width;
                 filmLength = filmLength + photoWidth + 6;               // суммируем ширину кадров плюс рамка
                 if(filmLength > winWidth) break;                        // суммируем пока кадры видны в окне
             }

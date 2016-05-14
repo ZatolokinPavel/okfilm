@@ -50,35 +50,33 @@ $(function() {
 // Фотоплёнка на главной странице. Скрытие случайного кадра.
 $(function() {
     for (var i=0; i < photoFilm.length; i++) {
-        photoFilm[i].firstElementChild.addEventListener('transitionend', photoFilmTransitionEnd);
+        photoFilm[i].addEventListener('transitionend', photoFilmTransitionEnd);
     }
     setInterval(function () {
         var showNum = Math.floor(Math.random() * shotsFit); // номер случайного кадра из тех, что видно
-        var showEl = $('img', photoFilm[showNum]);          // случайный кадр из тех, что видны
-        var showWA = showEl.parent();                       // ссылка, в которую обёрнута картинка
-        showWA.width(showEl.width());                       // задаём ширину обёртки равную ширине картинки в ней
-        //if (showEl.css('opacity') == 0) {
+        var showBlock = photoFilm[showNum];                 // блок со случайным кадром из тех, что видны
+        showBlock.style.width = $('img',showBlock).width(); // задаём ширину блока равную ширине картинки в нём
+        //if (showImg.css('opacity') == 0) {
         //
         //}
-        showEl.css('opacity', 0);                           // плавно скрываем картинку, которую видно
+        showBlock.style.opacity = 0;                        // плавно скрываем картинку, которую видно
     }, 5000)
 });
 
 // Фотоплёнка на главной странице. Подстановка нового кадра.
 function photoFilmTransitionEnd(ev) {
     if (ev.propertyName == 'opacity' && ev.target.style.opacity == 0) {     // если завершилась анимация прозрачности до нуля
-        var showEl = $(ev.target);                          // тот кадр, что скрываем
-        var showWA = showEl.parent();                       // ссылка, в которую обёрнута картинка
         // номер случайного кадра из запасных
         var hideNum = Math.floor(Math.random() * (photoFilm.length - shotsFit) + shotsFit);
-        var hideEl = $('img', photoFilm[hideNum]);          // случайный кадр из тех, что не попали на страницу
-        var hideWA = hideEl.parent();                       // ссылка, в которую обёрнута картинка
-        // резко делаем прозрачной картинку, которую будем подставлять
-        hideEl.css('transition','none').css('opacity',0).css('transition','');
-        showWA.width(hideEl.width());                       // теперь меняем ширину обёртки на новую
-        showWA.append(hideEl);                              // переносим новый кадр в видимую область
-        hideWA.append(showEl);                              // переносим старый кадр за пределы окна
-        setTimeout(function(){ hideEl.css('opacity',1); }, 5);  // в новом потоке показываем новую картинку с анимацией
+        var showBlock = $(ev.target);                       // тот блок, что только-что скрыли
+        var hideBlock = $(photoFilm[hideNum]);              // блок со случайным кадром из тех, что не попали на страницу
+        var showWA = showBlock.children();                  // ссылка, в которую обёрнута картинка
+        var hideWA = hideBlock.children();                  // ссылка, в которую обёрнута картинка
+        var hideImg = $('img', hideBlock);                  // случайный кадр из тех, что не попали на страницу
+        showBlock.width(hideImg.width());                   // меняем ширину блока на новую
+        showBlock.append(hideWA);                           // теперь переносим новый кадр в видимую область
+        hideBlock.append(showWA);                           // и переносим старый кадр за пределы окна
+        showBlock.css('opacity',1);                         // показываем блок с новой картинкой
     }
 }
 
