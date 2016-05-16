@@ -102,7 +102,7 @@ $(function() {
     var duration = parseFloat(reviews.css("transition-duration"));
     var delay_step = duration / (reviews.length);
     reviews.each(function(i,e) {
-        e.style.transitionDelay = - delay_step * i + 's';
+        e.style.transitionDelay = - delay_step * i + 's, ' + (duration - delay_step * (i+1))/2 + 's';
         e.style.zIndex = reviews.length - i;
     });
     showReviewsBlock(reviewsBlock);
