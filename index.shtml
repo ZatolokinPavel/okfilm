@@ -7,7 +7,7 @@
     <meta name="keywords" content="Оксана Найденко, фотограф, видеооператор, видеооператор на свадьбу, свадьба, фотосессия, LoveStory, свадебный фотограф" />
     <meta name="description" content="Фотограф и видеооператор Оксана Найденко. Я с удовольствием сохраню тёплые и яркие моменты Вашей свадьбы, Love Story и радостных событий." />
     
-    <link rel="stylesheet" href="/css/theme.css" type="text/css">
+    <link rel="stylesheet" href="/css/theme.css?v=20160516" type="text/css">
 </head>
 <body>
 
@@ -215,7 +215,7 @@
     </div>
 
     <script src="/js/jquery-1.12.2.min.js"></script>
-    <script src="/js/theme.js"></script>
+    <script src="/js/theme.js?v=20160516"></script>
     
 </body>
 </html>
