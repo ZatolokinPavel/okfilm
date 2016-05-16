@@ -182,18 +182,9 @@
                 <section class="reviews_sec box">
                     <div id="reviews">
                         <div>
-                            <img src="/images/otzivi_na_glavnoi/Sulaeva.jpg">
-                            <h4>Юля</h4>
-                            отзыв
-                        </div>
-                        <div>
-                            <img src="/images/otzivi_na_glavnoi/Sulaeva.jpg">
-                            <h4>Юля</h4>
-                        </div>
-                        <div>
-                            <img src="/images/otzivi_na_glavnoi/Nastya_Z.jpg">
-                            <h4>Настя</h4>
-                            Приглашали Оксану на видео и фото съемку детского дня рождения...
+                            <img src="/images/otzivi_na_glavnoi/Silchuk.jpg">
+                            <h4>Света</h4>
+                            Я давно мечтала о профессиональной фотосессии...
                         </div>
                         <div>
                             <img src="/images/otzivi_na_glavnoi/rodkin.jpg">
@@ -201,11 +192,29 @@
                             Делали свадьбу на память родителям и детям. Но были приятно удивлены...
                         </div>
                         <div>
-                            <img src="/images/otzivi_na_glavnoi/Silchuk.jpg">
-                            <h4>Света</h4>
-                            Я давно мечтала о профессиональной фотосессии...
+                            <img src="/images/otzivi_na_glavnoi/Nastya_Z.jpg">
+                            <h4>Настя</h4>
+                            Приглашали Оксану на видео и фото съемку детского дня рождения...
+                        </div>
+                        <div>
+                            <img src="/images/otzivi_na_glavnoi/Sulaeva.jpg">
+                            <h4>Юля</h4>
+                        </div>
+                        <div>
+                            <img src="/images/otzivi_na_glavnoi/Sulaeva.jpg">
+                            <h4>Юля</h4>
+                            отзыв
                         </div>
                     </div>
+                    <script>
+                        (function() {
+                            var reviews = document.getElementById('reviews').children;
+                            for (var i=0; i < reviews.length; i++) {
+                                reviews[i].style.opacity = 0;
+                                reviews[i].style.transform = "translateX(" + (reviews.length * 100) + "%)";
+                            }
+                        })();
+                    </script>
                 </section>
             </div>
         </section>

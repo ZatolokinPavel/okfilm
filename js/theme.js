@@ -98,6 +98,13 @@ $(function(){
 // Анимация элементов в зависимости от прокрутки.
 $(function() {
     var reviewsBlock = $('#reviews');
+    var reviews = reviewsBlock.children();
+    var duration = parseFloat(reviews.css("transition-duration"));
+    var delay_step = duration / (reviews.length);
+    reviews.each(function(i,e) {
+        e.style.transitionDelay = - delay_step * i + 's';
+        e.style.zIndex = reviews.length - i;
+    });
     showReviewsBlock(reviewsBlock);
     $(window).scroll(function(){
         showReviewsBlock(reviewsBlock);
@@ -109,8 +116,8 @@ $(function() {
 function showReviewsBlock(reviewsBlock) {
     if (reviewsBlock.length > 0) {
         var isSeenReviews = scrolledToTheItem(reviewsBlock);
-        reviewsBlock.css('margin-left', (isSeenReviews ? 0 : '100%'));
-        reviewsBlock.css('opacity', (isSeenReviews ? 1 : 0));
+        reviewsBlock.children().css('transform', (isSeenReviews ? "translateX(0px)" : "translateX(500%)"));
+        reviewsBlock.children().css('opacity', (isSeenReviews ? 1 : 0));
     }
 }
 
