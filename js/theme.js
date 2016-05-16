@@ -63,6 +63,7 @@ $(function() {
 
 // Фотоплёнка на главной странице. Подстановка нового кадра.
 function photoFilmChange(ev) {
+    ev.target.classList.add('photo_film_paused');   // тормознули анимацию, пока меняем картинку
     // номер случайного кадра из запасных
     var hideNum = Math.floor(Math.random() * (photoFilm.length - shotsFit) + shotsFit);
     var showBlock = $(ev.target);                   // тот блок, что только-что скрыли
@@ -73,6 +74,7 @@ function photoFilmChange(ev) {
     showBlock.width(hideImg.width());               // меняем ширину блока на новую
     showBlock.append(hideWA);                       // теперь переносим новый кадр в видимую область
     hideBlock.append(showWA);                       // и переносим старый кадр за пределы окна
+    showBlock.removeClass('photo_film_paused');     // снимаем с паузы анимацию
 }
 
 // Фотоплёнка на главной странице. Очистка после анимации

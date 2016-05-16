@@ -109,16 +109,18 @@ a:hover, .link:hover {color: #41656f; text-decoration: underline;}
 .photo_film{position: relative; height: 150px; width: 200%; left: -25%; overflow: hidden;}
 .photo_film img{max-height: 100%;}
 .photo_film_block{height: 100%; display: block; float: left; margin: 0 3px; opacity: 1;}
-.photo_film_animation{
-    animation:         changePhotoFilm 0.75s ease-out 0s 2 alternate;
-    -webkit-animation: changePhotoFilm 0.75s ease-out 0s 2 alternate;
-    -o-animation:      changePhotoFilm 0.75s ease-out 0s 2 alternate;
-    -moz-animation:    changePhotoFilm 0.75s ease-out 0s 2 alternate;
-}
+.photo_film_animation{animation: changePhotoFilm 0.75s ease-out 0s 2 alternate;
+              -webkit-animation: changePhotoFilm 0.75s ease-out 0s 2 alternate;
+                   -o-animation: changePhotoFilm 0.75s ease-out 0s 2 alternate;
+                 -moz-animation: changePhotoFilm 0.75s ease-out 0s 2 alternate; }
 @keyframes         changePhotoFilm{ from{opacity: 1} to{opacity: 0} }
 @-webkit-keyframes changePhotoFilm{ from{opacity: 1} to{opacity: 0} }
 @-o-keyframes      changePhotoFilm{ from{opacity: 1} to{opacity: 0} }
 @-moz-keyframes    changePhotoFilm{ from{opacity: 1} to{opacity: 0} }
+.photo_film_paused{animation-play-state: paused;
+           -webkit-animation-play-state: paused;
+                -o-animation-play-state: paused;
+              -moz-animation-play-state: paused; }
 
 
 /* Слайдшоу на главной */
