@@ -109,8 +109,8 @@ $(function() {
 function showReviewsBlock(reviewsBlock) {
     if (reviewsBlock.length > 0) {
         var isSeenReviews = scrolledToTheItem(reviewsBlock);
-        reviewsBlock.children(0).css('margin-left', (isSeenReviews ? 0 : '100%'));
-        reviewsBlock.children(0).css('opacity', (isSeenReviews ? 1 : 0));
+        reviewsBlock.css('margin-left', (isSeenReviews ? 0 : '100%'));
+        reviewsBlock.css('opacity', (isSeenReviews ? 1 : 0));
     }
 }
 

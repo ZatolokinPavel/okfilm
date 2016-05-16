@@ -16,42 +16,42 @@
     <div class="photo_film_wrap">
         <div id="photo_film" class="photo_film">
             <div class="photo_film_block">
-                <a href="" title="">
+                <a href="javascript:void(0);" title="">
                     <img src="images/home-slideshow/home_photo_film-01.jpg" alt="" height="150">
                 </a>
             </div>
             <div class="photo_film_block">
-                <a href="" title="">
+                <a href="javascript:void(0);" title="">
                     <img src="images/home-slideshow/home_photo_film-02.jpg" alt="" height="150">
                 </a>
             </div>
             <div class="photo_film_block">
-                <a href="" title="">
+                <a href="javascript:void(0);" title="">
                     <img src="images/home-slideshow/home_photo_film-03.jpg" alt="" height="150">
                 </a>
             </div>
             <div class="photo_film_block">
-                <a href="" title="">
+                <a href="javascript:void(0);" title="">
                     <img src="images/home-slideshow/home_photo_film-09.jpg" alt="" height="150">
                 </a>
             </div>
             <div class="photo_film_block">
-                <a href="" title="">
+                <a href="javascript:void(0);" title="">
                     <img src="images/home-slideshow/home_photo_film-10.jpg" alt="" height="150">
                 </a>
             </div>
             <div class="photo_film_block">
-                <a href="" title="">
+                <a href="javascript:void(0);" title="">
                     <img src="images/home-slideshow/home_photo_film-11.jpg" alt="" height="150">
                 </a>
             </div>
             <div class="photo_film_block">
-                <a href="" title="">
+                <a href="javascript:void(0);" title="">
                     <img src="images/home-slideshow/home_photo_film-13.jpg" alt="" height="150">
                 </a>
             </div>
             <div class="photo_film_block">
-                <a href="" title="">
+                <a href="javascript:void(0);" title="">
                     <img src="images/home-slideshow/home_photo_film-14.jpg" alt="" height="150">
                 </a>
             </div>
@@ -179,17 +179,16 @@
                     </div>
                 </div>
                 <!-- Отзывы молодоженов -->
-                <section id="reviews" class="reviews box">
-                    <div>
+                <section class="reviews_sec box">
+                    <div id="reviews">
                         <div>
-                            <img src="/images/otzivi_na_glavnoi/Silchuk.jpg">
-                            <h4>Света</h4>
-                            Я давно мечтала о профессиональной фотосессии...
+                            <img src="/images/otzivi_na_glavnoi/Sulaeva.jpg">
+                            <h4>Юля</h4>
+                            отзыв
                         </div>
                         <div>
-                            <img src="/images/otzivi_na_glavnoi/rodkin.jpg">
-                            <h4>Сергей</h4>
-                            Делали свадьбу на память родителям и детям. Но были приятно удивлены...
+                            <img src="/images/otzivi_na_glavnoi/Sulaeva.jpg">
+                            <h4>Юля</h4>
                         </div>
                         <div>
                             <img src="/images/otzivi_na_glavnoi/Nastya_Z.jpg">
@@ -197,13 +196,14 @@
                             Приглашали Оксану на видео и фото съемку детского дня рождения...
                         </div>
                         <div>
-                            <img src="/images/otzivi_na_glavnoi/Sulaeva.jpg">
-                            <h4>Юля</h4>
+                            <img src="/images/otzivi_na_glavnoi/rodkin.jpg">
+                            <h4>Сергей</h4>
+                            Делали свадьбу на память родителям и детям. Но были приятно удивлены...
                         </div>
                         <div>
-                            <img src="/images/otzivi_na_glavnoi/Sulaeva.jpg">
-                            <h4>Юля</h4>
-                            отзыв
+                            <img src="/images/otzivi_na_glavnoi/Silchuk.jpg">
+                            <h4>Света</h4>
+                            Я давно мечтала о профессиональной фотосессии...
                         </div>
                     </div>
                 </section>
