@@ -49,16 +49,18 @@ $(function() {
 
 // Фотоплёнка на главной странице. Скрытие случайного кадра.
 $(function() {
-    for (var i=0; i < photoFilm.length; i++) {
-        photoFilm[i].addEventListener('animationiteration', photoFilmChange);
-        photoFilm[i].addEventListener('animationend', photoFilmEnd);
+    if (typeof photoFilm !== 'undefined') {
+        for (var i=0; i < photoFilm.length; i++) {
+            photoFilm[i].addEventListener('animationiteration', photoFilmChange);
+            photoFilm[i].addEventListener('animationend', photoFilmEnd);
+        }
+        setInterval(function () {
+            var showNum = Math.floor(Math.random() * shotsFit); // номер случайного кадра из тех, что видно
+            var showBlock = photoFilm[showNum];                 // блок со случайным кадром из тех, что видны
+            showBlock.style.width = $('img',showBlock).width(); // задаём ширину блока равную ширине картинки в нём
+            showBlock.classList.add('photo_film_animation');    // плавно меняем картинку
+        }, 5000)
     }
-    setInterval(function () {
-        var showNum = Math.floor(Math.random() * shotsFit); // номер случайного кадра из тех, что видно
-        var showBlock = photoFilm[showNum];                 // блок со случайным кадром из тех, что видны
-        showBlock.style.width = $('img',showBlock).width(); // задаём ширину блока равную ширине картинки в нём
-        showBlock.classList.add('photo_film_animation');    // плавно меняем картинку
-    }, 5000)
 });
 
 // Фотоплёнка на главной странице. Подстановка нового кадра.
