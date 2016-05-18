@@ -101,25 +101,29 @@ $(function(){
 $(function() {
     var reviewsBlock = $('#reviews');
     var reviews = reviewsBlock.children();
-    var duration = parseFloat(reviews.css("transition-duration"));
-    var delay_step = duration / (reviews.length);
+    var duration = parseFloat(reviews.css("transition-duration"));      // смотрим продолжительность анимации, заданную через css
+    var delay_step = duration / (reviews.length);                       // шаг разницы между началом анимации двух соседних отзывов
+    var delay_transform, delay_opacity;
     reviews.each(function(i,e) {
-        e.style.transitionDelay = - delay_step * i + 's, ' + (duration - delay_step * (i+1))/2 + 's';
+        delay_transform = - delay_step * i;
+        delay_opacity = (duration - delay_step * (i+1))/2;
+        e.style.transitionDelay = delay_transform + 's, ' + delay_opacity + 's';
         e.style.zIndex = reviews.length - i;
     });
-    showReviewsBlock(reviewsBlock);
-    $(window).scroll(function(){
-        showReviewsBlock(reviewsBlock);
-    });
+    window.addEventListener('scroll', showReviewsBlock);                // вешаем на скролл проверку, нужно ли показывать отзывы
+    showReviewsBlock();                                                 // и сразу же проверяем, нужно ли показывать отзывы
 });
 
 // Отображение блока отзывов в зависимости от того,
 // находится ли он сейчас в видимой области экрана.
-function showReviewsBlock(reviewsBlock) {
+function showReviewsBlock() {
+    var reviewsBlock = $('#reviews');
     if (reviewsBlock.length > 0) {
-        var isSeenReviews = scrolledToTheItem(reviewsBlock);
-        reviewsBlock.children().css('transform', (isSeenReviews ? "translateX(0px)" : "translateX(500%)"));
-        reviewsBlock.children().css('opacity', (isSeenReviews ? 1 : 0));
+        if (scrolledToTheItem(reviewsBlock) == true) {
+            window.removeEventListener('scroll', showReviewsBlock);     // если один раз показали, то больше можно не реагировать на прокрутку
+            reviewsBlock.children().css('transform', "translateX(0px)");
+            reviewsBlock.children().css('opacity', 1);
+        }
     }
 }
 
