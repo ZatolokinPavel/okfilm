@@ -135,8 +135,9 @@ a:hover, .link:hover {color: #41656f; text-decoration: underline;}
 .reviews_sec{margin-left:-15px; width:auto; color: #fdfdfe; overflow: hidden;}
 #reviews{width: 100%; height: 300px;}
 #reviews h4{margin: 10px 0 0 0; color: #c3bdd8; text-transform: none;}
-#reviews > div{float: left; width: 20%; padding-left: 15px;
+#reviews > div{float: left; width: 20%; padding-left: 15px; opacity: 0; transform: translateX(500%);
                transition: transform 1s linear, opacity 1s ease-in;}
+.noscript #reviews>div{opacity: 1; transform: translateX(0);}       /* на случай, если js не сработает */
 
 
 /* Размеры для картинок ставим так */

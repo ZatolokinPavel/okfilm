@@ -9,7 +9,9 @@
     
     <link rel="stylesheet" href="/css/theme.css?v=20160516" type="text/css">
 </head>
-<body>
+<body id="body" class="noscript">
+    <!-- Для браузеров, где не работает js, применяем дополнительные стили -->
+    <script>document.getElementById('body').classList.remove("noscript")</script>
 
     <div id="parallaxBackground" class="tm_background" style="top: 0"></div>
 
@@ -206,15 +208,6 @@
                             отзыв
                         </div>
                     </div>
-                    <script>
-                        (function() {
-                            var reviews = document.getElementById('reviews').children;
-                            for (var i=0; i < reviews.length; i++) {
-                                reviews[i].style.opacity = 0;
-                                reviews[i].style.transform = "translateX(" + (reviews.length * 100) + "%)";
-                            }
-                        })();
-                    </script>
                 </section>
             </div>
         </section>
