@@ -140,6 +140,7 @@ a:hover, .link:hover {color: #41656f; text-decoration: underline;}
 #reviews > div{float: left; width: 20%; padding-left: 15px; opacity: 0; transform: translateX(500%);
                transition: transform 1s linear, opacity 1s ease-in;}
 .noscript #reviews>div{opacity: 1; transform: translateX(0);}       /* на случай, если js не сработает */
+.review_full{display: none;}
 
 
 /* Размеры для картинок ставим так */
