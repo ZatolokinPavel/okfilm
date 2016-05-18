@@ -72,7 +72,9 @@
                 filmLength = filmLength + photoWidth + 6;               // суммируем ширину кадров плюс рамка
                 if(filmLength > winWidth) break;                        // суммируем пока кадры видны в окне
             }
-            photoFilmBlock.style.left = ((filmLength-winWidth) / -2) + "px";    // сдвигаем плёнку так, чтобы отображаемые кадры были по центру окна
+            if (filmLength !== (photoFilm.length * 6)) {
+                photoFilmBlock.style.left = ((filmLength - winWidth) / -2) + "px";    // сдвигаем плёнку так, чтобы отображаемые кадры были по центру окна
+            }
         })();
     </script>
 
