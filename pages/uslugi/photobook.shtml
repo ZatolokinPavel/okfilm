@@ -161,7 +161,7 @@
 
         <div class="pb_result">
             <div class="pb_format">
-                <img id="photo_book_format">
+                <img id="photo_book_format" src="">
             </div>
             <div class="pb_price">
                 <h3>Цена: <span id="pbook_result"></span> грн</h3>
