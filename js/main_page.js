@@ -12,11 +12,28 @@
 
 var shotsFit = 1, photoFilm;                                    // количество видимых кадров и все кадры плёнки
 
-// Центрирование и запуск анимации
+// Ожидание загрузки всех изображений фотоплёнки
 $(function() {
-
     var photoFilmBlock = document.getElementById('photo_film'); // фотоплёнка
     photoFilm = photoFilmBlock.children;                        // все кадры плёнки
+    var counter = 0, img;                                       // счётчик загруженных изображений; само изображение
+    function onLoad() {
+        counter++;                                              // плюс ещё одно загруженное изображение
+        if (counter == photoFilm.length) {
+            centeringAndStart(photoFilmBlock);
+        }
+    }
+
+    for (var i=0; i < photoFilm.length; i++) {
+        img = photoFilm[i].children[0].children[0];
+        img.onload = img.onerror = onLoad();
+        photoFilm[i].addEventListener('animationiteration', photoFilmChange);
+        photoFilm[i].addEventListener('animationend', photoFilmEnd);
+    }
+});
+
+// Центрирование фотоплёнки и запуск анимации
+function centeringAndStart(photoFilmBlock) {
     var winWidth = window.innerWidth;                           // ширина окна браузера
     var photoWidth, filmLength = 0;                             // ширина текущего кадра, ширина всех кадров (длина фотоплёнки)
     for (shotsFit; shotsFit <= photoFilm.length; shotsFit++) {
@@ -26,13 +43,8 @@ $(function() {
     }
     photoFilmBlock.style.left = ((filmLength - winWidth) / -2) + "px";  // сдвигаем плёнку так, чтобы отображаемые кадры были по центру окна
     photoFilmBlock.style.opacity = 1;                                   // так как на время выравнивания фотоплёнка была скрыта, то отображаем её сейчас
-
-    for (var i=0; i < photoFilm.length; i++) {
-        photoFilm[i].addEventListener('animationiteration', photoFilmChange);
-        photoFilm[i].addEventListener('animationend', photoFilmEnd);
-    }
     setInterval(photoFilmHide, 5000);                           // запуск анимированной смены кадров
-});
+}
 
 // Скрытие случайного кадра
 function photoFilmHide() {
