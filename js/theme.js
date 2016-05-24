@@ -36,7 +36,7 @@ var requestAnimationFrame = window.requestAnimationFrame
 
 // Главное меню - раскрытие подменю
 $(function() {
-    var menu = $('#main_menu > li');
+    var menu = $('#main_menu li');
     menu.hover(function(){
         // при наведении мыши останавливаем текущую анимацию и разворачиваем подменю
         $("div",this).stop(true,false).slideDown(200);

@@ -10,7 +10,7 @@
     <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link rel="stylesheet" href="/css/theme.css?v=20160518" type="text/css">
 </head>
-<body id="body" class="noscript main">
+<body id="body" class="noscript main_page">
     <!-- Для браузеров, где не работает js, применяем дополнительные стили -->
     <script>document.getElementById('body').classList.remove("noscript")</script>
 

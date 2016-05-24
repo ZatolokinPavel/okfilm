@@ -31,7 +31,7 @@ hr{box-sizing:content-box; height:0; margin: 15px 0; border:0; border-top: 1px s
 
 
 .navbar{text-align: center; margin: 50px 0 70px 0; color: #4b5052;}
-.main .navbar{margin: 130px 0 150px 0;}
+.main_page .navbar{margin: 130px 0 150px 0;}
 .navbar a{text-decoration:none; color:inherit; display: inline-block;}
 .navbar a:hover{text-decoration: none; color:inherit;}
 
@@ -43,18 +43,19 @@ hr{box-sizing:content-box; height:0; margin: 15px 0; border:0; border-top: 1px s
 
 
 /* Главное меню */
-.menu{margin: 7px auto 0 auto; padding: 0; display:inline-block; width:auto; text-transform:uppercase; list-style: outside none none;}
-.menu > li{float:left; margin:0 5px; background-color: rgba(0,0,0,0); display:inline-block;}
-.menu > li > a{height: 40px; line-height: 40px; padding:0 10px; font-size: 16px;
-               background-color: rgba(136,125,178,0.4); border: 2px solid rgba(75,80,82,0.1);}
-.menu > li > a:hover{background-color: rgba(253,253,254,0.2); border: 2px solid rgba(75,80,82,0.2);}
+.menu{margin-top: 7px; text-transform: uppercase;}
 .menu a{cursor:pointer;}
 .menu a:hover{color: #41656f;}
+.menu ul{list-style: outside none none; margin: 0; padding: 0; width: auto;}
+.menu > ul{display:inline-block;}
+.menu > ul > li{float:left; margin:0 5px; background-color: rgba(0,0,0,0); display:inline-block;}
+.menu > ul > li > a{height: 40px; line-height: 40px; padding:0 10px; font-size: 16px;
+                    background-color: rgba(136,125,178,0.4); border: 2px solid rgba(75,80,82,0.1);}
+.menu > ul > li > a:hover{background-color: rgba(253,253,254,0.2); border: 2px solid rgba(75,80,82,0.2);}
+.submenu{position: absolute; padding-top: 10px; width: auto; min-width: 150px; text-align: left; display: none;}
+.submenu ul{padding: 20px; background-color: rgba(253,253,254,0.4); border: 2px solid rgba(75,80,82,0.2);}
+.submenu a{padding: 5px 10px; text-transform:none;}
 
-.submenu{position: absolute; padding-top: 10px; width: auto; min-width: 150px; display: none;}
-.submenu > ul{padding: 20px; list-style: outside none none; text-align: left;
-              background-color: rgba(253,253,254,0.4); border: 2px solid rgba(75,80,82,0.2);}
-.submenu > ul > li > a{padding: 5px 10px; text-transform:none;}
 
 /* Хлебные крошки */
 .breadcrumb{margin-bottom: 25px; padding: 25px 40px; background: #f6f8f9; list-style: outside none none; font-size: 0.001px;}
