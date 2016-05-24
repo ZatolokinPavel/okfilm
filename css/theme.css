@@ -30,18 +30,20 @@ hr{box-sizing:content-box; height:0; margin: 15px 0; border:0; border-top: 1px s
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 70%, #887db2 100%);}
 
 
-.navbar{text-align: center; margin:80px 0; color: #4b5052;}
+.navbar{text-align: center; margin: 50px 0 70px 0; color: #4b5052;}
+.main .navbar{margin: 130px 0 150px 0;}
 .navbar a{text-decoration:none; color:inherit; display: inline-block;}
 .navbar a:hover{text-decoration: none; color:inherit;}
 
 /* Логотип */
 .okfilm{font-size:60px; text-align:center}
+.okfilm > a{line-height: normal;}
 .okfilm_ok{font-family: Allura; margin-right:10px; vertical-align:middle}
 .okfilm_film{font-family: Abril Fatface;}
 
 
 /* Главное меню */
-.menu{margin:40px auto 0 auto; display:inline-block; width:auto; text-transform:uppercase; list-style: outside none none;}
+.menu{margin: 7px auto 0 auto; padding: 0; display:inline-block; width:auto; text-transform:uppercase; list-style: outside none none;}
 .menu > li{float:left; margin:0 5px; background-color: rgba(0,0,0,0); display:inline-block;}
 .menu > li > a{height: 40px; line-height: 40px; padding:0 10px; font-size: 16px;
                background-color: rgba(136,125,178,0.4); border: 2px solid rgba(75,80,82,0.1);}
