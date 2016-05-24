@@ -83,7 +83,7 @@ section{margin-top:25px;}
 .col25{float:left; width:25%;}
 .col50{float:left; width:50%;}
 .col66{float:left; width:66.666%;}
-.col00{width:100%;}
+.col00{float:none; width:100%;}
 
 
 /* Типография */
