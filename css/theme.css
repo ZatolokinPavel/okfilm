@@ -81,6 +81,7 @@ hr{box-sizing:content-box; height:0; margin: 15px 0; border:0; border-top: 1px s
 .block.primary h4{color: #414781;}
 .article{padding: 40px; background: #f6f8f9 none repeat scroll 0 0;}
 .footer{color: #c3bdd8; padding-top: 15px; margin-bottom: 50px;}
+.footer .okfilm{line-height: normal; margin: 10px 0;}
 .footer h4{color: #fdfdfe;}
 .footer a{color: #fdfdfe;}
 .footer a:hover{color: #fdfdfe;}
