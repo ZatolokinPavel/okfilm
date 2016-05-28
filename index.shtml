@@ -114,7 +114,40 @@
         </section>
         
         <section class="grid box">
-            <div class="col33">
+
+            <div class="col66x768r clear_grid">
+                <div class="grid box">
+
+                    <!-- Свадебная фотосъёмка -->
+                    <div class="col50x960r">
+                        <div class="block secondary center">
+                            <h3>Свадебная<br/>фотосъёмка</h3>
+                            <p class="margin-large-bottom">
+                                Любые, даже самые непредсказуемые события, которые окружают
+                                вас в этот день, останутся на фото и будут радовать вас много лет.
+                            </p>
+                            <a class="button button-align-bottom" href="/portfolio/wedding">Примеры работ</a>
+                        </div>
+                    </div>
+
+                    <!-- Свадебная видеосъёмка -->
+                    <div class="col50x960r">
+                        <div class="block secondary center">
+                            <!--<i class="icon-film"></i>-->
+                            <h3>Свадебная<br/>видеосъёмка</h3>
+                            <p class="margin-large-bottom">
+                                Чтобы все ваши эмоции остались в памяти, чтобы вы могли пережить
+                                этот день снова я снимаю видеофильм о вашей свадьбе.
+                            </p>
+                            <a class="button button-align-bottom" href="/video">Примеры работ</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- LoveStory, Семейные праздники, Студийная съёмка, Фотокниги -->
+            <div class="col33x768">
                 <div class="block secondary">
                     <h3>LoveStory</h3>
                     <p>
@@ -145,35 +178,10 @@
                     <a class="button" href="uslugi/photobook">Выбрать свою фотокнигу</a>
                 </div>
             </div>
-            <div class="col66">
-                <div class="grid box">
-                    <!-- Свадебная видеосъёмка -->
-                    <div class="col50x960">
-                        <div class="block secondary center">
-                            <!--<i class="icon-film"></i>-->
-                            <h3>Свадебная<br/>видеосъёмка</h3>
-                            <p class="margin-large-bottom">
-                                Чтобы все ваши эмоции остались в памяти, чтобы вы могли пережить 
-                                этот день снова я снимаю видеофильм о вашей свадьбе.
-                            </p>
-                            <a class="button button-align-bottom" href="/video">Примеры работ</a>
-                        </div>
-                    </div>
-                    <!-- Свадебная фотосъёмка -->
-                    <div class="col50x960">
-                        <div class="block secondary center">
-                            <h3>Свадебная<br/>фотосъёмка</h3>
-                            <p class="margin-large-bottom">
-                                Любые, даже самые непредсказуемые события, которые окружают 
-                                вас в этот день, останутся на фото и будут радовать вас много лет.
-                            </p>
-                            <a class="button button-align-bottom" href="/portfolio/wedding">Примеры работ</a>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Отзывы молодоженов -->
-                <section class="reviews block">
+            <!-- Отзывы молодоженов -->
+            <div class="col66x768">
+                <div class="reviews block">
                     <div id="reviews_left_arrow" class="arrow left">
                         <a href="javascript:void(0);"></a>
                     </div>
@@ -247,7 +255,7 @@
                     <div id="reviews_right_arrow" class="arrow right">
                         <a href="javascript:void(0);"></a>
                     </div>
-                </section>
+                </div>
             </div>
         </section>
 

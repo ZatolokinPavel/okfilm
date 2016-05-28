@@ -68,6 +68,7 @@ hr{box-sizing: content-box; height:0; margin: 15px 0; border:0; border-top: 1px 
 /* Контент - секции, блоки и колонки */
 .grid{margin-left: -15px; width: auto;}
 .grid > * {padding: 0 0 15px 15px;}
+.grid > .clear_grid{padding-bottom: 0;}
 @media (min-width: 1220px) {
     .grid{margin-left: -25px; width: auto;}
     .grid > * {padding: 0 0 25px 25px;}
@@ -90,14 +91,16 @@ hr{box-sizing: content-box; height:0; margin: 15px 0; border:0; border-top: 1px 
 .col66{float:left; width:66.666%;}
 .col00{float:none; width:100%;}
 
-.col33x768, .col33x960, .col50x960, .col66x960 {float: none; width: 100%;}
 @media (min-width: 768px) {
-    .col33x768{float: left; width: 33.333%;}
+    .col33x768 {float: left;  width: 33.333%;}
+    .col66x768 {float: left;  width: 66.666%;}
+    .col66x768r{float: right; width: 66.666%;}
 }
 @media (min-width: 960px) {
-    .col33x960{float: left; width: 33.333%;}
-    .col50x960{float: left; width: 50%;}
-    .col66x960{float: left; width: 66.666%;}
+    .col33x960 {float: left;  width: 33.333%;}
+    .col50x960 {float: left;  width: 50%;}
+    .col50x960r{float: right; width: 50%;}
+    .col66x960 {float: left;  width: 66.666%;}
 }
 
 .icon-film:before {content: "\f008";}
