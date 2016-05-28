@@ -78,3 +78,55 @@ function photoFilmEnd(ev) {
 /**
  * КОНЕЦ - Фотоплёнка вверху главной страницы
  */
+
+
+/**
+ * Отзывы на главной
+ */
+
+var reviews;    // элементы списка отзывов на главной
+
+$(function() {
+    reviews = $("#reviews_list li");
+    reviewsMakeReady();
+});
+
+// Подготовка блока отзывов к прокрутке
+function reviewsMakeReady() {
+    var items_l = reviews.filter('.rv_l');
+    var items_r = reviews.filter('.rv_r');
+    var arrow_l = document.getElementById('reviews_left_arrow');
+    var arrow_r = document.getElementById('reviews_right_arrow');
+    if (items_l.length > 0) {
+        arrow_l.addEventListener('click',reviewsMoveRight);
+        arrow_l.classList.remove('disabled');
+    } else {
+        arrow_l.removeEventListener('click',reviewsMoveRight);
+        arrow_l.classList.add('disabled');
+    }
+
+    if (items_r.length > 0) {
+        arrow_r.addEventListener('click',reviewsMoveLeft);
+        arrow_r.classList.remove('disabled');
+    } else {
+        arrow_r.removeEventListener('click',reviewsMoveLeft);
+        arrow_r.classList.add('disabled');
+    }
+}
+
+// Перемотка отзывов слева направо
+function reviewsMoveRight() {
+    reviews.not('.rv_l').not('.rv_r')[0].classList.add('rv_r');
+    reviews.filter('.rv_l')[0].classList.remove('rv_l');
+    reviewsMakeReady();
+}
+
+// Перемотка отзывов справа налево
+function reviewsMoveLeft() {
+    reviews.not('.rv_l').not('.rv_r')[0].classList.add('rv_l');
+    reviews.filter('.rv_r')[0].classList.remove('rv_r');
+    reviewsMakeReady();
+}
+/**
+ * КОНЕЦ - Отзывы на главной
+ */

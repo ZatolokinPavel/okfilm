@@ -62,34 +62,34 @@ $(function(){
 });
 
 // Анимация элементов в зависимости от прокрутки.
-$(function() {
-    var reviewsBlock = $('#reviews');
-    var reviews = reviewsBlock.children();
-    var duration = parseFloat(reviews.css("transition-duration"));      // смотрим продолжительность анимации, заданную через css
-    var delay_step = duration / (reviews.length);                       // шаг разницы между началом анимации двух соседних отзывов
-    var delay_transform, delay_opacity;
-    reviews.each(function(i,e) {
-        delay_transform = - delay_step * i;
-        delay_opacity = (duration - delay_step * (i+1))/2;
-        e.style.transitionDelay = delay_transform + 's, ' + delay_opacity + 's';
-        e.style.zIndex = reviews.length - i;
-    });
-    window.addEventListener('scroll', showReviewsBlock);                // вешаем на скролл проверку, нужно ли показывать отзывы
-    showReviewsBlock();                                                 // и сразу же проверяем, нужно ли показывать отзывы
-});
+//$(function() {
+//    var reviewsBlock = $('#reviews');
+//    var reviews = reviewsBlock.children();
+//    var duration = parseFloat(reviews.css("transition-duration"));      // смотрим продолжительность анимации, заданную через css
+//    var delay_step = duration / (reviews.length);                       // шаг разницы между началом анимации двух соседних отзывов
+//    var delay_transform, delay_opacity;
+//    reviews.each(function(i,e) {
+//        delay_transform = - delay_step * i;
+//        delay_opacity = (duration - delay_step * (i+1))/2;
+//        e.style.transitionDelay = delay_transform + 's, ' + delay_opacity + 's';
+//        e.style.zIndex = reviews.length - i;
+//    });
+//    window.addEventListener('scroll', showReviewsBlock);                // вешаем на скролл проверку, нужно ли показывать отзывы
+//    showReviewsBlock();                                                 // и сразу же проверяем, нужно ли показывать отзывы
+//});
 
 // Отображение блока отзывов в зависимости от того,
 // находится ли он сейчас в видимой области экрана.
-function showReviewsBlock() {
-    var reviewsBlock = $('#reviews');
-    if (reviewsBlock.length > 0) {
-        if (scrolledToTheItem(reviewsBlock) == true) {
-            window.removeEventListener('scroll', showReviewsBlock);     // если один раз показали, то больше можно не реагировать на прокрутку
-            reviewsBlock.children().css('transform', "translateX(0px)");
-            reviewsBlock.children().css('opacity', 1);
-        }
-    }
-}
+//function showReviewsBlock() {
+//    var reviewsBlock = $('#reviews');
+//    if (reviewsBlock.length > 0) {
+//        if (scrolledToTheItem(reviewsBlock) == true) {
+//            window.removeEventListener('scroll', showReviewsBlock);     // если один раз показали, то больше можно не реагировать на прокрутку
+//            reviewsBlock.children().css('transform', "translateX(0px)");
+//            reviewsBlock.children().css('opacity', 1);
+//        }
+//    }
+//}
 
 // Проверка, что элемент находится над нижней границей
 // видимой области экрана хотябы на 2/3 своей высоты.

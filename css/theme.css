@@ -141,19 +141,16 @@ a:hover, .link:hover {color: #41656f; text-decoration: underline;}
 
 
 /* Отзывы на главной */
-/*.reviews_sec{margin-left:-15px; width:auto; color: #fdfdfe; overflow: hidden;}*/
-/*#reviews{width: 100%; height: 300px;}*/
-/*#reviews h4{margin: 10px 0 0 0; color: #c3bdd8; text-transform: none;}*/
-/*#reviews > div{float: left; width: 20%; padding-left: 15px; opacity: 0; transform: translateX(500%);*/
-               /*transition: transform 1s linear, opacity 1s ease-in;}*/
-/*.noscript #reviews>div{opacity: 1; transform: translateX(0);}       !* на случай, если js не сработает *!*/
-/*.review_full{display: none;}*/
-
-/* Отзывы на главной (новые) */
-/*.review_short{display: none;}*/
-.reviews{position: relative;}
-.reviews h4{margin: 10px 0 0 0; text-transform: none;}
-.reviews .scrollable{margin: 0 10px;}
+.reviews{position: relative; font-style: italic;}
+.reviews h4{margin: 10px 0 0 0; font-style: normal; text-transform: none;}
+.reviews .scrollable{margin: 0 15px;}
+.reviews ul{list-style: outside none none; padding: 0; margin: 0; overflow: hidden;}
+.reviews li{float: left; width: 100%; margin-right: -100%;
+            transition: transform 0.3s ease-out;}
+.reviews li.rv_l{transform: translateX(-100%);}
+.reviews li.rv_r{transform: translateX(100%);}
+.reviews li:after{content:"";display:block;clear:both}
+.reviews img{float: left; margin: 0 10px 10px 0;}
 
 .reviews .arrow{position: absolute; top: 50%; transform: translateY(-50%);
                 width: 0; height: 0; border: 16px solid transparent; margin: 0; padding: 0;}
@@ -162,6 +159,8 @@ a:hover, .link:hover {color: #41656f; text-decoration: underline;}
 .reviews .arrow.right{right: 0; border-left-color: #887db2;}
 .reviews .arrow.left:before {border-right-color: #f1ebe2; transform: translate(-0px, -9px);}
 .reviews .arrow.right:before{border-left-color: #f1ebe2; transform: translate(-16px, -9px);}
+.reviews .arrow.left.disabled{border-right-color: #c3bdd8; cursor: default;}
+.reviews .arrow.right.disabled{border-left-color: #c3bdd8; cursor: default;}
 
 
 /* Размеры для картинок ставим так */
