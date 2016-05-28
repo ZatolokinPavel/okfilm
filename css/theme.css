@@ -63,6 +63,7 @@ hr{box-sizing: content-box; height:0; margin: 15px 0; border:0; border-top: 1px 
 .breadcrumb{margin-bottom: 25px; padding: 25px 40px; background: #f6f8f9; list-style: outside none none; font-size: 0.001px;}
 .breadcrumb > li{display: inline-block; font-size: 1rem;}    /* Для всего ul шрифт минимален, а тут обычный. Это чтобы убрать отступ между элементами списка. */
 .breadcrumb > li:nth-child(n+2):before{content: "/"; display: inline-block; margin: 0 8px; color: #babab7;}
+@media (max-width: 480px) { .breadcrumb{padding: 15px 20px;} }
 
 
 /* Контент - секции, блоки и колонки */
@@ -79,6 +80,7 @@ hr{box-sizing: content-box; height:0; margin: 15px 0; border:0; border-top: 1px 
 .block.primary h3{color: #e1eaec;}
 .block.primary h4{color: #414781;}
 .article{padding: 40px; background: #f6f8f9 none repeat scroll 0 0;}
+@media (max-width: 480px) { .article{padding: 20px;} }
 .footer{color: #c3bdd8; padding-top: 15px; margin-bottom: 50px;}
 .footer .okfilm{line-height: normal; margin: 10px 0;}
 .footer h4{color: #fdfdfe;}
