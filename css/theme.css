@@ -154,11 +154,11 @@ a:hover, .link:hover {color: #41656f; text-decoration: underline;}
 
 
 /* Слайдшоу на главной */
-.home-slideshow{list-style: outside none none; padding: 0; margin: 0; min-height: 1px;}
-.home-slideshow > li{display: none;}
-.home-slideshow > li > img{max-width: 100%; height: auto; vertical-align: middle;}
-.home-slideshow > li > h3{position: absolute; left: 50px; color: white; padding: 3px 20px;
-                          background-color: rgba(255,255,255,0.3);}
+#home_slideshow ul{list-style: outside none none; padding: 0; margin: 0; min-height: 1px;}
+#home_slideshow li{display: none;}
+#home_slideshow img{max-width: 100%; height: auto; vertical-align: middle;}
+#home_slideshow h3{position: absolute; left: 50px; color: white; padding: 3px 20px;
+                   background-color: rgba(255,255,255,0.3);}
 
 
 /* Отзывы на главной */

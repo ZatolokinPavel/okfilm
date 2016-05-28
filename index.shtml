@@ -79,8 +79,8 @@
 
         <section class="grid box">
             <div class="col66x960">
-                <div>
-                    <ul id="home_slideshow" class="home-slideshow">
+                <div id="home_slideshow">
+                    <ul>
                         <li>
                             <img src="images/home-slideshow/home_slideshow-1.jpg">
                             <h3 style="top: 30px;">Мужчина и женщина хранят ключи от <strong>сердец друг друга</strong></h3>

@@ -49,18 +49,6 @@ $(function() {
 
 
 
-// Слайдшоу на главной странице
-$(function(){
-    var elements = $('#home_slideshow > li');                              // список всех элементов слайдшоу
-    var el = elements.first();
-    el.show();
-    setInterval(function(){
-        el.hide();
-        el = el.next().length ? el.next() : elements.first();
-        el.show();
-    }, 5000);
-});
-
 // Анимация элементов в зависимости от прокрутки.
 //$(function() {
 //    var reviewsBlock = $('#reviews');
