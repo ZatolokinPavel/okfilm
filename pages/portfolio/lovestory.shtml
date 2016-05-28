@@ -72,5 +72,7 @@
 <script src="/js/theme.js?v=20160518"></script>
 <script src="/js/gallery.js?v=20160518"></script>
 
+<!--#include virtual="/include/analytics.html"-->
+
 </body>
 </html>

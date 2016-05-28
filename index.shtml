@@ -266,6 +266,8 @@
     <script src="/js/jquery-1.12.2.min.js"></script>
     <script src="/js/theme.js?v=20160518"></script>
     <script src="/js/main_page.js?v=20160518"></script>
+
+    <!--#include virtual="/include/analytics.html"-->
     
 </body>
 </html>
