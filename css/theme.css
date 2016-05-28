@@ -66,11 +66,16 @@ hr{box-sizing:content-box; height:0; margin: 15px 0; border:0; border-top: 1px s
 
 
 /* Контент - секции, блоки и колонки */
-section{margin-top:25px;}
-.antipad25{margin-left:-25px; width:auto;}
-.pad25{padding-left:25px;}
-.block{padding: 30px; background-color: #f1ebe2; color: #63553f; border: 15px solid #f1ebe2;
-       box-shadow: inset 0 0 0 1px #ddcfb9; position: relative;}
+.grid{margin-left: -15px; width: auto;}
+.grid > * {padding-left: 15px;}
+.grid .block{margin: 0 0 15px 0;}
+@media (min-width: 1220px) {
+    .grid{margin-left: -25px; width: auto;}
+    .grid > * {padding-left: 25px;}
+    .grid .block{margin: 0 0 25px 0;}
+}
+.block{position: relative; padding: 30px; color: #63553f; border: 15px solid #f1ebe2;
+       background-color: #f1ebe2; box-shadow: inset 0 0 0 1px #ddcfb9;}
 .block.primary{background-color: #272b4e; color: #e1eaec; border: 15px solid #272b4e; box-shadow: inset 0 0 0 1px #383e70;}
 .block.primary h3{color: #e1eaec;}
 .block.primary h4{color: #414781;}
@@ -85,6 +90,11 @@ section{margin-top:25px;}
 .col50{float:left; width:50%;}
 .col66{float:left; width:66.666%;}
 .col00{float:none; width:100%;}
+
+.col33x768, .col50x960 {float: none; width: 100%;}
+@media (min-width: 768px) { .col33x768{float: left; width: 33.333%;} }
+@media (min-width: 960px) { .col50x960{float: left; width: 50%;}
+}
 
 .icon-film:before {content: "\f008";}
 

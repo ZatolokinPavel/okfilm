@@ -66,7 +66,7 @@
 
         <!--#include virtual="/include/header.html" -->
 
-        <section class="box">
+        <section class="grid box">
             <div class="col00">
                 <div class="block">
                     Меня зовут Оксана Найденко. Очень рада видеть Вас в моём мирке. Своё призвание я вижу
@@ -77,8 +77,8 @@
             </div>
         </section>
 
-        <section class="antipad25 box">
-            <div class="col66 pad25">
+        <section class="grid box">
+            <div class="col66">
                 <ul id="home_slideshow" class="home-slideshow">
                     <li>
                         <img src="images/home-slideshow/home_slideshow-1.jpg">
@@ -99,7 +99,7 @@
                 </ul>
             </div>
             <!-- LoveStory в подарок -->
-            <div class="col33 pad25">
+            <div class="col33">
                 <div class="block primary center">
                     <h3>LoveStory в подарок</h3>
                     <h4>Действующая акция</h4>
@@ -111,8 +111,8 @@
             </div>
         </section>
         
-        <section class="antipad25 box">
-            <div class="col33 pad25">
+        <section class="grid box">
+            <div class="col33">
                 <div class="block secondary">
                     <h3>LoveStory</h3>
                     <p>
@@ -143,13 +143,13 @@
                     <a class="button" href="uslugi/photobook">Выбрать свою фотокнигу</a>
                 </div>
             </div>
-            <div class="col66 pad25">
-                <div class="antipad25 box">
+            <div class="col66">
+                <div class="grid box">
                     <!-- Свадебная видеосъёмка -->
-                    <div class="col50 pad25">
+                    <div class="col50x960">
                         <div class="block secondary center">
-                            <i class="icon-film"></i>
-                            <h3>Свадебная видеосъёмка</h3>
+                            <!--<i class="icon-film"></i>-->
+                            <h3>Свадебная<br/>видеосъёмка</h3>
                             <p class="margin-large-bottom">
                                 Чтобы все ваши эмоции остались в памяти, чтобы вы могли пережить 
                                 этот день снова я снимаю видеофильм о вашей свадьбе.
@@ -158,7 +158,7 @@
                         </div>
                     </div>
                     <!-- Свадебная фотосъёмка -->
-                    <div class="col50 pad25">
+                    <div class="col50x960">
                         <div class="block secondary center">
                             <h3>Свадебная<br/>фотосъёмка</h3>
                             <p class="margin-large-bottom">
