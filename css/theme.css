@@ -13,7 +13,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 /* Конец подгонки под старые браузеры*/
 
 body{color:#777777; background-color:#887db2; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size:15px; line-height: 22px; margin:0}
-.container{max-width:1200px; padding:0 25px; margin:0 auto;}
+.container{max-width: 1200px; padding: 0 15px; margin: 0 auto;}
 hr{box-sizing:content-box; height:0; margin: 15px 0; border:0; border-top: 1px solid #d2d3d4;}
 
 
