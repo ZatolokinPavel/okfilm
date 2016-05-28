@@ -168,8 +168,8 @@
 
                 <!-- Отзывы молодоженов -->
                 <section class="reviews block">
-                    <div class="arrow_block">
-                        <a id="reviews_left_arrow" class="arrow left"></a>
+                    <div id="reviews_left_arrow" class="arrow left">
+                        <a href="javascript:void(0);"></a>
                     </div>
                     <div class="scrollable">
                         <ul id="reviews_list">
@@ -234,8 +234,8 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="arrow_block">
-                        <a id="reviews_right_arrow" class="arrow right"></a>
+                    <div id="reviews_right_arrow" class="arrow right">
+                        <a href="javascript:void(0);"></a>
                     </div>
                 </section>
             </div>

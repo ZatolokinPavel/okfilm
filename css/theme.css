@@ -152,15 +152,24 @@ a:hover, .link:hover {color: #41656f; text-decoration: underline;}
 .reviews li:after{content:"";display:block;clear:both}
 .reviews img{float: left; margin: 0 10px 10px 0;}
 
-.reviews .arrow{position: absolute; top: 50%; transform: translateY(-50%);
-                width: 0; height: 0; border: 16px solid transparent; margin: 0; padding: 0;}
-.reviews .arrow:before{content: ''; width: 0; height: 0; border: 8px solid transparent; display: inline-block;}
-.reviews .arrow.left {left:  0; border-right-color: #887db2;}
-.reviews .arrow.right{right: 0; border-left-color: #887db2;}
-.reviews .arrow.left:before {border-right-color: #f1ebe2; transform: translate(-0px, -9px);}
-.reviews .arrow.right:before{border-left-color: #f1ebe2; transform: translate(-16px, -9px);}
-.reviews .arrow.left.disabled{border-right-color: #c3bdd8; cursor: default;}
-.reviews .arrow.right.disabled{border-left-color: #c3bdd8; cursor: default;}
+.reviews .arrow{position: absolute; height: 100%; top: 0; cursor: pointer; padding: 0 5px;}
+.reviews .arrow.left {left:  0;}
+.reviews .arrow.right{right: 0;}
+.reviews .arrow:hover{background-color: #c3bdd8;}
+.reviews .arrow.disabled{cursor: default; background-color: transparent;}
+.reviews .arrow a{width: 0; height: 0; border: 16px solid transparent; margin: 0; padding: 0;
+                  display: block; position: relative; top: 50%; transform: translateY(-50%);}
+.reviews .arrow a:before{content: ''; width: 0; height: 0; border: 8px solid transparent; display: inline-block;}
+.reviews .arrow.left  a{border-right-color: #887db2; left: -25%;}
+.reviews .arrow.right a{border-left-color: #887db2; right: -25%;}
+.reviews .arrow.left  a:before{border-right-color: #f1ebe2; transform: translate(-0px, -9px);}
+.reviews .arrow.right a:before{border-left-color: #f1ebe2; transform: translate(-16px, -9px);}
+.reviews .arrow.left:hover a:before{border-right-color: #c3bdd8;}
+.reviews .arrow.right:hover a:before{border-left-color: #c3bdd8;}
+.reviews .arrow.left.disabled  a{border-right-color: #c3bdd8; cursor: default;}
+.reviews .arrow.right.disabled a{border-left-color: #c3bdd8; cursor: default;}
+.reviews .arrow.left.disabled  a:before{border-right-color: #f1ebe2;}
+.reviews .arrow.right.disabled a:before{border-left-color: #f1ebe2;}
 
 
 /* Размеры для картинок ставим так */
