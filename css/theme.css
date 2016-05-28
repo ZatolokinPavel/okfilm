@@ -150,7 +150,7 @@ a:hover, .link:hover {color: #41656f; text-decoration: underline;}
 .reviews li.rv_l{transform: translateX(-100%);}
 .reviews li.rv_r{transform: translateX(100%);}
 .reviews li:after{content:"";display:block;clear:both}
-.reviews img{float: left; margin: 0 10px 10px 0;}
+.reviews .photo{float: left; margin: 0 10px 0 0; text-align: center;}
 
 .reviews .arrow{position: absolute; height: 100%; top: 0; cursor: pointer; padding: 0 5px;}
 .reviews .arrow.left {left:  0;}
