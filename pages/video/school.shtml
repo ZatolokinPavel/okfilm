@@ -9,8 +9,8 @@
     <meta name="description" content="Фотограф и видеооператор Оксана Найденко. Я с удовольствием сохраню тёплые и яркие моменты Вашей свадьбы, Love Story и радостных событий." />
 
     <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link rel="stylesheet" href="/css/theme.css?v=20160518" type="text/css">
-    <link rel="stylesheet" href="/css/video.css?v=20160518" type="text/css">
+    <link rel="stylesheet" href="/css/theme.css?v=20160528" type="text/css">
+    <link rel="stylesheet" href="/css/video.css?v=20160528" type="text/css">
 </head>
 <body>
 
@@ -63,8 +63,8 @@
 </div>
 
 <script src="/js/jquery-1.12.2.min.js"></script>
-<script src="/js/theme.js?v=20160518"></script>
-<script src="/js/video.js?v=20160518"></script>
+<script src="/js/theme.js?v=20160528"></script>
+<script src="/js/video.js?v=20160528"></script>
 
 <!--#include virtual="/include/analytics.html"-->
 
