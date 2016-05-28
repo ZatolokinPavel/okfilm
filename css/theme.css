@@ -14,7 +14,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 
 body{color:#777777; background-color:#887db2; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size:15px; line-height: 22px; margin:0}
 .container{max-width: 1200px; padding: 0 15px; margin: 0 auto;}
-hr{box-sizing:content-box; height:0; margin: 15px 0; border:0; border-top: 1px solid #d2d3d4;}
+hr{box-sizing: content-box; height:0; margin: 15px 0; border:0; border-top: 1px solid #d2d3d4;}
 
 
 /* Фоновый рисунок вверху. ВАЖНО: здесь нужно указать такой же цвет фона, как и для body! */
@@ -67,12 +67,10 @@ hr{box-sizing:content-box; height:0; margin: 15px 0; border:0; border-top: 1px s
 
 /* Контент - секции, блоки и колонки */
 .grid{margin-left: -15px; width: auto;}
-.grid > * {padding-left: 15px;}
-.grid .block{margin: 0 0 15px 0;}
+.grid > * {padding: 0 0 15px 15px;}
 @media (min-width: 1220px) {
     .grid{margin-left: -25px; width: auto;}
-    .grid > * {padding-left: 25px;}
-    .grid .block{margin: 0 0 25px 0;}
+    .grid > * {padding: 0 0 25px 25px;}
 }
 .block{position: relative; padding: 30px; color: #63553f; border: 15px solid #f1ebe2;
        background-color: #f1ebe2; box-shadow: inset 0 0 0 1px #ddcfb9;}
@@ -92,9 +90,14 @@ hr{box-sizing:content-box; height:0; margin: 15px 0; border:0; border-top: 1px s
 .col66{float:left; width:66.666%;}
 .col00{float:none; width:100%;}
 
-.col33x768, .col50x960 {float: none; width: 100%;}
-@media (min-width: 768px) { .col33x768{float: left; width: 33.333%;} }
-@media (min-width: 960px) { .col50x960{float: left; width: 50%;}
+.col33x768, .col33x960, .col50x960, .col66x960 {float: none; width: 100%;}
+@media (min-width: 768px) {
+    .col33x768{float: left; width: 33.333%;}
+}
+@media (min-width: 960px) {
+    .col33x960{float: left; width: 33.333%;}
+    .col50x960{float: left; width: 50%;}
+    .col66x960{float: left; width: 66.666%;}
 }
 
 .icon-film:before {content: "\f008";}

@@ -78,28 +78,30 @@
         </section>
 
         <section class="grid box">
-            <div class="col66">
-                <ul id="home_slideshow" class="home-slideshow">
-                    <li>
-                        <img src="images/home-slideshow/home_slideshow-1.jpg">
-                        <h3 style="top: 30px;">Мужчина и женщина хранят ключи от <strong>сердец друг друга</strong></h3>
-                    </li>
-                    <li>
-                        <img src="images/home-slideshow/home_slideshow-2.jpg">
-                        <h3 style="bottom: 30px;">С дорогими людьми всегда мало<br /><strong>общих фотографий</strong></h3>
-                    </li>
-                    <li>
-                        <img src="images/home-slideshow/home_slideshow-3.jpg">
-                        <h3 style="bottom: 30px;">Счастье рядом. <strong>Просто протяни руку.</strong></h3>
-                    </li>
-                    <li>
-                        <img src="images/home-slideshow/home_slideshow-4.jpg">
-                        <h3 style="top: 30px;">Ты + Я <strong>= Семья.</strong></h3>
-                    </li>
-                </ul>
+            <div class="col66x960">
+                <div>
+                    <ul id="home_slideshow" class="home-slideshow">
+                        <li>
+                            <img src="images/home-slideshow/home_slideshow-1.jpg">
+                            <h3 style="top: 30px;">Мужчина и женщина хранят ключи от <strong>сердец друг друга</strong></h3>
+                        </li>
+                        <li>
+                            <img src="images/home-slideshow/home_slideshow-2.jpg">
+                            <h3 style="bottom: 30px;">С дорогими людьми всегда мало<br /><strong>общих фотографий</strong></h3>
+                        </li>
+                        <li>
+                            <img src="images/home-slideshow/home_slideshow-3.jpg">
+                            <h3 style="bottom: 30px;">Счастье рядом. <strong>Просто протяни руку.</strong></h3>
+                        </li>
+                        <li>
+                            <img src="images/home-slideshow/home_slideshow-4.jpg">
+                            <h3 style="top: 30px;">Ты + Я <strong>= Семья.</strong></h3>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <!-- LoveStory в подарок -->
-            <div class="col33">
+            <div class="col33x960">
                 <div class="block primary center">
                     <h3>LoveStory в подарок</h3>
                     <h4>Действующая акция</h4>
