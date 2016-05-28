@@ -69,7 +69,8 @@ hr{box-sizing:content-box; height:0; margin: 15px 0; border:0; border-top: 1px s
 section{margin-top:25px;}
 .antipad25{margin-left:-25px; width:auto;}
 .pad25{padding-left:25px;}
-.block{padding:30px; background-color: #f1ebe2; color: #63553f; border:15px solid #f1ebe2; box-shadow: inset 0 0 0 1px #ddcfb9;}
+.block{padding: 30px; background-color: #f1ebe2; color: #63553f; border: 15px solid #f1ebe2;
+       box-shadow: inset 0 0 0 1px #ddcfb9; position: relative;}
 .block.primary{background-color: #272b4e; color: #e1eaec; border: 15px solid #272b4e; box-shadow: inset 0 0 0 1px #383e70;}
 .block.primary h3{color: #e1eaec;}
 .block.primary h4{color: #414781;}
@@ -84,6 +85,8 @@ section{margin-top:25px;}
 .col50{float:left; width:50%;}
 .col66{float:left; width:66.666%;}
 .col00{float:none; width:100%;}
+
+.icon-film:before {content: "\f008";}
 
 
 /* Типография */
@@ -102,13 +105,17 @@ a, .link {color: #41656f; text-decoration: none; cursor: pointer;}
 a:hover, .link:hover {color: #41656f; text-decoration: underline;}
 
 .article-title{font-size: 34px; line-height: 40px; font-weight: 300; text-transform: uppercase;}
+.margin-large-bottom{margin-bottom: 50px;}
 .button{color: #4b5052; line-height: 30px; min-height: 30px; padding: 0 12px; display: inline-block; cursor: pointer;
         text-align: center; text-decoration: none; text-transform: uppercase; vertical-align: middle;
         background: #e7ebec none repeat scroll 0 0;}
 .button:hover{text-decoration: none;}
 .button-large{font-size: 16px; line-height: 40px; min-height: 40px; padding: 0 15px;}
+.button-align-bottom{position: absolute; left: 0; right: 0; bottom: 0; width: 100%; line-height: 50px; min-height: 50px;}
 .primary .button{color: #e1eaec; background: #2e325c none repeat scroll 0 0;}
 .primary .button:hover{background: #333866 none repeat scroll 0 0;}
+.secondary .button{color: rgba(99,85,63,0.8); background: #e9dfd1 none repeat scroll 0 0;}
+.secondary .button:hover{background: #e4d8c6; color: #63553f;}
 
 
 /* Фотоплёнка на главной */

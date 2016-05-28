@@ -112,56 +112,59 @@
         
         <section class="antipad25 box">
             <div class="col33 pad25">
-                <div class="block">
+                <div class="block secondary">
                     <h3>LoveStory</h3>
                     <p>
                         Если вы с поводом или без собрались на прогулку — зовите с собой фотографа. 
-                        Положительные эмоции и яркие фото гарантированы!<br/>
-                        <a href="/portfolio/lovestory">Посмотреть примеры работ</a>
+                        Положительные эмоции и яркие фото гарантированы!
                     </p>
+                    <a class="button" href="/portfolio/lovestory">Посмотреть примеры работ</a>
                     <hr/>
                     <h3>Семейные праздники</h3>
                     <p>
                         Какой же праздник без приятных воспоминаний? А их надо сохранить, и в этом 
-                        вам поможет профессионал.<br/>
-                        <a href="" style="display: none">See all Features</a>
+                        вам поможет профессионал.
                     </p>
+                    <a class="button" href="" style="display: none">See all Features</a>
                     <hr/>
                     <h3>Студийная съёмка</h3>
                     <p>
                         Кто устоит перед отличными студийными фото, на которых как нельзя лучше можно 
-                        передать характер модели?<br/>
-                        <a href="" style="display: none">See more</a>
+                        передать характер модели?
                     </p>
+                    <a class="button" href="" style="display: none">See more</a>
                     <hr/>
                     <h3>Фотокниги</h3>
                     <p>
                         Это поистине волшебное чувство, когда держишь в руках и листаешь страницы своей 
-                        жизни с такими теплыми воспоминаниями.<br/>
-                        <a href="uslugi/photobook">Выбрать свою фотокнигу</a>
+                        жизни с такими теплыми воспоминаниями.
                     </p>
+                    <a class="button" href="uslugi/photobook">Выбрать свою фотокнигу</a>
                 </div>
             </div>
             <div class="col66 pad25">
                 <div class="antipad25 box">
                     <!-- Свадебная видеосъёмка -->
                     <div class="col50 pad25">
-                        <div class="block center">
+                        <div class="block secondary center">
+                            <i class="icon-film"></i>
                             <h3>Свадебная видеосъёмка</h3>
-                            <p>
+                            <p class="margin-large-bottom">
                                 Чтобы все ваши эмоции остались в памяти, чтобы вы могли пережить 
                                 этот день снова я снимаю видеофильм о вашей свадьбе.
                             </p>
+                            <a class="button button-align-bottom" href="/video">Примеры работ</a>
                         </div>
                     </div>
                     <!-- Свадебная фотосъёмка -->
                     <div class="col50 pad25">
-                        <div class="block center">
+                        <div class="block secondary center">
                             <h3>Свадебная<br/>фотосъёмка</h3>
-                            <p>
+                            <p class="margin-large-bottom">
                                 Любые, даже самые непредсказуемые события, которые окружают 
                                 вас в этот день, останутся на фото и будут радовать вас много лет.
                             </p>
+                            <a class="button button-align-bottom" href="/portfolio/wedding">Примеры работ</a>
                         </div>
                     </div>
                 </div>
