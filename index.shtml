@@ -82,19 +82,19 @@
                 <div id="home_slideshow">
                     <ul>
                         <li>
-                            <img src="images/home-slideshow/home_slideshow-1.jpg">
+                            <img src="images/home-slideshow/home_slideshow-1.jpg" alt="Мужчина и женщина хранят ключи от сердец друг друга">
                             <h3 style="top: 30px;">Мужчина и женщина хранят ключи от <strong>сердец друг друга</strong></h3>
                         </li>
                         <li>
-                            <img src="images/home-slideshow/home_slideshow-2.jpg">
+                            <img src="images/home-slideshow/home_slideshow-2.jpg" alt="С дорогими людьми всегда мало общих фотографий">
                             <h3 style="bottom: 30px;">С дорогими людьми всегда мало<br /><strong>общих фотографий</strong></h3>
                         </li>
                         <li>
-                            <img src="images/home-slideshow/home_slideshow-3.jpg">
+                            <img src="images/home-slideshow/home_slideshow-3.jpg" alt="Счастье рядом. Просто протяни руку.">
                             <h3 style="bottom: 30px;">Счастье рядом. <strong>Просто протяни руку.</strong></h3>
                         </li>
                         <li>
-                            <img src="images/home-slideshow/home_slideshow-4.jpg">
+                            <img src="images/home-slideshow/home_slideshow-4.jpg" alt="Ты + Я = Семья.">
                             <h3 style="top: 30px;">Ты + Я <strong>= Семья.</strong></h3>
                         </li>
                     </ul>
@@ -189,49 +189,49 @@
                         <ul id="reviews_list">
                             <li class="rv_m">
                                 <div class="photo">
-                                    <img src="/images/otzivi_na_glavnoi/Silchuk.jpg">
+                                    <img src="/images/otzivi_na_glavnoi/Silchuk.jpg" alt="Света">
                                     <h4>Света</h4>
                                 </div>
-                                <span class="text">
+                                <div class="text">
                                     Я давно мечтала о профессиональной фотосессии и, после тренинга
                                     о женственности, попала на акцию от Ксюши. В результате увидела
                                     себя на фотографиях в новом ракурсе: яркой, женственной и счастливой.
                                     Спасибо Ксюше, что помогла чуть больше раскрыть себя и увидеть свои
                                     положительные стороны.
-                                </span>
+                                </div>
                             </li>
                             <li class="rv_r">
                                 <div class="photo">
-                                    <img src="/images/otzivi_na_glavnoi/rodkin.jpg">
+                                    <img src="/images/otzivi_na_glavnoi/rodkin.jpg" alt="Сергей">
                                     <h4>Сергей</h4>
                                 </div>
-                                <span class="text">
+                                <div class="text">
                                     Делали свадьбу на память родителям и детям. Но были приятно удивлены
                                     качеством съёмки и монтажа! Кроме сочно нарезанного полного видео,
                                     глаз радуют короткие клипы с избранными фрагментами. Когда погружен
                                     в процесс — Оксану не замечаешь — где она, откуда снимает... эдакий
                                     самурай) А в итоге приятно удивлены с получившихся ракурсов
                                     и пойманных моментов! Рекомендую!
-                                </span>
+                                </div>
                             </li>
                             <li class="rv_r">
                                 <div class="photo">
-                                    <img src="/images/otzivi_na_glavnoi/Nastya_Z.jpg">
+                                    <img src="/images/otzivi_na_glavnoi/Nastya_Z.jpg" alt="Настя">
                                     <h4>Настя</h4>
                                 </div>
-                                <span class="text">
+                                <div class="text">
                                     Приглашали Оксану на видео и фото съемку детского дня рождения,
                                     остались очень довольны, фотографиями особенно. Наши знакомые
                                     тоже пользовались услугами Оксаны. Качество работ на 5+.
                                     Рекомендую к сотрудничеству.
-                                </span>
+                                </div>
                             </li>
                             <li class="rv_r">
                                 <div class="photo">
-                                    <img src="/images/otzivi_na_glavnoi/Sulaeva.jpg">
+                                    <img src="/images/otzivi_na_glavnoi/Sulaeva.jpg" alt="Юлия">
                                     <h4>Юлия</h4>
                                 </div>
-                                <span class="text" style="line-height: 1">
+                                <div class="text" style="line-height: 1">
                                     <p>Я очень люблю все творческое, красивое, изящное, сделанное со вкусом
                                         и любовью. И поэтому работы Оксаны Найденко, как фото, так и видео,
                                         находят отклик в моем сердце.</p>
@@ -248,7 +248,7 @@
                                     <!--</p>-->
                                     <!--<p>Поэтому – очень рекомендую.</p>-->
                                     <!--<p><i>Сулаева Юлия.</i></p>-->
-                                </span>
+                                </div>
                             </li>
                         </ul>
                     </div>
