@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OkFILM диск — Фотограф, видеооператор Оксана Найденко | OkFILM</title>
+    <meta name="keywords" content="Оксана Найденко, фотограф, видеооператор, видеооператор на свадьбу, свадьба, фотосессия, LoveStory, свадебный фотограф" />
+    <meta name="description" content="Фотограф и видеооператор Оксана Найденко. Я с удовольствием сохраню тёплые и яркие моменты Вашей свадьбы, Love Story и радостных событий." />
+
+    <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/theme.css?v=20160528" type="text/css">
+</head>
+<body>
+
+<div id="parallaxBackground" class="tm_background" style="top: 0"></div>
+
+<div class="container box">
+
+    <!--#include virtual="/include/header.html" -->
+
+    <!-- Breadcrumb -->
+    <ul class="breadcrumb">
+        <li><a href="/">Главная</a></li>
+        <li>Услуги</li>
+        <li>OkFILM диск</li>
+    </ul>
+
+    <article class="article">
+
+        <h1 class="article-title">OkFILM диск</h1>
+
+        <iframe src="http://files.okfilm.com.ua/" style="border: 0; width: 100%; height: 700px;"></iframe>
+
+    </article>
+
+    <!--#include virtual="/include/footer.html" -->
+
+</div>
+
+<script src="/js/jquery-1.12.2.min.js"></script>
+<script src="/js/theme.js?v=20160528"></script>
+
+<!--#include virtual="/include/analytics.html"-->
+
+</body>
+</html>
