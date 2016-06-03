@@ -131,10 +131,14 @@ a:hover, .link:hover {color: #41656f; text-decoration: underline;}
 .button:hover{text-decoration: none;}
 .button-large{font-size: 16px; line-height: 40px; min-height: 40px; padding: 0 15px;}
 .button-align-bottom{position: absolute; left: 0; right: 0; bottom: 0; width: 100%; line-height: 50px; min-height: 50px;}
+.fa.block-icon{width: 40px; height: 40px; position: absolute; top: 0; left: 50%; margin-left: -20px; display: table; text-align: center;}
+.fa.block-icon:before{display: table-cell; vertical-align: middle;}
 .primary .button{color: #e1eaec; background: #2e325c none repeat scroll 0 0;}
 .primary .button:hover{background: #333866 none repeat scroll 0 0;}
+.primary .fa{font-size: 22px; color: #272b4e; background: rgba(56,62,112,0.9) none repeat scroll 0 0;}
 .secondary .button{color: rgba(99,85,63,0.8); background: #e9dfd1 none repeat scroll 0 0;}
 .secondary .button:hover{background: #e4d8c6; color: #63553f;}
+.secondary .fa{font-size: 22px; color: rgba(99,85,63,0.25); background: rgba(221,207,185,0.3) none repeat scroll 0 0;}
 
 
 /* Фотоплёнка на главной */

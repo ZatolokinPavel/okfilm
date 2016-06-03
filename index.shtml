@@ -104,6 +104,7 @@
             <!-- LoveStory в подарок -->
             <div class="col33x960">
                 <div class="block primary center">
+                    <i class="fa fa-gift block-icon"></i>
                     <h3>LoveStory в подарок</h3>
                     <h4>Действующая акция</h4>
                     <p>При заказе свадебной съёмки LoveStory вы получаете в подарок.</p>
@@ -122,6 +123,7 @@
                     <!-- Свадебная фотосъёмка -->
                     <div class="col50x960r">
                         <div class="block secondary center">
+                            <i class="fa fa-camera block-icon"></i>
                             <h3>Свадебная<br/>фотосъёмка</h3>
                             <p class="margin-large-bottom">
                                 Любые, даже самые непредсказуемые события, которые окружают
@@ -134,7 +136,7 @@
                     <!-- Свадебная видеосъёмка -->
                     <div class="col50x960r">
                         <div class="block secondary center">
-                            <!--<i class="icon-film"></i>-->
+                            <i class="fa fa-film block-icon"></i>
                             <h3>Свадебная<br/>видеосъёмка</h3>
                             <p class="margin-large-bottom">
                                 Чтобы все ваши эмоции остались в памяти, чтобы вы могли пережить
@@ -150,6 +152,7 @@
             <!-- LoveStory, Семейные праздники, Студийная съёмка, Фотокниги -->
             <div class="col33x768">
                 <div class="block secondary">
+                    <i class="fa fa-camera block-icon"></i>
                     <h3>LoveStory</h3>
                     <p>
                         Если вы с поводом или без собрались на прогулку — зовите с собой фотографа. 
