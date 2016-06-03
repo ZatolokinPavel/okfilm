@@ -52,10 +52,10 @@ hr{box-sizing: content-box; height:0; margin: 15px 0; border:0; border-top: 1px 
 .menu > ul{display:inline-block;}
 .menu > ul > li{float:left; margin:0 5px; background-color: rgba(0,0,0,0); display:inline-block;}
 .menu > ul > li > a{height: 40px; line-height: 40px; padding:0 10px; font-size: 16px;
-                    background-color: rgba(136,125,178,0.4); border: 2px solid rgba(75,80,82,0.1);}
-.menu > ul > li > a:hover{background-color: rgba(253,253,254,0.2); border: 2px solid rgba(75,80,82,0.2);}
+                    background-color: rgba(136,125,178,0.5); border: 2px solid rgba(75,80,82,0.1);}
+.menu > ul > li > a:hover{background-color: rgba(253,253,254,0.7); border: 2px solid rgba(75,80,82,0.2);}
 .submenu{position: absolute; padding-top: 10px; width: auto; min-width: 150px; text-align: left; display: none;}
-.submenu ul{padding: 20px; background-color: rgba(253,253,254,0.4); border: 2px solid rgba(75,80,82,0.2);}
+.submenu ul{padding: 20px; background-color: rgba(253,253,254,0.7); border: 2px solid rgba(75,80,82,0.2);}
 .submenu a{padding: 5px 10px; text-transform:none;}
 
 
