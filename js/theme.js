@@ -36,6 +36,9 @@ $(function() {
     $('#main_menu > ul').clone().appendTo('#sidebar_menu');
     document.getElementById('mobile_menu_toggle').addEventListener('click',toggleMobileMenu);
     document.getElementById('close_sidebar').addEventListener('click',toggleMobileMenu);
+    var swipeFun = { left: function() {toggleMobileMenu();}, right: function(){}, top: function(){}, bottom: function(){} };
+    swipe(document.getElementById('sidebar'), swipeFun);
+    swipe(document.getElementById('close_sidebar'), swipeFun);
 });
 
 function toggleMobileMenu() {
@@ -80,4 +83,39 @@ function scrolledToTheItem(el) {
     var windowHeight = $(window).height();          // высота видимой области окна
     var offset = el.offset();                       // положение верхнего левого угла элемента
     return (offset.top + el.height()*2/3) < (scrollTop + windowHeight); // проверяем что элемент появился над нижней границей видимой области хотябы на 2/3
+}
+
+
+// Функция обработки свайпа на указанном элементе
+function swipe(el, swipeResult) {
+    var initialPoint;
+    var finalPoint;
+    el.addEventListener('touchstart', function(event) {
+        event.preventDefault();
+        event.stopPropagation();
+        initialPoint = event.changedTouches[0];
+    }, false);
+    el.addEventListener('touchend', function(event) {
+        event.preventDefault();
+        event.stopPropagation();
+        finalPoint = event.changedTouches[0];
+        var xAbs = Math.abs(initialPoint.pageX - finalPoint.pageX);
+        var yAbs = Math.abs(initialPoint.pageY - finalPoint.pageY);
+        if (xAbs > 20 || yAbs > 20) {
+            if (xAbs > yAbs) {
+                if (finalPoint.pageX < initialPoint.pageX){
+                    swipeResult.left(); // СВАЙП ВЛЕВО
+                } else {
+                    swipeResult.right(); // СВАЙП ВПРАВО
+                }
+            }
+            else {
+                if (finalPoint.pageY < initialPoint.pageY){
+                    swipeResult.top(); // СВАЙП ВВЕРХ
+                } else {
+                    swipeResult.bottom(); // СВАЙП ВНИЗ
+                }
+            }
+        }
+    }, false);
 }

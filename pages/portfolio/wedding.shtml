@@ -20,7 +20,7 @@
     <div class="wrapper">
 
         <!-- Боковое меню для мобильных устройств -->
-        <div class="sidebar">
+        <div id="sidebar">
             <div id="sidebar_menu" class="sidemenu"></div>
         </div>
         <div id="close_sidebar"></div>  <!-- Этот блок затеняет основной контент, чтобы потом скрывать боковое меню -->

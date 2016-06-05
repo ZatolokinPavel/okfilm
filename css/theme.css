@@ -17,7 +17,7 @@ body{color:#777777; background: #887db2; font-size: 15px; line-height: 22px;
      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
 .wrapper{position: relative; left: 0; transition: left 0.3s ease-in-out;}
 .wrapper.open-sidebar{left: 270px;}
-.sidebar{position: absolute; top: 0; bottom: 0; left: -270px; max-width: 100%; width: 270px; background: #33373b;}
+#sidebar{position: absolute; top: 0; bottom: 0; left: -270px; max-width: 100%; width: 270px; background: #33373b;}
 #close_sidebar{position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.1); z-index: 1; display: none;}
 .open-sidebar #close_sidebar{display: block;}
 .container{max-width: 1200px; padding: 0 15px; margin: 0 auto;}
