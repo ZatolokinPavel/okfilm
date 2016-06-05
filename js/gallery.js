@@ -35,9 +35,9 @@ $(function() {
     document.getElementById('lightbox_right').addEventListener('click', showNextPhoto);     // стрелка вправо на фото переключает на следующую фотку
     document.getElementById('lightbox_wrap').addEventListener('wheel', changePhoto_wheel);  // вращение колёсика мышки на фотографии меняет фотографию
     document.addEventListener('keydown', changePhoto_keyboard);                             // смена фотографии клавиатурой
-    swipe(document.getElementById('lightbox_wrap'), {
-        left:   function() { showPrevPhoto(); },
-        right:  function() { showNextPhoto(); },
+    swipe(document.getElementById('lightbox_wrap'), {                                       // смена фотографии и закрытие просмотра по свайпу
+        left:   function() { showNextPhoto(); },
+        right:  function() { showPrevPhoto(); },
         top:    function() { closeLightBox(); },
         bottom: function() { closeLightBox(); }
     });
