@@ -12,12 +12,12 @@ img{border: 0 none; height: auto; max-width: 100%; vertical-align: middle;}
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {display: block;}   /* Делаем HTML5 элементы блочными */
 /* Конец подгонки под старые браузеры*/
 
-body{color:#777777; background: #887db2; margin: 0; overflow: hidden;
-     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 15px; line-height: 22px;}
+html, body {width: 100%; overflow-x: hidden; margin: 0;}
+body{color:#777777; background: #887db2; font-size: 15px; line-height: 22px;
+     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
 .wrapper{position: relative; left: 0; transition: left 0.3s ease-in-out;}
 .wrapper.open-sidebar{left: 270px;}
-.sidebar{position: absolute; top: 0; bottom: 0; left: 0; max-width: 100%; width: 270px;
-         transform: translateX(-100%); background: #33373b;}
+.sidebar{position: absolute; top: 0; bottom: 0; left: -270px; max-width: 100%; width: 270px; background: #33373b;}
 #close_sidebar{position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.1); z-index: 1; display: none;}
 .open-sidebar #close_sidebar{display: block;}
 .container{max-width: 1200px; padding: 0 15px; margin: 0 auto;}
@@ -38,7 +38,7 @@ hr{box-sizing: content-box; height:0; margin: 15px 0; border:0; border-top: 1px 
 
 
 .navbar{text-align: center; padding: 50px 0 70px 0; color: #4b5052; position: relative;}
-.main_page .navbar{margin: 130px 0 150px 0;}
+.main_page .navbar{padding: 130px 0 150px 0;}
 .navbar a{text-decoration:none; color:inherit; display: inline-block;}
 .navbar a:hover{text-decoration: none; color:inherit;}
 
