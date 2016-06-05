@@ -31,19 +31,16 @@ var timerObj = {};
 }());
 
 
-// Главное меню - раскрытие подменю
+// Главное меню - раскрытие мобильного меню
 $(function() {
-    var menu = $('#main_menu li');
-    menu.hover(function(){
-        // при наведении мыши останавливаем текущую анимацию и разворачиваем подменю
-        $("div",this).stop(true,false).slideDown(200);
-    }, function(){
-        // когда убираем курсор, останавливаем текущую анимацию и сворачиваем подменю
-        $("div",this).stop(true,false).slideUp(200);
-    });
+    $('#main_menu > ul').clone().appendTo('#sidebar_menu');
+    document.getElementById('mobile_menu_toggle').addEventListener('click',toggleMobileMenu);
+    document.getElementById('close_sidebar').addEventListener('click',toggleMobileMenu);
 });
 
-
+function toggleMobileMenu() {
+    $('.wrapper').toggleClass('open-sidebar');
+}
 
 
 // Анимация элементов в зависимости от прокрутки.

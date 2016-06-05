@@ -9,87 +9,99 @@
     <meta name="description" content="Фотограф и видеооператор Оксана Найденко. Я с удовольствием сохраню тёплые и яркие моменты Вашей свадьбы, Love Story и радостных событий." />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/css/theme.css?v=20160603" type="text/css">
-    <link rel="stylesheet" href="/css/video.css?v=20160603" type="text/css">
+    <link rel="stylesheet" href="/css/theme.css?v=20160604" type="text/css">
+    <link rel="stylesheet" href="/css/video.css?v=20160604" type="text/css">
     <link rel="stylesheet" href="/font-awesome-4.6.3/css/font-awesome.min.css">
 </head>
-<body>
+<body id="body" class="noscript">
+    <!-- Для браузеров, где не работает js, применяем дополнительные стили -->
+    <script>document.getElementById('body').classList.remove("noscript")</script>
 
-<div id="parallaxBackground" class="tm_background" style="top: 0"></div>
+    <div class="wrapper">
 
-<div class="container box">
-
-    <!--#include virtual="/include/header.html" -->
-
-    <!-- Breadcrumb -->
-    <ul class="breadcrumb">
-        <li><a href="/">Главная</a></li>
-        <li>Видео</li>
-    </ul>
-
-    <article class="article">
-
-        <h1 class="article-title">Видео</h1>
-
-        <div class="video">
-            <h2>Михаил и Елена</h2>
-            <h4>Sweet Video</h4>
-            <div class="youtube" style="height: 315px; width: 560px;">iJVQTlaHMCs</div>
+        <!-- Боковое меню для мобильных устройств -->
+        <div class="sidebar">
+            <div id="sidebar_menu" class="sidemenu"></div>
         </div>
+        <div id="close_sidebar"></div>  <!-- Этот блок затеняет основной контент, чтобы потом скрывать боковое меню -->
 
-        <div class="video">
-            <h2>Дмитрий и Елена</h2>
-            <div style="float:left; margin-right:15px">
-                <h4>Promo</h4>
-                <div class="youtube" style="height: 180px; width: 320px;">5d3_KheWfOU</div>
-            </div>
-            <div style="float:left; margin-right:15px">
-                <h4>Before...</h4>
-                <div class="youtube" style="height: 180px; width: 320px;">2i_cOHDh8JM</div>
-            </div>
-            <div style="float:left">
-                <h4>Важный шаг</h4>
-                <div class="youtube" style="height: 180px; width: 320px;">dgfS1vrImno</div>
-            </div>
+        <!-- Фоновая картинка вверху сайта с эффектом parallax -->
+        <div id="parallaxBackground" class="tm_background" style="top: 0"></div>
 
-            <div style="clear:both"></div>
+        <div class="container box">
 
-            <div style="float:left; margin-right:15px">
-                <h4>Прогулка</h4>
-                <div class="youtube" style="height: 180px; width: 320px;">4sCd2XP2Yqs</div>
-            </div>
-            <div style="float:left; margin-right:15px">
-                <h4>Встречаем молодоженов</h4>
-                <div class="youtube" style="height: 180px; width: 320px;">xAqZF6Jb5EU</div>
-            </div>
-            <div style="float:left">
-                <h4>Наш вечер</h4>
-                <div class="youtube" style="height: 180px; width: 320px;">4H2hjYRJoUo</div>
-            </div>
-            <div style="clear:both"></div>
+            <!--#include virtual="/include/header.html" -->
+
+            <!-- Breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="/">Главная</a></li>
+                <li>Видео</li>
+            </ul>
+
+            <article class="article">
+
+                <h1 class="article-title">Видео</h1>
+
+                <div class="video">
+                    <h2>Михаил и Елена</h2>
+                    <h4>Sweet Video</h4>
+                    <div class="youtube" style="height: 315px; width: 560px;">iJVQTlaHMCs</div>
+                </div>
+
+                <div class="video">
+                    <h2>Дмитрий и Елена</h2>
+                    <div style="float:left; margin-right:15px">
+                        <h4>Promo</h4>
+                        <div class="youtube" style="height: 180px; width: 320px;">5d3_KheWfOU</div>
+                    </div>
+                    <div style="float:left; margin-right:15px">
+                        <h4>Before...</h4>
+                        <div class="youtube" style="height: 180px; width: 320px;">2i_cOHDh8JM</div>
+                    </div>
+                    <div style="float:left">
+                        <h4>Важный шаг</h4>
+                        <div class="youtube" style="height: 180px; width: 320px;">dgfS1vrImno</div>
+                    </div>
+
+                    <div style="clear:both"></div>
+
+                    <div style="float:left; margin-right:15px">
+                        <h4>Прогулка</h4>
+                        <div class="youtube" style="height: 180px; width: 320px;">4sCd2XP2Yqs</div>
+                    </div>
+                    <div style="float:left; margin-right:15px">
+                        <h4>Встречаем молодоженов</h4>
+                        <div class="youtube" style="height: 180px; width: 320px;">xAqZF6Jb5EU</div>
+                    </div>
+                    <div style="float:left">
+                        <h4>Наш вечер</h4>
+                        <div class="youtube" style="height: 180px; width: 320px;">4H2hjYRJoUo</div>
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+
+                <div class="video">
+                    <h2>Артем и Даша</h2>
+                    <h4>Видеоприглашение</h4>
+                    <div class="youtube" style="height: 315px; width: 560px;">h4dcDDV6uRQ</div>
+                </div>
+
+                <div class="video">
+                    <h2>Артём и Елена</h2>
+                    <h4>В ожидании чуда</h4>
+                    <!--<iframe src="https://player.vimeo.com/video/135396026?title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+                </div>
+
+            </article>
+
+            <!--#include virtual="/include/footer.html" -->
+
         </div>
-
-        <div class="video">
-            <h2>Артем и Даша</h2>
-            <h4>Видеоприглашение</h4>
-            <div class="youtube" style="height: 315px; width: 560px;">h4dcDDV6uRQ</div>
-        </div>
-
-        <div class="video">
-            <h2>Артём и Елена</h2>
-            <h4>В ожидании чуда</h4>
-            <!--<iframe src="https://player.vimeo.com/video/135396026?title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
-        </div>
-
-    </article>
-
-    <!--#include virtual="/include/footer.html" -->
-
-</div>
+    </div>
 
 <script src="/js/jquery-1.12.2.min.js"></script>
-<script src="/js/theme.js?v=20160603"></script>
-<script src="/js/video.js?v=20160603"></script>
+<script src="/js/theme.js?v=20160604"></script>
+<script src="/js/video.js?v=20160604"></script>
 
 <!--#include virtual="/include/analytics.html"-->
 

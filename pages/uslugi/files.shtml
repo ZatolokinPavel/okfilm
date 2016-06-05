@@ -9,38 +9,50 @@
     <meta name="description" content="Фотограф и видеооператор Оксана Найденко. Я с удовольствием сохраню тёплые и яркие моменты Вашей свадьбы, Love Story и радостных событий." />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/css/theme.css?v=20160603" type="text/css">
+    <link rel="stylesheet" href="/css/theme.css?v=20160604" type="text/css">
     <link rel="stylesheet" href="/font-awesome-4.6.3/css/font-awesome.min.css">
 </head>
-<body>
+<body id="body" class="noscript">
+    <!-- Для браузеров, где не работает js, применяем дополнительные стили -->
+    <script>document.getElementById('body').classList.remove("noscript")</script>
 
-<div id="parallaxBackground" class="tm_background" style="top: 0"></div>
+    <div class="wrapper">
 
-<div class="container box">
+        <!-- Боковое меню для мобильных устройств -->
+        <div class="sidebar">
+            <div id="sidebar_menu" class="sidemenu"></div>
+        </div>
+        <div id="close_sidebar"></div>  <!-- Этот блок затеняет основной контент, чтобы потом скрывать боковое меню -->
 
-    <!--#include virtual="/include/header.html" -->
+        <!-- Фоновая картинка вверху сайта с эффектом parallax -->
+        <div id="parallaxBackground" class="tm_background" style="top: 0"></div>
 
-    <!-- Breadcrumb -->
-    <ul class="breadcrumb">
-        <li><a href="/">Главная</a></li>
-        <li>Услуги</li>
-        <li>OkFILM диск</li>
-    </ul>
+        <div class="container box">
 
-    <article class="article">
+            <!--#include virtual="/include/header.html" -->
 
-        <h1 class="article-title">OkFILM диск</h1>
+            <!-- Breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="/">Главная</a></li>
+                <li>Услуги</li>
+                <li>OkFILM диск</li>
+            </ul>
 
-        <iframe src="http://files.okfilm.com.ua/" style="border: 0; width: 100%; height: 700px;"></iframe>
+            <article class="article">
 
-    </article>
+                <h1 class="article-title">OkFILM диск</h1>
 
-    <!--#include virtual="/include/footer.html" -->
+                <iframe src="http://files.okfilm.com.ua/" style="border: 0; width: 100%; height: 700px;"></iframe>
 
-</div>
+            </article>
+
+            <!--#include virtual="/include/footer.html" -->
+
+        </div>
+    </div>
 
 <script src="/js/jquery-1.12.2.min.js"></script>
-<script src="/js/theme.js?v=20160603"></script>
+<script src="/js/theme.js?v=20160604"></script>
 
 <!--#include virtual="/include/analytics.html"-->
 

@@ -9,69 +9,82 @@
     <meta name="description" content="Фотограф и видеооператор Оксана Найденко. Я с удовольствием сохраню тёплые и яркие моменты Вашей свадьбы, Love Story и радостных событий." />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/css/theme.css?v=20160603" type="text/css">
-    <link rel="stylesheet" href="/css/gallery.css?v=20160603" type="text/css">
+    <link rel="stylesheet" href="/css/theme.css?v=20160604" type="text/css">
+    <link rel="stylesheet" href="/css/gallery.css?v=20160604" type="text/css">
     <link rel="stylesheet" href="/font-awesome-4.6.3/css/font-awesome.min.css">
 </head>
-<body>
+<body id="body" class="noscript">
+    <!-- Для браузеров, где не работает js, применяем дополнительные стили -->
+    <script>document.getElementById('body').classList.remove("noscript")</script>
 
-<div id="parallaxBackground" class="tm_background" style="top: 0"></div>
+    <div class="wrapper">
 
-<div class="container box">
-
-    <!--#include virtual="/include/header.html" -->
-
-    <!-- Breadcrumb -->
-    <ul class="breadcrumb">
-        <li><a href="/">Главная</a></li>
-        <li><a href="/portfolio">Портфолио</a></li>
-        <li>Свадьба</li>
-    </ul>
-
-    <article class="article">
-        <h3>Свадьба</h3>
-        <p class="back-to-portfolio"><a href="/portfolio">&larr; Назад к портфолио</a></p>
-        <div class="gallery_slider">
-            <ul>
-                <li style="background-image: url('/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_08.jpg')">
-                    <a href="/portfolio/wedding/artjom-i-liza"></a>
-                </li>
-                <li style="background-image: url('/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_04.jpg')">
-                    <a href="/portfolio/wedding/artjom-i-natalya"></a>
-                </li>
-                <li style="background-image: url('/images/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_04.jpg')">
-                    <a href="/portfolio/wedding/sasha-i-liza"></a>
-                </li>
-                <li style="background-image: url('/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_16.jpg')">
-                    <a href="/portfolio/wedding/denis-i-yuliya"></a>
-                </li>
-                <li style="background-image: url('/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/default.jpg')">
-                    <a href="/portfolio/wedding/ruslan-i-anna"></a>
-                </li>
-                <li style="background-image: url('/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_19.jpg')">
-                    <a href="/portfolio/wedding/slavik-i-yulya"></a>
-                </li>
-            </ul>
+        <!-- Боковое меню для мобильных устройств -->
+        <div class="sidebar">
+            <div id="sidebar_menu" class="sidemenu"></div>
         </div>
-    </article>
+        <div id="close_sidebar"></div>  <!-- Этот блок затеняет основной контент, чтобы потом скрывать боковое меню -->
 
-    <!--#include virtual="/include/footer.html" -->
+        <!-- Фоновая картинка вверху сайта с эффектом parallax -->
+        <div id="parallaxBackground" class="tm_background" style="top: 0"></div>
 
-</div>
+        <div class="container box">
 
-<!-- LightBox -- START -->
-<div id="lightbox_overlay"></div>
-<div id="lightbox_wrap">
-    <div id="lightbox_content"></div>
-    <a id="lightbox_close"></a>
-    <a id="lightbox_left"><span id="lightbox_left_ico"></span></a>
-    <a id="lightbox_right"><span id="lightbox_right_ico"></span></a>
-</div>
-<!-- LightBox -- END -->
+            <!--#include virtual="/include/header.html" -->
+
+            <!-- Breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="/">Главная</a></li>
+                <li><a href="/portfolio">Портфолио</a></li>
+                <li>Свадьба</li>
+            </ul>
+
+            <article class="article">
+                <h3>Свадьба</h3>
+                <p class="back-to-portfolio"><a href="/portfolio">&larr; Назад к портфолио</a></p>
+                <div class="gallery_slider">
+                    <ul>
+                        <li style="background-image: url('/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_08.jpg')">
+                            <a href="/portfolio/wedding/artjom-i-liza"></a>
+                        </li>
+                        <li style="background-image: url('/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_04.jpg')">
+                            <a href="/portfolio/wedding/artjom-i-natalya"></a>
+                        </li>
+                        <li style="background-image: url('/images/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_04.jpg')">
+                            <a href="/portfolio/wedding/sasha-i-liza"></a>
+                        </li>
+                        <li style="background-image: url('/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_16.jpg')">
+                            <a href="/portfolio/wedding/denis-i-yuliya"></a>
+                        </li>
+                        <li style="background-image: url('/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/default.jpg')">
+                            <a href="/portfolio/wedding/ruslan-i-anna"></a>
+                        </li>
+                        <li style="background-image: url('/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_19.jpg')">
+                            <a href="/portfolio/wedding/slavik-i-yulya"></a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+            <!--#include virtual="/include/footer.html" -->
+
+        </div>
+    </div>
+
+
+    <!-- LightBox -- START -->
+    <div id="lightbox_overlay"></div>
+    <div id="lightbox_wrap">
+        <div id="lightbox_content"></div>
+        <a id="lightbox_close"></a>
+        <a id="lightbox_left"><span id="lightbox_left_ico"></span></a>
+        <a id="lightbox_right"><span id="lightbox_right_ico"></span></a>
+    </div>
+    <!-- LightBox -- END -->
 
 <script src="/js/jquery-1.12.2.min.js"></script>
-<script src="/js/theme.js?v=20160603"></script>
-<script src="/js/gallery.js?v=20160603"></script>
+<script src="/js/theme.js?v=20160604"></script>
+<script src="/js/gallery.js?v=20160604"></script>
 
 <!--#include virtual="/include/analytics.html"-->
 

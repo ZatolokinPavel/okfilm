@@ -9,63 +9,75 @@
     <meta name="description" content="Фотограф и видеооператор Оксана Найденко. Я с удовольствием сохраню тёплые и яркие моменты Вашей свадьбы, Love Story и радостных событий." />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/css/theme.css?v=20160603" type="text/css">
-    <link rel="stylesheet" href="/css/video.css?v=20160603" type="text/css">
+    <link rel="stylesheet" href="/css/theme.css?v=20160604" type="text/css">
+    <link rel="stylesheet" href="/css/video.css?v=20160604" type="text/css">
     <link rel="stylesheet" href="/font-awesome-4.6.3/css/font-awesome.min.css">
 </head>
-<body>
+<body id="body" class="noscript">
+    <!-- Для браузеров, где не работает js, применяем дополнительные стили -->
+    <script>document.getElementById('body').classList.remove("noscript")</script>
 
-<div id="parallaxBackground" class="tm_background" style="top: 0"></div>
+    <div class="wrapper">
 
-<div class="container box">
-
-    <!--#include virtual="/include/header.html" -->
-
-    <!-- Breadcrumb -->
-    <ul class="breadcrumb">
-        <li><a href="/">Главная</a></li>
-        <li>Видео</li>
-        <li>Школа</li>
-    </ul>
-
-    <article class="article">
-
-        <h1 class="article-title">Видео</h1>
-
-        <div class="video">
-            <h2>Первый Звонок 108 школа (4 класс)</h2>
-            <div class="youtube" style="height: 315px; width: 560px;">DrdCAB8z7Xo</div>
+        <!-- Боковое меню для мобильных устройств -->
+        <div class="sidebar">
+            <div id="sidebar_menu" class="sidemenu"></div>
         </div>
+        <div id="close_sidebar"></div>  <!-- Этот блок затеняет основной контент, чтобы потом скрывать боковое меню -->
 
-        <div class="video">
-            <h2>Клип Happy (11 класс)</h2>
-            <div class="youtube" style="height: 315px; width: 560px;">U6cdSNYxuFs</div>
+        <!-- Фоновая картинка вверху сайта с эффектом parallax -->
+        <div id="parallaxBackground" class="tm_background" style="top: 0"></div>
+
+        <div class="container box">
+
+            <!--#include virtual="/include/header.html" -->
+
+            <!-- Breadcrumb -->
+            <ul class="breadcrumb">
+                <li><a href="/">Главная</a></li>
+                <li>Видео</li>
+                <li>Школа</li>
+            </ul>
+
+            <article class="article">
+
+                <h1 class="article-title">Видео</h1>
+
+                <div class="video">
+                    <h2>Первый Звонок 108 школа (4 класс)</h2>
+                    <div class="youtube" style="height: 315px; width: 560px;">DrdCAB8z7Xo</div>
+                </div>
+
+                <div class="video">
+                    <h2>Клип Happy (11 класс)</h2>
+                    <div class="youtube" style="height: 315px; width: 560px;">U6cdSNYxuFs</div>
+                </div>
+
+                <div class="video">
+                    <h2>Кораблики (прощание с детством) 71 школа (11 класс)</h2>
+                    <div class="youtube" style="height: 315px; width: 560px;">hfSIQ9s3aJA</div>
+                </div>
+
+                <div class="video">
+                    <h2>11 архитектурный класс</h2>
+                    <div class="youtube" style="height: 315px; width: 560px;">qiP49r_kZwk</div>
+                </div>
+
+                <div class="video">
+                    <h2>Последний Звонок 71 школа (11 класс)</h2>
+                    <div class="youtube" style="height: 315px; width: 560px;">n7vLzdeCbgw</div>
+                </div>
+
+            </article>
+
+            <!--#include virtual="/include/footer.html" -->
+
         </div>
-
-        <div class="video">
-            <h2>Кораблики (прощание с детством) 71 школа (11 класс)</h2>
-            <div class="youtube" style="height: 315px; width: 560px;">hfSIQ9s3aJA</div>
-        </div>
-
-        <div class="video">
-            <h2>11 архитектурный класс</h2>
-            <div class="youtube" style="height: 315px; width: 560px;">qiP49r_kZwk</div>
-        </div>
-
-        <div class="video">
-            <h2>Последний Звонок 71 школа (11 класс)</h2>
-            <div class="youtube" style="height: 315px; width: 560px;">n7vLzdeCbgw</div>
-        </div>
-
-    </article>
-
-    <!--#include virtual="/include/footer.html" -->
-
-</div>
+    </div>
 
 <script src="/js/jquery-1.12.2.min.js"></script>
-<script src="/js/theme.js?v=20160603"></script>
-<script src="/js/video.js?v=20160603"></script>
+<script src="/js/theme.js?v=20160604"></script>
+<script src="/js/video.js?v=20160604"></script>
 
 <!--#include virtual="/include/analytics.html"-->
 
