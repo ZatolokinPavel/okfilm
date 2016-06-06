@@ -36,9 +36,9 @@ $(function() {
     $('#main_menu > ul').clone().appendTo('#sidebar_menu');
     document.getElementById('mobile_menu_toggle').addEventListener('click',toggleMobileMenu);
     document.getElementById('close_sidebar').addEventListener('click',toggleMobileMenu);
-    var swipeFun = { left: function() {toggleMobileMenu();}, right: function(){}, top: function(){}, bottom: function(){} };
-    swipe(document.getElementById('sidebar'), swipeFun);            // закрытие бокового меню свайпом
-    swipe(document.getElementById('close_sidebar'), swipeFun);
+    //var swipeFun = { left: function() {toggleMobileMenu();}, right: function(){}, top: function(){}, bottom: function(){} };
+    //swipe(document.getElementById('sidebar'), swipeFun);            // закрытие бокового меню свайпом
+    //swipe(document.getElementById('close_sidebar'), swipeFun);
 });
 
 function toggleMobileMenu() {
