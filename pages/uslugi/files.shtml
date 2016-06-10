@@ -44,7 +44,7 @@
 
                 <iframe src="http://files.okfilm.com.ua/" style="border: 0; width: 100%; height: 700px;"></iframe>
 
-                <!--#include virtual="$SHARED_FILES" -->
+                <!--#include virtual="$shared_files" -->
 
             </article>
 
