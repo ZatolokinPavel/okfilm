@@ -1,0 +1,84 @@
+/**
+ *  Стили для сетевого диска
+ */
+
+.shared-files{overflow: hidden; background-color: #fff; font-family: serif; font-size: 105%;
+              border-radius: 5px; box-shadow: 0 0 3px #ccc;}
+.shared-files h1{font-size: 90%; font-weight: 400; margin: 0; padding: 1em 1em 0 1em; color: #555;
+                 text-transform: none; line-height: normal;}
+.shared-files pre{overflow: auto; margin: 1em; line-height: 2em;}
+.shared-files a{color: #1c6094; text-decoration: none;}
+.shared-files a:hover{color: #000;}
+.shared-files .files-footer{margin: 0 1em 1em 1em; color: #888; font-size: 90%;}
+
+
+/**
+ * Nginx Indexer
+ * Tiny Icons (16x16)
+ * by Tux {2015-07-06}
+ * https://github.com/tuxy
+ */
+
+pre a[href]:before,
+pre a[href$="/"]:before {content: ""; padding: 5px 25px 0 0; background-repeat: no-repeat; background-position: left bottom;}
+
+/*a[href]:before {background: url(/images/files_icons/empty.png);}*/
+a[href]:before {background: url(/images/files_icons/none.png);}
+a[href$="/"]:before {background: url(/images/files_icons/folder.png);}
+
+/** Compressed **/
+a[href$=".7z"]:before {background: url(/images/files_icons/7z.png);}
+a[href$=".bin"]:before,
+a[href$=".cue"]:before {background: url(/images/files_icons/bin.png);}
+a[href$=".iso"]:before {background: url(/images/files_icons/iso.png);}
+a[href$=".rar"]:before {background: url(/images/files_icons/rar.png);}
+a[href$=".tar"]:before,
+a[href$=".tar.gz"]:before {background: url(/images/files_icons/tar.png);}
+a[href$=".tgz"]:before {background: url(/images/files_icons/tgz.png);}
+a[href$=".zip"]:before {background: url(/images/files_icons/zip.png);}
+a[href$=".bz2"]:before {background: url(/images/files_icons/bz2.png);}
+
+/** Data Storage **/
+a[href$=".csv"]:before {background: url(/images/files_icons/csv.png);}
+a[href$=".ini"]:before {background: url(/images/files_icons/ini.png);}
+a[href$=".xml"]:before {background: url(/images/files_icons/xml.png);}
+
+/** Documents **/
+a[href$=".chm"]:before {background: url(/images/files_icons/chm.png);}
+a[href$=".djvu"]:before{background: url(/images/files_icons/djvu.png);}
+a[href$=".pdf"]:before {background: url(/images/files_icons/pdf.png);}
+a[href$=".txt"]:before {background: url(/images/files_icons/text.png);}
+a[href$=".rtf"]:before {background: url(/images/files_icons/rtf.png);}
+a[href$=".doc"]:before {background: url(/images/files_icons/doc.png);}
+a[href$=".epub"]:before{background: url(/images/files_icons/epub.png);}
+
+/** Information **/
+a[href$=".nfo"]:before,
+a[href$=".diz"]:before {background: url(/images/files_icons/nfo.png);}
+
+/** Media Files **/
+a[href$=".flac"]:before{background: url(/images/files_icons/flac.png);}
+a[href$=".mp3"]:before {background: url(/images/files_icons/mp3.png);}
+a[href$=".wav"]:before {background: url(/images/files_icons/wav.png);}
+a[href$=".bmp"]:before {background: url(/images/files_icons/bmp.png);}
+a[href$=".gif"]:before {background: url(/images/files_icons/gif.png);}
+a[href$=".jpg"]:before,
+a[href$=".jpeg"]:before{background: url(/images/files_icons/jpg.png);}
+a[href$=".png"]:before {background: url(/images/files_icons/png.png);}
+a[href$=".psd"]:before {background: url(/images/files_icons/psd.png);}
+a[href$=".ra"]:before,
+a[href$=".rv"]:before  {background: url(/images/files_icons/rp.png);}
+a[href$=".avi"]:before {background: url(/images/files_icons/avi.png);}
+a[href$=".flv"]:before {background: url(/images/files_icons/flv.png);}
+a[href$=".mkv"]:before {background: url(/images/files_icons/mkv.png);}
+a[href$=".mov"]:before {background: url(/images/files_icons/mov.png);}
+a[href$=".mp4"]:before {background: url(/images/files_icons/mp4.png);}
+
+/** Source Code **/
+a[href$=".html"]:before,
+a[href$=".htm"]:before {background: url(/images/files_icons/html.png);}
+a[href$=".js"]:before  {background: url(/images/files_icons/javascript.png);}
+a[href$=".php"]:before {background: url(/images/files_icons/php.png);}
+a[href$=".py"]:before  {background: url(/images/files_icons/python.png);}
+a[href$=".css"]:before {background: url(/images/files_icons/css.png);}
+a[href$=".less"]:before{background: url(/images/files_icons/less.png);}
