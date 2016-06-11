@@ -43,8 +43,6 @@
 
                 <h1 class="article-title">OkFILM диск</h1>
 
-                <iframe src="http://files.okfilm.com.ua/" style="border: 0; width: 100%; height: 700px;"></iframe>
-
                 <div class="shared-files">
                     <!--#include virtual="$shared_files" -->
                     <div class="files-footer">OkFILM</div>
