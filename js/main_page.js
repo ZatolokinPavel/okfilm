@@ -19,9 +19,7 @@ $(function() {
     var counter = 0, img;                                       // счётчик загруженных изображений; само изображение
     function onLoad() {
         counter++;                                              // плюс ещё одно загруженное изображение
-        if (counter == photoFilm.length) {
-            centeringAndStart(photoFilmBlock);
-        }
+        if (counter == photoFilm.length) centeringAndStart();
     }
 
     for (var i=0; i < photoFilm.length; i++) {
@@ -33,13 +31,19 @@ $(function() {
 });
 
 // Центрирование фотоплёнки и запуск анимации
-function centeringAndStart(photoFilmBlock) {
+function centeringAndStart() {
     var winWidth = window.innerWidth;                           // ширина окна браузера
+    var photoFilmBlock = photoFilm[0].parentNode;               // вся фотоплёнка
     var photoWidth, filmLength = 0;                             // ширина текущего кадра, ширина всех кадров (длина фотоплёнки)
+    shotsFit = 1;                                               // сбрасываем счётчик видимых кадров
     for (shotsFit; shotsFit <= photoFilm.length; shotsFit++) {
         photoWidth = photoFilm[shotsFit-1].children[0].children[0].width;
         filmLength = filmLength + photoWidth + 6;               // суммируем ширину кадров плюс рамка
         if(filmLength > winWidth) break;                        // суммируем пока кадры видны в окне
+    }
+    if (filmLength == photoFilm.length * 6) {                   // если фотки ещё не загрузились
+        setTimeout(centeringAndStart, 50);                      // и запускаем подсчёт заново через 50 мс
+        return;
     }
     photoFilmBlock.style.left = ((filmLength - winWidth) / -2) + "px";  // сдвигаем плёнку так, чтобы отображаемые кадры были по центру окна
     photoFilmBlock.style.opacity = 1;                                   // так как на время выравнивания фотоплёнка была скрыта, то отображаем её сейчас
