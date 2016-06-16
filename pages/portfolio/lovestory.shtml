@@ -44,24 +44,12 @@
                 <p class="back-to-portfolio"><a href="/portfolio">&larr; Назад к портфолио</a></p>
                 <div class="gallery_slider">
                     <ul>
-                        <li style="background-image: url('/images/portfolio/Misha_and_Tanya_LoveStory/thumbnails/Misha_and_Tanya_LoveStory_05.jpg')">
-                            <a href="/portfolio/lovestory/mikhail-i-tatyana"></a>
-                        </li>
-                        <li style="background-image: url('/images/portfolio/Vlad_and_Kristina_LoveStory/thumbnails/Vlad_and_Kristina_LoveStory_01.jpg')">
-                            <a href="/portfolio/lovestory/vlad-i-kristina"></a>
-                        </li>
-                        <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_06.jpg')">
-                            <a href="/portfolio/lovestory/artjom-i-lena"></a>
-                        </li>
-                        <li style="background-image: url('/images/portfolio/Zhenya_and_Nata_LoveStory/thumbnails/Zhenya_and_Nata_LoveStory_06.jpg')">
-                            <a href="/portfolio/lovestory/zhenya-i-natasha"></a>
-                        </li>
-                        <li style="background-image: url('/images/portfolio/Misha_and_Lena_LoveStory/thumbnails/Misha_and_Lena_LoveStory_08.jpg')">
-                            <a href="/portfolio/lovestory/misha-i-lenochka"></a>
-                        </li>
-                        <li style="background-image: url('/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_02.jpg')">
-                            <a href="/portfolio/lovestory/igor-i-aljona"></a>
-                        </li>
+                        <li style="background-image: url('/images/portfolio/Misha_and_Tanya_LoveStory/thumbnails/Misha_and_Tanya_LoveStory_05.jpg')"><a href="/portfolio/lovestory/mikhail-i-tatyana"></a></li>
+                        <li style="background-image: url('/images/portfolio/Vlad_and_Kristina_LoveStory/thumbnails/Vlad_and_Kristina_LoveStory_01.jpg')"><a href="/portfolio/lovestory/vlad-i-kristina"></a></li>
+                        <li style="background-image: url('/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_06.jpg')"><a href="/portfolio/lovestory/artjom-i-lena"></a></li>
+                        <li style="background-image: url('/images/portfolio/Zhenya_and_Nata_LoveStory/thumbnails/Zhenya_and_Nata_LoveStory_06.jpg')"><a href="/portfolio/lovestory/zhenya-i-natasha"></a></li>
+                        <li style="background-image: url('/images/portfolio/Misha_and_Lena_LoveStory/thumbnails/Misha_and_Lena_LoveStory_08.jpg')"><a href="/portfolio/lovestory/misha-i-lenochka"></a></li>
+                        <li style="background-image: url('/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_02.jpg')"><a href="/portfolio/lovestory/igor-i-aljona"></a></li>
                     </ul>
                 </div>
             </article>

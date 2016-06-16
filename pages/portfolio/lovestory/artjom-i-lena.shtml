@@ -45,48 +45,22 @@
                 <p class="back-to-portfolio"><a href="/portfolio">&larr; Назад к портфолио</a></p>
                 <div class="gallery-wrapper box">
                     <div class="gallery">
-                        <a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_01.jpg" title="Артём и Лена">
-                            <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_01.jpg" alt="Артём и Лена" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_02.jpg" title="Артём и Лена">
-                            <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_02.jpg" alt="Артём и Лена" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_03.jpg" title="Артём и Лена">
-                            <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_03.jpg" alt="Артём и Лена" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_04.jpg" title="Артём и Лена">
-                            <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_04.jpg" alt="Артём и Лена" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_05.jpg" title="Артём и Лена">
-                            <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_05.jpg" alt="Артём и Лена" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_06.jpg" title="Артём и Лена">
-                            <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_06.jpg" alt="Артём и Лена" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_07.jpg" title="Артём и Лена">
-                            <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_07.jpg" alt="Артём и Лена" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_08.jpg" title="Артём и Лена">
-                            <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_08.jpg" alt="Артём и Лена" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_09.jpg" title="Артём и Лена">
-                            <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_09.jpg" alt="Артём и Лена" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_10.jpg" title="Артём и Лена">
-                            <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_10.jpg" alt="Артём и Лена" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_11.jpg" title="Артём и Лена">
-                            <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_11.jpg" alt="Артём и Лена" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_12.jpg" title="Артём и Лена">
-                            <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_12.jpg" alt="Артём и Лена" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_13.jpg" title="Артём и Лена">
-                            <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_13.jpg" alt="Артём и Лена" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_14.jpg" title="Артём и Лена">
-                            <img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_14.jpg" alt="Артём и Лена" height="300" width="345">
-                        </a>
+                        <ul>
+                            <li><a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_01.jpg" title="Артём и Лена"><img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_01.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_02.jpg" title="Артём и Лена"><img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_02.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_03.jpg" title="Артём и Лена"><img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_03.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_04.jpg" title="Артём и Лена"><img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_04.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_05.jpg" title="Артём и Лена"><img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_05.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_06.jpg" title="Артём и Лена"><img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_06.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_07.jpg" title="Артём и Лена"><img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_07.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_08.jpg" title="Артём и Лена"><img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_08.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_09.jpg" title="Артём и Лена"><img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_09.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_10.jpg" title="Артём и Лена"><img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_10.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_11.jpg" title="Артём и Лена"><img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_11.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_12.jpg" title="Артём и Лена"><img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_12.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_13.jpg" title="Артём и Лена"><img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_13.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_14.jpg" title="Артём и Лена"><img src="/images/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_14.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                        </ul>
                     </div>
                 </div>
             </article>

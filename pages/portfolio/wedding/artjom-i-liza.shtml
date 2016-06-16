@@ -45,57 +45,25 @@
                 <p class="back-to-portfolio"><a href="/portfolio">&larr; Назад к портфолио</a></p>
                 <div class="gallery-wrapper box">
                     <div class="gallery">
-                        <a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_01.jpg" title="Артём и Лиза">
-                            <img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_01.jpg" alt="Артём и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_02.jpg" title="Артём и Лиза">
-                            <img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_02.jpg" alt="Артём и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_03.jpg" title="Артём и Лиза">
-                            <img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_03.jpg" alt="Артём и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_04.jpg" title="Артём и Лиза">
-                            <img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_04.jpg" alt="Артём и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_05.jpg" title="Артём и Лиза">
-                            <img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_05.jpg" alt="Артём и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_06.jpg" title="Артём и Лиза">
-                            <img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_06.jpg" alt="Артём и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_07.jpg" title="Артём и Лиза">
-                            <img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_07.jpg" alt="Артём и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_08.jpg" title="Артём и Лиза">
-                            <img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_08.jpg" alt="Артём и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_09.jpg" title="Артём и Лиза">
-                            <img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_09.jpg" alt="Артём и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_10.jpg" title="Артём и Лиза">
-                            <img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_10.jpg" alt="Артём и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_11.jpg" title="Артём и Лиза">
-                            <img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_11.jpg" alt="Артём и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_12.jpg" title="Артём и Лиза">
-                            <img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_12.jpg" alt="Артём и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_13.jpg" title="Артём и Лиза">
-                            <img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_13.jpg" alt="Артём и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_14.jpg" title="Артём и Лиза">
-                            <img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_14.jpg" alt="Артём и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_15.jpg" title="Артём и Лиза">
-                            <img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_15.jpg" alt="Артём и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_16.jpg" title="Артём и Лиза">
-                            <img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_16.jpg" alt="Артём и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_17.jpg" title="Артём и Лиза">
-                            <img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_17.jpg" alt="Артём и Лиза" height="300" width="345">
-                        </a>
+                        <ul>
+                            <li><a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_01.jpg" title="Артём и Лиза"><img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_01.jpg" alt="Артём и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_02.jpg" title="Артём и Лиза"><img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_02.jpg" alt="Артём и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_03.jpg" title="Артём и Лиза"><img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_03.jpg" alt="Артём и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_04.jpg" title="Артём и Лиза"><img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_04.jpg" alt="Артём и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_05.jpg" title="Артём и Лиза"><img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_05.jpg" alt="Артём и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_06.jpg" title="Артём и Лиза"><img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_06.jpg" alt="Артём и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_07.jpg" title="Артём и Лиза"><img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_07.jpg" alt="Артём и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_08.jpg" title="Артём и Лиза"><img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_08.jpg" alt="Артём и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_09.jpg" title="Артём и Лиза"><img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_09.jpg" alt="Артём и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_10.jpg" title="Артём и Лиза"><img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_10.jpg" alt="Артём и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_11.jpg" title="Артём и Лиза"><img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_11.jpg" alt="Артём и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_12.jpg" title="Артём и Лиза"><img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_12.jpg" alt="Артём и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_13.jpg" title="Артём и Лиза"><img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_13.jpg" alt="Артём и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_14.jpg" title="Артём и Лиза"><img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_14.jpg" alt="Артём и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_15.jpg" title="Артём и Лиза"><img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_15.jpg" alt="Артём и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_16.jpg" title="Артём и Лиза"><img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_16.jpg" alt="Артём и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Artem_and_Liza_Wedding/Artem_and_Liza_Wedding_17.jpg" title="Артём и Лиза"><img src="/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_17.jpg" alt="Артём и Лиза" height="300" width="345"></a></li>
+                        </ul>
                     </div>
                 </div>
             </article>

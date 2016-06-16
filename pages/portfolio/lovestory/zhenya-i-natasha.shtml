@@ -45,27 +45,15 @@
                 <p class="back-to-portfolio"><a href="/portfolio">&larr; Назад к портфолио</a></p>
                 <div class="gallery-wrapper box">
                     <div class="gallery">
-                        <a href="/images/portfolio/Zhenya_and_Nata_LoveStory/Zhenya_and_Nata_LoveStory_01.jpg" title="Женя и Наташа">
-                            <img src="/images/portfolio/Zhenya_and_Nata_LoveStory/thumbnails/Zhenya_and_Nata_LoveStory_01.jpg" alt="Женя и Наташа" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Zhenya_and_Nata_LoveStory/Zhenya_and_Nata_LoveStory_02.jpg" title="Женя и Наташа">
-                            <img src="/images/portfolio/Zhenya_and_Nata_LoveStory/thumbnails/Zhenya_and_Nata_LoveStory_02.jpg" alt="Женя и Наташа" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Zhenya_and_Nata_LoveStory/Zhenya_and_Nata_LoveStory_03.jpg" title="Женя и Наташа">
-                            <img src="/images/portfolio/Zhenya_and_Nata_LoveStory/thumbnails/Zhenya_and_Nata_LoveStory_03.jpg" alt="Женя и Наташа" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Zhenya_and_Nata_LoveStory/Zhenya_and_Nata_LoveStory_04.jpg" title="Женя и Наташа">
-                            <img src="/images/portfolio/Zhenya_and_Nata_LoveStory/thumbnails/Zhenya_and_Nata_LoveStory_04.jpg" alt="Женя и Наташа" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Zhenya_and_Nata_LoveStory/Zhenya_and_Nata_LoveStory_05.jpg" title="Женя и Наташа">
-                            <img src="/images/portfolio/Zhenya_and_Nata_LoveStory/thumbnails/Zhenya_and_Nata_LoveStory_05.jpg" alt="Женя и Наташа" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Zhenya_and_Nata_LoveStory/Zhenya_and_Nata_LoveStory_06.jpg" title="Женя и Наташа">
-                            <img src="/images/portfolio/Zhenya_and_Nata_LoveStory/thumbnails/Zhenya_and_Nata_LoveStory_06.jpg" alt="Женя и Наташа" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Zhenya_and_Nata_LoveStory/Zhenya_and_Nata_LoveStory_07.jpg" title="Женя и Наташа">
-                            <img src="/images/portfolio/Zhenya_and_Nata_LoveStory/thumbnails/Zhenya_and_Nata_LoveStory_07.jpg" alt="Женя и Наташа" height="300" width="345">
-                        </a>
+                        <ul>
+                            <li><a href="/images/portfolio/Zhenya_and_Nata_LoveStory/Zhenya_and_Nata_LoveStory_01.jpg" title="Женя и Наташа"><img src="/images/portfolio/Zhenya_and_Nata_LoveStory/thumbnails/Zhenya_and_Nata_LoveStory_01.jpg" alt="Женя и Наташа" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Zhenya_and_Nata_LoveStory/Zhenya_and_Nata_LoveStory_02.jpg" title="Женя и Наташа"><img src="/images/portfolio/Zhenya_and_Nata_LoveStory/thumbnails/Zhenya_and_Nata_LoveStory_02.jpg" alt="Женя и Наташа" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Zhenya_and_Nata_LoveStory/Zhenya_and_Nata_LoveStory_03.jpg" title="Женя и Наташа"><img src="/images/portfolio/Zhenya_and_Nata_LoveStory/thumbnails/Zhenya_and_Nata_LoveStory_03.jpg" alt="Женя и Наташа" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Zhenya_and_Nata_LoveStory/Zhenya_and_Nata_LoveStory_04.jpg" title="Женя и Наташа"><img src="/images/portfolio/Zhenya_and_Nata_LoveStory/thumbnails/Zhenya_and_Nata_LoveStory_04.jpg" alt="Женя и Наташа" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Zhenya_and_Nata_LoveStory/Zhenya_and_Nata_LoveStory_05.jpg" title="Женя и Наташа"><img src="/images/portfolio/Zhenya_and_Nata_LoveStory/thumbnails/Zhenya_and_Nata_LoveStory_05.jpg" alt="Женя и Наташа" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Zhenya_and_Nata_LoveStory/Zhenya_and_Nata_LoveStory_06.jpg" title="Женя и Наташа"><img src="/images/portfolio/Zhenya_and_Nata_LoveStory/thumbnails/Zhenya_and_Nata_LoveStory_06.jpg" alt="Женя и Наташа" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Zhenya_and_Nata_LoveStory/Zhenya_and_Nata_LoveStory_07.jpg" title="Женя и Наташа"><img src="/images/portfolio/Zhenya_and_Nata_LoveStory/thumbnails/Zhenya_and_Nata_LoveStory_07.jpg" alt="Женя и Наташа" height="300" width="345"></a></li>
+                        </ul>
                     </div>
                 </div>
             </article>

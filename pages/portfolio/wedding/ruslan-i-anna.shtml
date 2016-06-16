@@ -45,36 +45,18 @@
                 <p class="back-to-portfolio"><a href="/portfolio">&larr; Назад к портфолио</a></p>
                 <div class="gallery-wrapper box">
                     <div class="gallery">
-                        <a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_01.jpg" title="Руслан и Анна">
-                            <img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_01.jpg" alt="Руслан и Анна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_02.jpg" title="Руслан и Анна">
-                            <img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_02.jpg" alt="Руслан и Анна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_03.jpg" title="Руслан и Анна">
-                            <img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_03.jpg" alt="Руслан и Анна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_04.jpg" title="Руслан и Анна">
-                            <img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_04.jpg" alt="Руслан и Анна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_05.jpg" title="Руслан и Анна">
-                            <img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_05.jpg" alt="Руслан и Анна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_06.jpg" title="Руслан и Анна">
-                            <img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_06.jpg" alt="Руслан и Анна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_07.jpg" title="Руслан и Анна">
-                            <img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_07.jpg" alt="Руслан и Анна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_08.jpg" title="Руслан и Анна">
-                            <img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_08.jpg" alt="Руслан и Анна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_09.jpg" title="Руслан и Анна">
-                            <img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_09.jpg" alt="Руслан и Анна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_10.jpg" title="Руслан и Анна">
-                            <img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_10.jpg" alt="Руслан и Анна" height="300" width="345">
-                        </a>
+                        <ul>
+                            <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_01.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_01.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_02.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_02.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_03.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_03.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_04.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_04.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_05.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_05.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_06.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_06.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_07.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_07.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_08.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_08.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_09.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_09.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_10.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_10.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
+                        </ul>
                     </div>
                 </div>
             </article>

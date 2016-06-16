@@ -45,75 +45,31 @@
                 <p class="back-to-portfolio"><a href="/portfolio">&larr; Назад к портфолио</a></p>
                 <div class="gallery-wrapper box">
                     <div class="gallery">
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_01.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_01.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_02.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_02.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_03.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_03.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_04.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_04.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_05.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_05.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_06.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_06.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_07.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_07.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_08.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_08.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_09.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_09.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_10.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_10.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_11.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_11.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_12.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_12.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_13.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_13.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_14.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_14.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_15.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_15.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_16.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_16.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_17.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_17.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_18.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_18.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_19.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_19.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_20.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_20.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_21.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_21.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_22.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_22.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_23.jpg" title="Денис и Юлия">
-                            <img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_23.jpg" alt="Денис и Юлия" height="300" width="345">
-                        </a>
+                        <ul>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_01.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_01.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_02.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_02.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_03.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_03.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_04.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_04.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_05.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_05.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_06.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_06.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_07.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_07.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_08.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_08.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_09.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_09.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_10.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_10.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_11.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_11.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_12.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_12.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_13.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_13.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_14.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_14.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_15.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_15.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_16.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_16.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_17.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_17.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_18.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_18.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_19.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_19.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_20.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_20.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_21.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_21.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_22.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_22.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Denis_and_Yulia_Wedding/Denis_and_Yulia_Wedding_23.jpg" title="Денис и Юлия"><img src="/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_23.jpg" alt="Денис и Юлия" height="300" width="345"></a></li>
+                        </ul>
                     </div>
                 </div>
             </article>

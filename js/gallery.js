@@ -87,8 +87,8 @@ function showOnePhoto(link) {
     };
 
     link = $(link);
-    nextLink = link.next('a')[0];       // сохраняем в глобальную переменную следующую за этой фотографию
-    prevLink = link.prev('a')[0];       // сохраняем в глобальную переменную предыдущую перед этой фотографию
+    nextLink = link.parent().next('li').children()[0];       // сохраняем в глобальную переменную следующую за этой фотографию
+    prevLink = link.parent().prev('li').children()[0];       // сохраняем в глобальную переменную предыдущую перед этой фотографию
     // Показать или скрыть стрелки переключения фотографий
     if (nextLink) { $('#lightbox_right').show(); } else { $('#lightbox_right').hide(); }
     if (prevLink) { $('#lightbox_left').show();  } else { $('#lightbox_left').hide(); }

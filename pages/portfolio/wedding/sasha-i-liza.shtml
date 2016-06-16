@@ -45,30 +45,16 @@
                 <p class="back-to-portfolio"><a href="/portfolio">&larr; Назад к портфолио</a></p>
                 <div class="gallery-wrapper box">
                     <div class="gallery">
-                        <a href="/images/portfolio/Sasha_and_Liza_Wedding/Sasha_and_Liza_Wedding_01.jpg" title="Саша и Лиза">
-                            <img src="/images/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_01.jpg" alt="Саша и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Sasha_and_Liza_Wedding/Sasha_and_Liza_Wedding_02.jpg" title="Саша и Лиза">
-                            <img src="/images/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_02.jpg" alt="Саша и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Sasha_and_Liza_Wedding/Sasha_and_Liza_Wedding_03.jpg" title="Саша и Лиза">
-                            <img src="/images/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_03.jpg" alt="Саша и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Sasha_and_Liza_Wedding/Sasha_and_Liza_Wedding_04.jpg" title="Саша и Лиза">
-                            <img src="/images/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_04.jpg" alt="Саша и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Sasha_and_Liza_Wedding/Sasha_and_Liza_Wedding_05.jpg" title="Саша и Лиза">
-                            <img src="/images/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_05.jpg" alt="Саша и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Sasha_and_Liza_Wedding/Sasha_and_Liza_Wedding_06.jpg" title="Саша и Лиза">
-                            <img src="/images/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_06.jpg" alt="Саша и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Sasha_and_Liza_Wedding/Sasha_and_Liza_Wedding_07.jpg" title="Саша и Лиза">
-                            <img src="/images/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_07.jpg" alt="Саша и Лиза" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Sasha_and_Liza_Wedding/Sasha_and_Liza_Wedding_08.jpg" title="Саша и Лиза">
-                            <img src="/images/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_08.jpg" alt="Саша и Лиза" height="300" width="345">
-                        </a>
+                        <ul>
+                            <li><a href="/images/portfolio/Sasha_and_Liza_Wedding/Sasha_and_Liza_Wedding_01.jpg" title="Саша и Лиза"><img src="/images/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_01.jpg" alt="Саша и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Sasha_and_Liza_Wedding/Sasha_and_Liza_Wedding_02.jpg" title="Саша и Лиза"><img src="/images/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_02.jpg" alt="Саша и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Sasha_and_Liza_Wedding/Sasha_and_Liza_Wedding_03.jpg" title="Саша и Лиза"><img src="/images/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_03.jpg" alt="Саша и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Sasha_and_Liza_Wedding/Sasha_and_Liza_Wedding_04.jpg" title="Саша и Лиза"><img src="/images/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_04.jpg" alt="Саша и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Sasha_and_Liza_Wedding/Sasha_and_Liza_Wedding_05.jpg" title="Саша и Лиза"><img src="/images/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_05.jpg" alt="Саша и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Sasha_and_Liza_Wedding/Sasha_and_Liza_Wedding_06.jpg" title="Саша и Лиза"><img src="/images/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_06.jpg" alt="Саша и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Sasha_and_Liza_Wedding/Sasha_and_Liza_Wedding_07.jpg" title="Саша и Лиза"><img src="/images/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_07.jpg" alt="Саша и Лиза" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Sasha_and_Liza_Wedding/Sasha_and_Liza_Wedding_08.jpg" title="Саша и Лиза"><img src="/images/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_08.jpg" alt="Саша и Лиза" height="300" width="345"></a></li>
+                        </ul>
                     </div>
                 </div>
             </article>

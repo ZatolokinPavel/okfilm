@@ -44,24 +44,12 @@
                 <p class="back-to-portfolio"><a href="/portfolio">&larr; Назад к портфолио</a></p>
                 <div class="gallery_slider">
                     <ul>
-                        <li style="background-image: url('/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_08.jpg')">
-                            <a href="/portfolio/wedding/artjom-i-liza"></a>
-                        </li>
-                        <li style="background-image: url('/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_04.jpg')">
-                            <a href="/portfolio/wedding/artjom-i-natalya"></a>
-                        </li>
-                        <li style="background-image: url('/images/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_04.jpg')">
-                            <a href="/portfolio/wedding/sasha-i-liza"></a>
-                        </li>
-                        <li style="background-image: url('/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_16.jpg')">
-                            <a href="/portfolio/wedding/denis-i-yuliya"></a>
-                        </li>
-                        <li style="background-image: url('/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/default.jpg')">
-                            <a href="/portfolio/wedding/ruslan-i-anna"></a>
-                        </li>
-                        <li style="background-image: url('/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_19.jpg')">
-                            <a href="/portfolio/wedding/slavik-i-yulya"></a>
-                        </li>
+                        <li style="background-image: url('/images/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_08.jpg')"><a href="/portfolio/wedding/artjom-i-liza"></a></li>
+                        <li style="background-image: url('/images/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_04.jpg')"><a href="/portfolio/wedding/artjom-i-natalya"></a></li>
+                        <li style="background-image: url('/images/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_04.jpg')"><a href="/portfolio/wedding/sasha-i-liza"></a></li>
+                        <li style="background-image: url('/images/portfolio/Denis_and_Yulia_Wedding/thumbnails/Denis_and_Yulia_Wedding_16.jpg')"><a href="/portfolio/wedding/denis-i-yuliya"></a></li>
+                        <li style="background-image: url('/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/default.jpg')"><a href="/portfolio/wedding/ruslan-i-anna"></a></li>
+                        <li style="background-image: url('/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_19.jpg')"><a href="/portfolio/wedding/slavik-i-yulya"></a></li>
                     </ul>
                 </div>
             </article>

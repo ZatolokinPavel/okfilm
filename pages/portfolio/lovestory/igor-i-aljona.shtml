@@ -45,36 +45,18 @@
                 <p class="back-to-portfolio"><a href="/portfolio">&larr; Назад к портфолио</a></p>
                 <div class="gallery-wrapper box">
                     <div class="gallery">
-                        <a href="/images/portfolio/Igor_and_Alyona_LoveStory/Igor_and_Alyona_LoveStory_01.jpg" title="Игорь и Алёна">
-                            <img src="/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_01.jpg" alt="Игорь и Алёна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Igor_and_Alyona_LoveStory/Igor_and_Alyona_LoveStory_02.jpg" title="Игорь и Алёна">
-                            <img src="/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_02.jpg" alt="Игорь и Алёна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Igor_and_Alyona_LoveStory/Igor_and_Alyona_LoveStory_03.jpg" title="Игорь и Алёна">
-                            <img src="/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_03.jpg" alt="Игорь и Алёна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Igor_and_Alyona_LoveStory/Igor_and_Alyona_LoveStory_04.jpg" title="Игорь и Алёна">
-                            <img src="/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_04.jpg" alt="Игорь и Алёна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Igor_and_Alyona_LoveStory/Igor_and_Alyona_LoveStory_05.jpg" title="Игорь и Алёна">
-                            <img src="/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_05.jpg" alt="Игорь и Алёна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Igor_and_Alyona_LoveStory/Igor_and_Alyona_LoveStory_06.jpg" title="Игорь и Алёна">
-                            <img src="/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_06.jpg" alt="Игорь и Алёна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Igor_and_Alyona_LoveStory/Igor_and_Alyona_LoveStory_07.jpg" title="Игорь и Алёна">
-                            <img src="/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_07.jpg" alt="Игорь и Алёна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Igor_and_Alyona_LoveStory/Igor_and_Alyona_LoveStory_08.jpg" title="Игорь и Алёна">
-                            <img src="/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_08.jpg" alt="Игорь и Алёна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Igor_and_Alyona_LoveStory/Igor_and_Alyona_LoveStory_09.jpg" title="Игорь и Алёна">
-                            <img src="/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_09.jpg" alt="Игорь и Алёна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Igor_and_Alyona_LoveStory/Igor_and_Alyona_LoveStory_10.jpg" title="Игорь и Алёна">
-                            <img src="/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_10.jpg" alt="Игорь и Алёна" height="300" width="345">
-                        </a>
+                        <ul>
+                            <li><a href="/images/portfolio/Igor_and_Alyona_LoveStory/Igor_and_Alyona_LoveStory_01.jpg" title="Игорь и Алёна"><img src="/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_01.jpg" alt="Игорь и Алёна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Igor_and_Alyona_LoveStory/Igor_and_Alyona_LoveStory_02.jpg" title="Игорь и Алёна"><img src="/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_02.jpg" alt="Игорь и Алёна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Igor_and_Alyona_LoveStory/Igor_and_Alyona_LoveStory_03.jpg" title="Игорь и Алёна"><img src="/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_03.jpg" alt="Игорь и Алёна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Igor_and_Alyona_LoveStory/Igor_and_Alyona_LoveStory_04.jpg" title="Игорь и Алёна"><img src="/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_04.jpg" alt="Игорь и Алёна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Igor_and_Alyona_LoveStory/Igor_and_Alyona_LoveStory_05.jpg" title="Игорь и Алёна"><img src="/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_05.jpg" alt="Игорь и Алёна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Igor_and_Alyona_LoveStory/Igor_and_Alyona_LoveStory_06.jpg" title="Игорь и Алёна"><img src="/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_06.jpg" alt="Игорь и Алёна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Igor_and_Alyona_LoveStory/Igor_and_Alyona_LoveStory_07.jpg" title="Игорь и Алёна"><img src="/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_07.jpg" alt="Игорь и Алёна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Igor_and_Alyona_LoveStory/Igor_and_Alyona_LoveStory_08.jpg" title="Игорь и Алёна"><img src="/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_08.jpg" alt="Игорь и Алёна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Igor_and_Alyona_LoveStory/Igor_and_Alyona_LoveStory_09.jpg" title="Игорь и Алёна"><img src="/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_09.jpg" alt="Игорь и Алёна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Igor_and_Alyona_LoveStory/Igor_and_Alyona_LoveStory_10.jpg" title="Игорь и Алёна"><img src="/images/portfolio/Igor_and_Alyona_LoveStory/thumbnails/Igor_and_Alyona_LoveStory_10.jpg" alt="Игорь и Алёна" height="300" width="345"></a></li>
+                        </ul>
                     </div>
                 </div>
             </article>

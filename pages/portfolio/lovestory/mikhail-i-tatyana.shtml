@@ -45,27 +45,15 @@
                 <p class="back-to-portfolio"><a href="/portfolio">&larr; Назад к портфолио</a></p>
                 <div class="gallery-wrapper box">
                     <div class="gallery">
-                        <a href="/images/portfolio/Misha_and_Tanya_LoveStory/Misha_and_Tanya_LoveStory_01.jpg" title="Михаил и Татьяна">
-                            <img src="/images/portfolio/Misha_and_Tanya_LoveStory/thumbnails/Misha_and_Tanya_LoveStory_01.jpg" alt="Михаил и Татьяна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Misha_and_Tanya_LoveStory/Misha_and_Tanya_LoveStory_02.jpg" title="Михаил и Татьяна">
-                            <img src="/images/portfolio/Misha_and_Tanya_LoveStory/thumbnails/Misha_and_Tanya_LoveStory_02.jpg" alt="Михаил и Татьяна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Misha_and_Tanya_LoveStory/Misha_and_Tanya_LoveStory_03.jpg" title="Михаил и Татьяна">
-                            <img src="/images/portfolio/Misha_and_Tanya_LoveStory/thumbnails/Misha_and_Tanya_LoveStory_03.jpg" alt="Михаил и Татьяна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Misha_and_Tanya_LoveStory/Misha_and_Tanya_LoveStory_04.jpg" title="Михаил и Татьяна">
-                            <img src="/images/portfolio/Misha_and_Tanya_LoveStory/thumbnails/Misha_and_Tanya_LoveStory_04.jpg" alt="Михаил и Татьяна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Misha_and_Tanya_LoveStory/Misha_and_Tanya_LoveStory_05.jpg" title="Михаил и Татьяна">
-                            <img src="/images/portfolio/Misha_and_Tanya_LoveStory/thumbnails/Misha_and_Tanya_LoveStory_05.jpg" alt="Михаил и Татьяна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Misha_and_Tanya_LoveStory/Misha_and_Tanya_LoveStory_06.jpg" title="Михаил и Татьяна">
-                            <img src="/images/portfolio/Misha_and_Tanya_LoveStory/thumbnails/Misha_and_Tanya_LoveStory_06.jpg" alt="Михаил и Татьяна" height="300" width="345">
-                        </a>
-                        <a href="/images/portfolio/Misha_and_Tanya_LoveStory/Misha_and_Tanya_LoveStory_07.jpg" title="Михаил и Татьяна">
-                            <img src="/images/portfolio/Misha_and_Tanya_LoveStory/thumbnails/Misha_and_Tanya_LoveStory_07.jpg" alt="Михаил и Татьяна" height="300" width="345">
-                        </a>
+                        <ul>
+                            <li><a href="/images/portfolio/Misha_and_Tanya_LoveStory/Misha_and_Tanya_LoveStory_01.jpg" title="Михаил и Татьяна"><img src="/images/portfolio/Misha_and_Tanya_LoveStory/thumbnails/Misha_and_Tanya_LoveStory_01.jpg" alt="Михаил и Татьяна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Misha_and_Tanya_LoveStory/Misha_and_Tanya_LoveStory_02.jpg" title="Михаил и Татьяна"><img src="/images/portfolio/Misha_and_Tanya_LoveStory/thumbnails/Misha_and_Tanya_LoveStory_02.jpg" alt="Михаил и Татьяна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Misha_and_Tanya_LoveStory/Misha_and_Tanya_LoveStory_03.jpg" title="Михаил и Татьяна"><img src="/images/portfolio/Misha_and_Tanya_LoveStory/thumbnails/Misha_and_Tanya_LoveStory_03.jpg" alt="Михаил и Татьяна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Misha_and_Tanya_LoveStory/Misha_and_Tanya_LoveStory_04.jpg" title="Михаил и Татьяна"><img src="/images/portfolio/Misha_and_Tanya_LoveStory/thumbnails/Misha_and_Tanya_LoveStory_04.jpg" alt="Михаил и Татьяна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Misha_and_Tanya_LoveStory/Misha_and_Tanya_LoveStory_05.jpg" title="Михаил и Татьяна"><img src="/images/portfolio/Misha_and_Tanya_LoveStory/thumbnails/Misha_and_Tanya_LoveStory_05.jpg" alt="Михаил и Татьяна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Misha_and_Tanya_LoveStory/Misha_and_Tanya_LoveStory_06.jpg" title="Михаил и Татьяна"><img src="/images/portfolio/Misha_and_Tanya_LoveStory/thumbnails/Misha_and_Tanya_LoveStory_06.jpg" alt="Михаил и Татьяна" height="300" width="345"></a></li>
+                            <li><a href="/images/portfolio/Misha_and_Tanya_LoveStory/Misha_and_Tanya_LoveStory_07.jpg" title="Михаил и Татьяна"><img src="/images/portfolio/Misha_and_Tanya_LoveStory/thumbnails/Misha_and_Tanya_LoveStory_07.jpg" alt="Михаил и Татьяна" height="300" width="345"></a></li>
+                        </ul>
                     </div>
                 </div>
             </article>
