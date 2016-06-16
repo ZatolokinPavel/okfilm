@@ -67,11 +67,14 @@ hr{box-sizing: content-box; height:0; margin: 15px 0; border:0; border-top: 1px 
 .menu .submenu ul{padding: 20px; background: rgba(253,253,254,0.7); border: 2px solid rgba(75,80,82,0.2);}
 .menu .submenu a{padding: 5px 10px; text-transform:none;}
 .menu > ul > li:hover .submenu{height: 100%; padding-top: 10px;}
-a.mobile-menu-toggle{font-size: 20px; position: relative; top: 50%; transform: translateY(-50%); display: none;}
+a.mMenuToggle{font-size: 20px; position: relative; top: 50%; transform: translateY(-50%); display: none;}
+.mMenuToggle i{font-size: 20px;}
+.mMenuToggle.fixed{position: fixed; top: 25px; z-index: 1;}
+/*.open-sidebar .mMenuToggle{display: none;}*/
 @media (max-width: 767px) {
     .menu > ul{display: none;}
-    .menu{position: absolute; top: 0; left: 0; height: 100%; margin: 0; padding: 0 10px; text-align: left;}
-    a.mobile-menu-toggle{display: block;}
+    .menu{position: absolute; top: 0; left: 0; height: 50px; margin: 0; padding: 0; text-align: left;}
+    a.mMenuToggle{display: block;}
     .noscript .menu > ul{position: relative; top: 25%; padding: 10px; background: rgba(253,253,254,0.7); border: 2px solid rgba(75,80,82,0.2);}
     .noscript .menu > ul > li{float: none; display: block;}
     .noscript .menu ul a.top{background: transparent; border: none;}

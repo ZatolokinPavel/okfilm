@@ -31,7 +31,9 @@ var timerObj = {};
 }());
 
 
-// Главное меню - раскрытие мобильного меню
+// Главное меню: раскрытие мобильного меню, прилипание кнопки мобильного меню
+var mobileMenu = document.getElementById('mobile_menu_toggle');
+var mMenuOffset = {top:0,left:0}, mMenuIsFixed = false;
 $(function() {
     $('#main_menu > ul').clone().appendTo('#sidebar_menu');
     document.getElementById('mobile_menu_toggle').addEventListener('click',toggleMobileMenu);
@@ -39,10 +41,20 @@ $(function() {
     //var swipeFun = { left: function() {toggleMobileMenu();}, right: function(){}, top: function(){}, bottom: function(){} };
     //swipe(document.getElementById('sidebar'), swipeFun);            // закрытие бокового меню свайпом
     //swipe(document.getElementById('close_sidebar'), swipeFun);
+    var $mobileMenu = $(mobileMenu);
+    mMenuOffset = $mobileMenu.offset();
+    if ($mobileMenu.is(':visible')) window.addEventListener('scroll', fixMobileMenu);
 });
-
+// Открытие/закрытие мобильного меню
 function toggleMobileMenu() {
     $('.wrapper').toggleClass('open-sidebar');
+}
+// Эффект прилипания для кнопки мобильного меню
+function fixMobileMenu() {
+    if (window.scrollY >= mMenuOffset.top != mMenuIsFixed) {
+        mMenuIsFixed = !mMenuIsFixed;
+        mobileMenu.classList.toggle('fixed', mMenuIsFixed);
+    }
 }
 
 
