@@ -43,7 +43,10 @@ $(function() {
     //swipe(document.getElementById('close_sidebar'), swipeFun);
     var $mobileMenu = $(mobileMenu);
     mMenuOffset = $mobileMenu.offset();
-    if ($mobileMenu.is(':visible')) window.addEventListener('scroll', fixMobileMenu);
+    if ($mobileMenu.is(':visible')) {
+        fixMobileMenu();
+        window.addEventListener('scroll', fixMobileMenu);
+    }
 });
 // Открытие/закрытие мобильного меню
 function toggleMobileMenu() {
