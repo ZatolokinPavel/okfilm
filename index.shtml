@@ -31,43 +31,51 @@
         <div class="photo_film_wrap">
             <div id="photo_film" class="photo_film">
                 <div class="photo_film_block">
-                    <a href="javascript:void(0);" title="">
+                    <a href="/portfolio" title="">
                         <img src="images/home-slideshow/home_photo_film-01.jpg" alt="" height="150">
+                        <div class="tooltip">Открыть портфолио</div>
                     </a>
                 </div>
                 <div class="photo_film_block">
-                    <a href="javascript:void(0);" title="">
+                    <a href="/portfolio" title="">
                         <img src="images/home-slideshow/home_photo_film-02.jpg" alt="" height="150">
+                        <div class="tooltip">Открыть портфолио</div>
                     </a>
                 </div>
                 <div class="photo_film_block">
-                    <a href="javascript:void(0);" title="">
+                    <a href="/portfolio" title="">
                         <img src="images/home-slideshow/home_photo_film-03.jpg" alt="" height="150">
+                        <div class="tooltip">Открыть портфолио</div>
                     </a>
                 </div>
                 <div class="photo_film_block">
-                    <a href="javascript:void(0);" title="">
+                    <a href="/portfolio" title="">
                         <img src="images/home-slideshow/home_photo_film-09.jpg" alt="" height="150">
+                        <div class="tooltip">Открыть портфолио</div>
                     </a>
                 </div>
                 <div class="photo_film_block">
-                    <a href="javascript:void(0);" title="">
+                    <a href="/portfolio" title="">
                         <img src="images/home-slideshow/home_photo_film-10.jpg" alt="" height="150">
+                        <div class="tooltip">Открыть портфолио</div>
                     </a>
                 </div>
                 <div class="photo_film_block">
-                    <a href="javascript:void(0);" title="">
+                    <a href="/portfolio" title="">
                         <img src="images/home-slideshow/home_photo_film-11.jpg" alt="" height="150">
+                        <div class="tooltip">Открыть портфолио</div>
                     </a>
                 </div>
                 <div class="photo_film_block">
-                    <a href="javascript:void(0);" title="">
+                    <a href="/portfolio" title="">
                         <img src="images/home-slideshow/home_photo_film-13.jpg" alt="" height="150">
+                        <div class="tooltip">Открыть портфолио</div>
                     </a>
                 </div>
                 <div class="photo_film_block">
-                    <a href="javascript:void(0);" title="">
+                    <a href="/portfolio" title="">
                         <img src="images/home-slideshow/home_photo_film-14.jpg" alt="" height="150">
+                        <div class="tooltip">Открыть портфолио</div>
                     </a>
                 </div>
             </div>
