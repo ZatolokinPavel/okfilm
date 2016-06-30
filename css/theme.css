@@ -199,9 +199,11 @@ a:hover, .link:hover {color: #41656f; text-decoration: underline;}
 
 /* Слайдшоу на главной */
 #home_slideshow ul{list-style: outside none none; padding: 0; margin: 0; min-height: 1px;}
-#home_slideshow li{display: none;}
+#home_slideshow li{position:relative; display: none;}
 #home_slideshow img{max-width: 100%; height: auto; vertical-align: middle;}
-#home_slideshow h3{position: absolute; left: 50px; color: white; padding: 3px 20px; background: rgba(255,255,255,0.3);}
+#home_slideshow h3{position: absolute; margin: 0 50px 0 50px; color: white; padding: 3px 20px; background: rgba(255,255,255,0.3);}
+@media (max-width:  768px) { #home_slideshow h3{font-size: 18px; line-height: 24px; margin: 0 30px 0 30px; padding: 3px 15px;} }
+@media (max-width:  480px) { #home_slideshow h3{font-size: 14px; line-height: 20px; margin: 0 15px 0 15px; padding: 3px 10px;} }
 
 
 /* Отзывы на главной */
