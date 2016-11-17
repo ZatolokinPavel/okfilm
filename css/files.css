@@ -11,7 +11,7 @@
 .shared-files a:hover{color: #000;}
 .shared-files .files-footer{margin: 0 1em 1em 1em; color: #888; font-size: 90%;}
 .shared-files .cap{padding: 0 1em;}
-@media (max-width: 810px) {
+@media (max-width: 900px) {
     .shared-files pre{color: transparent; text-align: inherit; white-space: pre-line;}
 }
 
