@@ -6,11 +6,14 @@
               border-radius: 5px; box-shadow: 0 0 3px #ccc;}
 .shared-files h1{font-size: 90%; font-weight: 400; margin: 0; padding: 1em 1em 0 1em; color: #555;
                  text-transform: none; line-height: normal;}
-.shared-files pre{overflow: auto; margin: 1em; line-height: 2em; color: transparent;}
-.shared-files a{color: #1c6094; text-decoration: none;}
+.shared-files pre{overflow: auto; margin: 1em; line-height: 2em; position: relative; text-align: right;}
+.shared-files a{color: #1c6094; text-decoration: none; display: block; position: absolute; left: 0;}
 .shared-files a:hover{color: #000;}
 .shared-files .files-footer{margin: 0 1em 1em 1em; color: #888; font-size: 90%;}
 .shared-files .cap{padding: 0 1em;}
+@media (max-width: 810px) {
+    .shared-files pre{color: transparent; text-align: inherit; white-space: pre-line;}
+}
 
 
 /**
