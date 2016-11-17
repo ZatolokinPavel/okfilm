@@ -7,12 +7,13 @@
 .shared-files h1{font-size: 90%; font-weight: 400; margin: 0; padding: 1em 1em 0 1em; color: #555;
                  text-transform: none; line-height: normal;}
 .shared-files pre{overflow: auto; margin: 1em; line-height: 2em; position: relative; text-align: right;}
-.shared-files a{color: #1c6094; text-decoration: none; display: block; position: absolute; left: 0;}
+.shared-files a{color: #1c6094; text-decoration: none; position: absolute; left: 0;}
 .shared-files a:hover{color: #000;}
 .shared-files .files-footer{margin: 0 1em 1em 1em; color: #888; font-size: 90%;}
 .shared-files .cap{padding: 0 1em;}
-@media (max-width: 900px) {
-    .shared-files pre{color: transparent; text-align: inherit; white-space: pre-line;}
+@media (max-width: 910px) {
+    .shared-files pre{color: transparent; text-align: inherit; white-space: pre;}
+    .shared-files a{position: static;}
 }
 
 
