@@ -57,6 +57,8 @@
 
 <script src="/js/jquery-1.12.2.min.js"></script>
 <script src="/js/theme.js?v=20161117"></script>
+<script>var rootPathPrefix = '/uslugi/files';</script>
+<script src="/back/js/file_share.js?v=20161117"></script>
 
 <!--#include virtual="/include/analytics.html"-->
 
