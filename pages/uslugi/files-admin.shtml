@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OkFILM диск — Фотограф, видеооператор Оксана Найденко | OkFILM</title>
+    <meta name="keywords" content="Оксана Найденко, фотограф, видеооператор, видеооператор на свадьбу, свадьба, фотосессия, LoveStory, свадебный фотограф" />
+    <meta name="description" content="Фотограф и видеооператор Оксана Найденко. Я с удовольствием сохраню тёплые и яркие моменты Вашей свадьбы, Love Story и радостных событий." />
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/theme.css?v=20161117" type="text/css">
+    <link rel="stylesheet" href="/css/files.css?v=20161117" type="text/css">
+    <link rel="stylesheet" href="/font-awesome-4.6.3/css/font-awesome.min.css">
+</head>
+<body id="body" class="noscript">
+<!-- Для браузеров, где не работает js, применяем дополнительные стили -->
+<script>document.getElementById('body').classList.remove("noscript")</script>
+
+<div class="wrapper">
+
+    <!-- Боковое меню для мобильных устройств -->
+    <div id="sidebar">
+        <div id="sidebar_menu" class="sidemenu"></div>
+    </div>
+    <div id="close_sidebar"></div>  <!-- Этот блок затеняет основной контент, чтобы потом скрывать боковое меню -->
+
+    <!-- Фоновая картинка вверху сайта с эффектом parallax -->
+    <div id="parallaxBackground" class="tm_background" style="top: 0"></div>
+
+    <div class="container box">
+
+        <!--#include virtual="/include/header.html" -->
+
+        <!-- Breadcrumb -->
+        <ul class="breadcrumb">
+            <li><a href="/">Главная</a></li>
+            <li>Услуги</li>
+            <li>OkFILM диск</li>
+        </ul>
+
+        <article class="article">
+
+            <h1 class="article-title">OkFILM диск</h1>
+
+            <div class="shared-files">
+                <!--#include virtual="/back/file_share/$file_path" -->
+                <div class="files-footer">OkFILM</div>
+            </div>
+
+        </article>
+
+        <!--#include virtual="/include/footer.html" -->
+
+    </div>
+</div>
+
+<script src="/js/jquery-1.12.2.min.js"></script>
+<script src="/js/theme.js?v=20161117"></script>
+
+<!--#include virtual="/include/analytics.html"-->
+
+</body>
+</html>
