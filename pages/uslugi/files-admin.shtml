@@ -44,7 +44,7 @@
             <h1 class="article-title">OkFILM диск</h1>
 
             <div class="shared-files">
-                <!--#include virtual="/back/file_share/$file_path" -->
+                <!--#include virtual="/back/file_share" -->
                 <div class="files-footer">OkFILM</div>
             </div>
 
