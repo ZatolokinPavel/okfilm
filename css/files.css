@@ -16,6 +16,16 @@
     .shared-files a{position: static;}
 }
 
+.shared-files-admin{background-color: #fff; border-radius: 5px; box-shadow: 0 0 3px #ccc;}
+.shared-files-admin .files-header{margin: 0; padding: 1em 1em 0 1em;}
+.shared-files-admin .file_share_new_folder{margin: 0; padding: 0 1em 1em 1em;}
+.shared-files-admin table.file_share_table{margin: 1em; padding: 0; width: 100%; font-family: monospace;}
+.shared-files-admin td.details{width: 1%; white-space: nowrap; padding: 0 5px;}
+.shared-files-admin td.trash{width: 1%; white-space: nowrap; padding: 0 5px; color: red;}
+.shared-files-admin a{color: #1c6094; text-decoration: none;}
+.shared-files-admin a:hover{color: #000;}
+.shared-files-admin .dev{display: none;}
+
 
 /**
  * Nginx Indexer
@@ -24,8 +34,8 @@
  * https://github.com/tuxy
  */
 
-pre a[href]:before,
-pre a[href$="/"]:before {content: ""; padding: 5px 25px 0 0; background-repeat: no-repeat; background-position: left bottom;}
+.shared-files-admin table.file_share_table a[href]:before,
+pre a[href]:before {content: ""; padding: 5px 25px 0 0; background-repeat: no-repeat; background-position: left bottom;}
 
 /*a[href]:before {background: url(/images/files_icons/empty.png);}*/
 a[href]:before {background: url(/images/files_icons/none.png);}
