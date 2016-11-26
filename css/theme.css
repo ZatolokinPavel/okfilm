@@ -238,6 +238,14 @@ a:hover, .link:hover {color: #41656f; text-decoration: underline;}
 .reviews .arrow.left.disabled  a:before{border-right-color: #f1ebe2;}
 .reviews .arrow.right.disabled a:before{border-left-color: #f1ebe2;}
 
+/** Страница "Стоимость услуг" **/
+.prices-column{width: 48%; float: left; margin: 0 1%}
+@media (max-width: 800px) {
+    .prices-column{width: 100%; margin: 0}
+}
+.polygraphic-design > div{display: inline-block; vertical-align: top; width: 250px;}
+.polygraphic-design .price{text-align: center; margin-top: 7px;}
+
 
 /* Размеры для картинок ставим так */
 @media (max-width: 767px) { }

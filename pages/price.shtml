@@ -39,14 +39,7 @@
 
             <article class="article">
 
-                <style>
-                    .tseny-column{width:48%; float:left; margin:0 1%}
-                    @media (max-width: 800px) {
-                        .tseny-column{width:100%; margin:0}
-                    }
-                </style>
-
-                <div class="tseny-column">
+                <div class="prices-column">
                     <h3>Стоимость услуг свадебного фотографа</h3>
                     <h4>Пакет &laquo;Light&raquo;</h4>
                     <ul>
@@ -80,7 +73,7 @@
                     <p>&nbsp;</p>
                 </div>
 
-                <div class="tseny-column">
+                <div class="prices-column">
                     <h3>Стоимость услуг свадебного видеооператора</h3>
                     <h4>Пакет &laquo;Light&raquo;</h4>
                     <ul>
@@ -94,8 +87,7 @@
                     <ul>
                         <li>LoveStory (сюжетный ролик о молодоженах);</li>
                         <li>8 часов съёмки (церемония + прогулка + банкет до первого танца или утро невесты);</li>
-                        <li>фильм длительностью 20...30 минут;</li>
-                        <li>промо-ролик 3...5 минут</li>
+                        <li>фильм длительностью 20...30 минут</li>
                     </ul>
                     <p>Стоимость 3500 грн</p>
 
@@ -122,14 +114,105 @@
                 <div>
                     <h3>Другие услуги</h3>
                     <ul>
-                        <li>LoveStory, портретная фотосессия, детский праздник, фотосессия беременности, сюжетные фотосессии — 800 грн (около 2 часов съёмки);</li>
-                        <li>сюжетный видеоролик LoveStory с оригинальным сценарием — 1200 грн (до 4 часов съёмки);</li>
-                        <li>фото- или видеосъёмка крестин — 450 грн (около 1 часа съёмки);</li>
-                        <li>студийная фотосъёмка — 450 грн/час плюс оплата студии 100...200 грн/час;</li>
+                        <li>LoveStory, портретная фотосессия, детский праздник, фотосессия беременности, сюжетные фотосессии — 900 грн (около 2 часов съёмки);</li>
+                        <li>сюжетный видеоролик LoveStory с оригинальным сценарием — 1500 грн (до 4 часов съёмки);</li>
+                        <li>фото- или видеосъёмка крестин — 500 грн (около 1 часа съёмки);</li>
+                        <li>студийная фотосъёмка — 500 грн/час плюс оплата студии 100...500 грн/час;</li>
                         <li>фотокнига — от 240 до 2000 грн на ваш выбор;</li>
-                        <li>подарочный сертификат на фотосъёмку — 450 грн один час, 800 грн два часа;</li>
-                        <li>фото- или видеосъёмка любого другого события — первый час 450 грн, последующие по 400 грн/час</li>
+                        <li>подарочный сертификат на фотосъёмку — 500 грн один час, 900 грн два часа;</li>
+                        <li>фото- или видеосъёмка любого другого события — первый час 500 грн, последующие по 450 грн/час</li>
                     </ul>
+                </div>
+                <i>С фотографиями, предоставленными заказчиком, не работаю.</i>
+
+                <p>&nbsp;</p>
+                <hr>
+                <p>&nbsp;</p>
+
+                <div class="polygraphic-design grid box">
+                    <h3>Дизайн</h3>
+                    <div>
+                        <h5>Логотип</h5>
+                        <img src="/images/polygraphic/logo.jpg">
+                        <div class="price">500 грн</div>
+                    </div>
+                    <div>
+                        <h5>Флаер (листовка)</h5>
+                        <img src="/images/polygraphic/flaer.jpg">
+                        <div class="price">400 грн</div>
+                    </div>
+                    <div>
+                        <h5>Буклет</h5>
+                        <img src="/images/polygraphic/buklet.jpg">
+                        <div class="price">650 грн</div>
+                    </div>
+                    <div>
+                        <h5>Афиша</h5>
+                        <img src="/images/polygraphic/afisha.jpg">
+                        <div class="price">800...1000 грн</div>
+                    </div>
+                    <div>
+                        <h5>Постер</h5>
+                        <img src="/images/polygraphic/poster.jpg">
+                        <div class="price">500...600 грн</div>
+                    </div>
+                    <div>
+                        <h5>Визитки</h5>
+                        <img src="/images/polygraphic/vizitka.jpg">
+                        <div class="price">400 грн</div>
+                    </div>
+                    <div>
+                        <h5>Меню</h5>
+                        <img src="/images/polygraphic/menu.jpg">
+                        <div class="price">
+                            500 грн за 2 разворота,<br>
+                            плюс 100 грн за каждый дополнительный разворот
+                        </div>
+                    </div>
+                    <div>
+                        <h5>Каталог</h5>
+                        <img src="/images/polygraphic/katalog.jpg">
+                        <div class="price"></div>
+                    </div>
+                    <div>
+                        <h5>Сертификат, диплом</h5>
+                        <img src="/images/polygraphic/diplom.jpg">
+                        <div class="price">300 грн</div>
+                    </div>
+                    <div>
+                        <h5>Календарь</h5>
+                        <img src="/images/polygraphic/kalendar.jpg">
+                        <div class="price">от 200 до 1000 грн</div>
+                    </div>
+                    <div>
+                        <h5>Открытка</h5>
+                        <img src="/images/polygraphic/otkrytka.jpg">
+                        <div class="price">300 грн</div>
+                    </div>
+                    <div>
+                        <h5>Пригласительные</h5>
+                        <img src="/images/polygraphic/priglashenie.jpg">
+                        <div class="price"></div>
+                    </div>
+                    <div>
+                        <h5>Подарочные сертификаты</h5>
+                        <img src="/images/polygraphic/podarochnuy_sertifikat.jpg">
+                        <div class="price"></div>
+                    </div>
+                    <div>
+                        <h5>Оформление фотокниги</h5>
+                        <img src="/images/polygraphic/photobook.jpg">
+                        <div class="price"></div>
+                    </div>
+                    <div>
+                        <h5>WEB-дизайн</h5>
+                        <img src="">
+                        <div class="price">$100</div>
+                    </div>
+                    <div>
+                        <h5>Коллаж, слайдшоу</h5>
+                        Из фотографий заказчика не делаю
+                    </div>
                 </div>
 
             </article>
