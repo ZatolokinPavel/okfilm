@@ -22,7 +22,7 @@
 .shared-files-admin #no_upload_files{
     margin: 5px 1em 0 1em; padding: 3px 1em; text-align: center;
     border-radius: 5px; border: 1px solid #d22a2a; background: #ffdcdc; color: #d22a2a; }
-.shared-files-admin form{padding: 0 1em;}
+.shared-files-admin form{padding: 10px 1em;}
 .shared-files-admin .drop-zone{position: relative; overflow: hidden; border: 2px dashed transparent;}
 .shared-files-admin .drop-zone .drop-tooltip{
     position: absolute; bottom: 0; left: 50%; transform: translate(-50%, 100%);
