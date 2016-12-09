@@ -20,7 +20,7 @@
 .shared-files-admin .files-header{margin: 0; padding: 1em 1em 0 1em;}
 .shared-files-admin #file_share_new_folder{margin: 0; padding: 0 1em;}
 .shared-files-admin #no_upload_files{
-    width: 50%; margin: 5px 1em 0 1em; padding: 3px 1em; text-align: center;
+    margin: 5px 1em 0 1em; padding: 3px 1em; text-align: center;
     border-radius: 5px; border: 1px solid #d22a2a; background: #ffdcdc; color: #d22a2a; }
 .shared-files-admin form{padding: 0 1em;}
 .shared-files-admin .drop-zone{position: relative;}
