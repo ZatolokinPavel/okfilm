@@ -27,7 +27,7 @@
 .shared-files-admin .drop-zone .drop-tooltip{
     position: absolute; bottom: 0; left: 50%; transform: translate(-50%, 100%);
     padding: 5px 20px; background: #887db2; color: #fff; border-radius: 5px 5px 0 0;
-    transition: transform 0.5s ease-out, opacity 0.5s ease-out; }
+    transition: transform 0.1s ease-out, opacity 0.1s ease-out; }
 .shared-files-admin .drop-zone.dragover{border: 2px dashed #887db2; background: rgba(136,125,178,0.1);}
 .shared-files-admin .drop-zone.dragover .drop-tooltip{transform: translate(-50%, 100%); opacity: 1;}
 .shared-files-admin table#file_share_table{margin: 0; padding: 1em; width: 100%; font-family: monospace; font-size: 105%;}
