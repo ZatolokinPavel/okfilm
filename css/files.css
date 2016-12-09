@@ -23,11 +23,13 @@
     margin: 5px 1em 0 1em; padding: 3px 1em; text-align: center;
     border-radius: 5px; border: 1px solid #d22a2a; background: #ffdcdc; color: #d22a2a; }
 .shared-files-admin form{padding: 0 1em;}
-.shared-files-admin .drop-zone{position: relative;}
+.shared-files-admin .drop-zone{position: relative; overflow: hidden;}
+.shared-files-admin .drop-zone .drop-tooltip{
+    position: absolute; bottom: 0; left: 50%; transform: translate(-50%, 100%);
+    padding: 5px 20px; background: #887db2; color: #fff; border-radius: 5px 5px 0 0;
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out; }
 .shared-files-admin .drop-zone.dragover{border: 2px dashed #887db2; background: rgba(136,125,178,0.1);}
-.shared-files-admin .drop-zone.dragover .drop-tooltip{
-    display: block; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);
-    padding: 5px 20px; background: #887db2; color: #fff; border-radius: 5px 5px 0 0; }
+.shared-files-admin .drop-zone.dragover .drop-tooltip{transform: translate(-50%, 100%); opacity: 1;}
 .shared-files-admin table#file_share_table{margin: 0; padding: 1em; width: 100%; font-family: monospace; font-size: 105%;}
 .shared-files-admin tr:hover{background: #dde;}
 .shared-files-admin td.details{width: 1%; white-space: nowrap; padding: 0 5px;}
