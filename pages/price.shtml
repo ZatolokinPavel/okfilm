@@ -149,12 +149,12 @@
                     <div>
                         <h5>Афиша</h5>
                         <img src="/images/polygraphic/afisha.jpg">
-                        <div class="price">800...1000 грн</div>
+                        <div class="price">от 800 до 1000 грн</div>
                     </div>
                     <div>
                         <h5>Постер</h5>
                         <img src="/images/polygraphic/poster.jpg">
-                        <div class="price">500...600 грн</div>
+                        <div class="price">от 500 до 600 грн</div>
                     </div>
                     <div>
                         <h5>Визитки</h5>
@@ -165,14 +165,17 @@
                         <h5>Меню</h5>
                         <img src="/images/polygraphic/menu.jpg">
                         <div class="price">
-                            500 грн за 2 разворота,<br>
+                            500 грн за один разворот и обложку,<br>
                             плюс 100 грн за каждый дополнительный разворот
                         </div>
                     </div>
                     <div>
                         <h5>Каталог</h5>
                         <img src="/images/polygraphic/katalog.jpg">
-                        <div class="price"></div>
+                        <div class="price">
+                            400 грн за один разворот и обложку,<br>
+                            плюс 100 грн за каждый дополнительный разворот
+                        </div>
                     </div>
                     <div>
                         <h5>Сертификат, диплом</h5>
@@ -192,17 +195,24 @@
                     <div>
                         <h5>Пригласительные</h5>
                         <img src="/images/polygraphic/priglashenie.jpg">
-                        <div class="price"></div>
+                        <div class="price">
+                            500 грн<br>
+                            В стоимость входит дизайн открытки и конверта пригласительного
+                            плюс рассадочные карточки
+                        </div>
                     </div>
                     <div>
                         <h5>Подарочные сертификаты</h5>
                         <img src="/images/polygraphic/podarochnuy_sertifikat.jpg">
-                        <div class="price"></div>
+                        <div class="price">300 грн</div>
                     </div>
                     <div>
                         <h5>Оформление фотокниги</h5>
                         <img src="/images/polygraphic/photobook.jpg">
-                        <div class="price"></div>
+                        <div class="price">
+                            450 грн за 10 разворотов<br>
+                            40 грн за каждый дополнительный разворот
+                        </div>
                     </div>
                     <div>
                         <h5>WEB-дизайн</h5>
