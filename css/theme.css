@@ -2,15 +2,14 @@
 @import 'https://fonts.googleapis.com/css?family=Abril+Fatface';
 
 /* Общие классы */
-*{box-sizing:border-box}
-.box{width:100%;position:relative}
-.box:after,.form:after{content:"";display:block;clear:both}
-.center{text-align: center;}
-img{border: 0 none; height: auto; max-width: 100%; vertical-align: middle;}
+* {box-sizing: border-box;}
+.box {width: 100%; position: relative;}
+.box:after {content: ""; display: block; clear: both;}
+.center {text-align: center;}
+img {border: 0 none; height: auto; max-width: 100%; vertical-align: middle;}
 
-/* Подгонка под старые браузеры*/
-article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {display: block;}   /* Делаем HTML5 элементы блочными */
-/* Конец подгонки под старые браузеры*/
+/* Подгонка под старые браузеры: делаем HTML5 элементы блочными */
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {display: block;}
 
 html, body {width: 100%; overflow-x: hidden; margin: 0;}
 body{color:#777777; background: #887db2; font-size: 15px; line-height: 22px;
@@ -99,11 +98,11 @@ a.mMenuToggle{font-size: 20px; position: relative; top: 50%; transform: translat
 
 
 /* Контент - секции, блоки и колонки */
-.grid{margin-left: -15px; width: auto;}
+.grid{margin: 0 0 -15px -15px; width: auto;}
 .grid > * {padding: 0 0 15px 15px;}
 .grid > .clear_grid{padding-bottom: 0;}
 @media (min-width: 1220px) {
-    .grid{margin-left: -25px; width: auto;}
+    .grid{margin: 0 0 -25px -25px; width: auto;}
     .grid > * {padding: 0 0 25px 25px;}
 }
 .block{position: relative; padding: 30px; color: #63553f; border: 15px solid #f1ebe2;
