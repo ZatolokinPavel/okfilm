@@ -11,8 +11,8 @@ img {border: 0 none; height: auto; max-width: 100%; vertical-align: middle;}
 /* Подгонка под старые браузеры: делаем HTML5 элементы блочными */
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {display: block;}
 
-html, body {width: 100%; overflow-x: hidden; margin: 0;}
-body{color:#777777; background: #887db2; font-size: 15px; line-height: 22px;
+html, body {width: 100%; margin: 0;}
+body{color:#777777; background: #887db2; font-size: 15px; line-height: 22px; overflow-x: hidden;
      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
 .wrapper{position: relative; left: 0; transition: left 0.3s ease-in-out;}
 .container{max-width: 1200px; padding: 0 15px; margin: 0 auto;}
