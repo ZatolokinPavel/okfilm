@@ -214,7 +214,7 @@
                             40 грн за каждый дополнительный разворот
                         </div>
                     </div>
-                    <div>
+                    <div style="display: none;">
                         <h5>WEB-дизайн</h5>
                         <img src="">
                         <div class="price">$100</div>
