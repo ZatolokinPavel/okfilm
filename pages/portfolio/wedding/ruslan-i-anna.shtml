@@ -14,74 +14,47 @@
     <link rel="stylesheet" href="/font-awesome-4.6.3/css/font-awesome.min.css">
 </head>
 <body id="body" class="noscript">
-    <!-- Для браузеров, где не работает js, применяем дополнительные стили -->
-    <script>document.getElementById('body').classList.remove("noscript")</script>
 
-    <div class="wrapper">
+<!--#include virtual="/include/layout.shtml"-->
 
-        <!-- Боковое меню для мобильных устройств -->
-        <div id="sidebar">
-            <div id="sidebar_menu" class="sidemenu"></div>
+<div class="container">
+
+    <!--#include virtual="/include/header.html" -->
+
+    <!-- Breadcrumb -->
+    <ul class="breadcrumb">
+        <li><a href="/">Главная</a></li>
+        <li><a href="/portfolio">Портфолио</a></li>
+        <li><a href="/portfolio/wedding">Свадьба</a></li>
+        <li>Руслан и Анна</li>
+    </ul>
+
+    <article class="article">
+        <h1 class="article-title">Руслан и Анна</h1>
+        <p class="back-to-portfolio"><a href="/portfolio">&larr; Назад к портфолио</a></p>
+        <div class="gallery-wrapper box">
+            <div class="gallery">
+                <ul>
+                    <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_01.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_01.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_02.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_02.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_03.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_03.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_04.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_04.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_05.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_05.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_06.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_06.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_07.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_07.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_08.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_08.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_09.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_09.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_10.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_10.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
+                </ul>
+            </div>
         </div>
-        <div id="close_sidebar"></div>  <!-- Этот блок затеняет основной контент, чтобы потом скрывать боковое меню -->
+    </article>
 
-        <!-- Фоновая картинка вверху сайта с эффектом parallax -->
-        <div id="parallaxBackground" class="tm_background" style="top: 0"></div>
+    <!--#include virtual="/include/footer.html" -->
 
-        <div class="container box">
+</div>
 
-            <!--#include virtual="/include/header.html" -->
-
-            <!-- Breadcrumb -->
-            <ul class="breadcrumb">
-                <li><a href="/">Главная</a></li>
-                <li><a href="/portfolio">Портфолио</a></li>
-                <li><a href="/portfolio/wedding">Свадьба</a></li>
-                <li>Руслан и Анна</li>
-            </ul>
-
-            <article class="article">
-                <h1 class="article-title">Руслан и Анна</h1>
-                <p class="back-to-portfolio"><a href="/portfolio">&larr; Назад к портфолио</a></p>
-                <div class="gallery-wrapper box">
-                    <div class="gallery">
-                        <ul>
-                            <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_01.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_01.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_02.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_02.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_03.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_03.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_04.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_04.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_05.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_05.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_06.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_06.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_07.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_07.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_08.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_08.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_09.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_09.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Ruslan_and_Anna_Wedding/Ruslan_and_Anna_Wedding_10.jpg" title="Руслан и Анна"><img src="/images/portfolio/Ruslan_and_Anna_Wedding/thumbnails/Ruslan_and_Anna_Wedding_10.jpg" alt="Руслан и Анна" height="300" width="345"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </article>
-
-            <!--#include virtual="/include/footer.html" -->
-
-        </div>
-    </div>
-
-
-    <!-- LightBox -- START -->
-    <div id="lightbox_overlay"></div>
-    <div id="lightbox_wrap">
-        <div id="lightbox_content"></div>
-        <a id="lightbox_close"></a>
-        <a id="lightbox_left"><span id="lightbox_left_ico"></span></a>
-        <a id="lightbox_right"><span id="lightbox_right_ico"></span></a>
-    </div>
-    <!-- LightBox -- END -->
-
-<script src="/js/jquery-1.12.2.min.js"></script>
-<script src="/js/theme.js?v=20170613"></script>
-<script src="/js/gallery.js?v=20170613"></script>
-
-<!--#include virtual="/include/analytics.html"-->
+<!--#include virtual="/include/layout_end.shtml"-->
 
 </body>
 </html>

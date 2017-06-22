@@ -14,56 +14,42 @@
     <link rel="stylesheet" href="/font-awesome-4.6.3/css/font-awesome.min.css">
 </head>
 <body id="body" class="noscript">
-<!-- Для браузеров, где не работает js, применяем дополнительные стили -->
-<script>document.getElementById('body').classList.remove("noscript")</script>
 
-<div class="wrapper">
+<!--#include virtual="/include/layout.shtml"-->
 
-    <!-- Боковое меню для мобильных устройств -->
-    <div id="sidebar">
-        <div id="sidebar_menu" class="sidemenu"></div>
-    </div>
-    <div id="close_sidebar"></div>  <!-- Этот блок затеняет основной контент, чтобы потом скрывать боковое меню -->
+<div class="container">
 
-    <!-- Фоновая картинка вверху сайта с эффектом parallax -->
-    <div id="parallaxBackground" class="tm_background" style="top: 0"></div>
+    <!--#include virtual="/include/header.html" -->
 
-    <div class="container box">
+    <!-- Breadcrumb -->
+    <ul class="breadcrumb">
+        <li><a href="/">Главная</a></li>
+        <li>Услуги</li>
+        <li>OkFILM диск</li>
+    </ul>
 
-        <!--#include virtual="/include/header.html" -->
+    <article class="article">
 
-        <!-- Breadcrumb -->
-        <ul class="breadcrumb">
-            <li><a href="/">Главная</a></li>
-            <li>Услуги</li>
-            <li>OkFILM диск</li>
-        </ul>
+        <h1 class="article-title">OkFILM диск</h1>
 
-        <article class="article">
+        <div class="shared-files-admin">
+            <!--#include virtual="/back/file_share" -->
+            <div class="files-footer">OkFILM</div>
+        </div>
 
-            <h1 class="article-title">OkFILM диск</h1>
+    </article>
 
-            <div class="shared-files-admin">
-                <!--#include virtual="/back/file_share" -->
-                <div class="files-footer">OkFILM</div>
-            </div>
+    <!--#include virtual="/include/footer.html" -->
 
-        </article>
-
-        <!--#include virtual="/include/footer.html" -->
-
-    </div>
 </div>
 
-<script src="/js/jquery-1.12.2.min.js"></script>
-<script src="/js/theme.js?v=20170613"></script>
+<!--#include virtual="/include/layout_end.shtml"-->
+
 <script>var rootPathPrefix = '/uslugi/files';</script>
 <script src="/back/js/lib/n2o/utf8.js?v=20170613"></script>
 <script src="/back/js/lib/n2o/bert.js?v=20170613"></script>
 <script src="/back/js/websocket.js?v=20170613"></script>
 <script src="/back/js/file_share.js?v=20170613"></script>
-
-<!--#include virtual="/include/analytics.html"-->
 
 </body>
 </html>

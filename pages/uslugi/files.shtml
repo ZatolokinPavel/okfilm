@@ -14,51 +14,36 @@
     <link rel="stylesheet" href="/font-awesome-4.6.3/css/font-awesome.min.css">
 </head>
 <body id="body" class="noscript">
-    <!-- Для браузеров, где не работает js, применяем дополнительные стили -->
-    <script>document.getElementById('body').classList.remove("noscript")</script>
 
-    <div class="wrapper">
+<!--#include virtual="/include/layout.shtml"-->
 
-        <!-- Боковое меню для мобильных устройств -->
-        <div id="sidebar">
-            <div id="sidebar_menu" class="sidemenu"></div>
+<div class="container">
+
+    <!--#include virtual="/include/header.html" -->
+
+    <!-- Breadcrumb -->
+    <ul class="breadcrumb">
+        <li><a href="/">Главная</a></li>
+        <li>Услуги</li>
+        <li>OkFILM диск</li>
+    </ul>
+
+    <article class="article">
+
+        <h1 class="article-title">OkFILM диск</h1>
+
+        <div class="shared-files">
+            <!--#include virtual="$shared_files" -->
+            <div class="files-footer">OkFILM</div>
         </div>
-        <div id="close_sidebar"></div>  <!-- Этот блок затеняет основной контент, чтобы потом скрывать боковое меню -->
 
-        <!-- Фоновая картинка вверху сайта с эффектом parallax -->
-        <div id="parallaxBackground" class="tm_background" style="top: 0"></div>
+    </article>
 
-        <div class="container box">
+    <!--#include virtual="/include/footer.html" -->
 
-            <!--#include virtual="/include/header.html" -->
+</div>
 
-            <!-- Breadcrumb -->
-            <ul class="breadcrumb">
-                <li><a href="/">Главная</a></li>
-                <li>Услуги</li>
-                <li>OkFILM диск</li>
-            </ul>
-
-            <article class="article">
-
-                <h1 class="article-title">OkFILM диск</h1>
-
-                <div class="shared-files">
-                    <!--#include virtual="$shared_files" -->
-                    <div class="files-footer">OkFILM</div>
-                </div>
-
-            </article>
-
-            <!--#include virtual="/include/footer.html" -->
-
-        </div>
-    </div>
-
-<script src="/js/jquery-1.12.2.min.js"></script>
-<script src="/js/theme.js?v=20170613"></script>
-
-<!--#include virtual="/include/analytics.html"-->
+<!--#include virtual="/include/layout_end.shtml"-->
 
 </body>
 </html>

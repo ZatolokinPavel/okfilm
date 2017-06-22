@@ -2,6 +2,7 @@
 Options +Includes
 AddType text/html .shtml
 AddHandler server-parsed .shtml
+SSILegacyExprParser on          # для корректной работы <!--# if expr="..." -->
 
 # На старом сайте страница фото-портфолио имела другой адрес
 RedirectPermanent /photoalbum /portfolio

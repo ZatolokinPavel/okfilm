@@ -14,94 +14,67 @@
     <link rel="stylesheet" href="/font-awesome-4.6.3/css/font-awesome.min.css">
 </head>
 <body id="body" class="noscript">
-    <!-- Для браузеров, где не работает js, применяем дополнительные стили -->
-    <script>document.getElementById('body').classList.remove("noscript")</script>
 
-    <div class="wrapper">
+<!--#include virtual="/include/layout.shtml"-->
 
-        <!-- Боковое меню для мобильных устройств -->
-        <div id="sidebar">
-            <div id="sidebar_menu" class="sidemenu"></div>
+<div class="container">
+
+    <!--#include virtual="/include/header.html" -->
+
+    <!-- Breadcrumb -->
+    <ul class="breadcrumb">
+        <li><a href="/">Главная</a></li>
+        <li><a href="/portfolio">Портфолио</a></li>
+        <li><a href="/portfolio/wedding">Свадьба</a></li>
+        <li>Славик и Юля</li>
+    </ul>
+
+    <article class="article">
+        <h1 class="article-title">Славик и Юля</h1>
+        <p class="back-to-portfolio"><a href="/portfolio">&larr; Назад к портфолио</a></p>
+        <div class="gallery-wrapper box">
+            <div class="gallery">
+                <ul>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_01.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_01.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_02.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_02.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_03.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_03.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_04.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_04.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_05.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_05.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_06.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_06.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_07.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_07.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_08.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_08.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_09.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_09.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_10.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_10.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_11.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_11.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_12.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_12.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_13.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_13.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_14.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_14.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_15.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_15.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_16.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_16.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_17.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_17.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_18.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_18.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_19.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_19.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_20.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_20.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_21.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_21.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_22.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_22.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_23.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_23.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_24.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_24.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_25.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_25.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_26.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_26.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_27.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_27.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_28.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_28.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_29.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_29.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                    <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_30.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_30.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
+                </ul>
+            </div>
         </div>
-        <div id="close_sidebar"></div>  <!-- Этот блок затеняет основной контент, чтобы потом скрывать боковое меню -->
+    </article>
 
-        <!-- Фоновая картинка вверху сайта с эффектом parallax -->
-        <div id="parallaxBackground" class="tm_background" style="top: 0"></div>
+    <!--#include virtual="/include/footer.html" -->
 
-        <div class="container box">
+</div>
 
-            <!--#include virtual="/include/header.html" -->
-
-            <!-- Breadcrumb -->
-            <ul class="breadcrumb">
-                <li><a href="/">Главная</a></li>
-                <li><a href="/portfolio">Портфолио</a></li>
-                <li><a href="/portfolio/wedding">Свадьба</a></li>
-                <li>Славик и Юля</li>
-            </ul>
-
-            <article class="article">
-                <h1 class="article-title">Славик и Юля</h1>
-                <p class="back-to-portfolio"><a href="/portfolio">&larr; Назад к портфолио</a></p>
-                <div class="gallery-wrapper box">
-                    <div class="gallery">
-                        <ul>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_01.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_01.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_02.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_02.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_03.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_03.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_04.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_04.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_05.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_05.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_06.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_06.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_07.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_07.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_08.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_08.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_09.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_09.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_10.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_10.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_11.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_11.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_12.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_12.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_13.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_13.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_14.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_14.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_15.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_15.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_16.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_16.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_17.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_17.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_18.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_18.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_19.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_19.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_20.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_20.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_21.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_21.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_22.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_22.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_23.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_23.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_24.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_24.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_25.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_25.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_26.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_26.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_27.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_27.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_28.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_28.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_29.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_29.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                            <li><a href="/images/portfolio/Slava_and_Yulia_Wedding/Slava_and_Yulia_Wedding_30.jpg" title="Славик и Юля"><img src="/images/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_30.jpg" alt="Славик и Юля" height="300" width="345"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </article>
-
-            <!--#include virtual="/include/footer.html" -->
-
-        </div>
-    </div>
-
-
-    <!-- LightBox -- START -->
-    <div id="lightbox_overlay"></div>
-    <div id="lightbox_wrap">
-        <div id="lightbox_content"></div>
-        <a id="lightbox_close"></a>
-        <a id="lightbox_left"><span id="lightbox_left_ico"></span></a>
-        <a id="lightbox_right"><span id="lightbox_right_ico"></span></a>
-    </div>
-    <!-- LightBox -- END -->
-
-<script src="/js/jquery-1.12.2.min.js"></script>
-<script src="/js/theme.js?v=20170613"></script>
-<script src="/js/gallery.js?v=20170613"></script>
-
-<!--#include virtual="/include/analytics.html"-->
+<!--#include virtual="/include/layout_end.shtml"-->
 
 </body>
 </html>

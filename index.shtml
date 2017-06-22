@@ -13,284 +13,268 @@
     <link rel="stylesheet" href="/font-awesome-4.6.3/css/font-awesome.min.css">
 </head>
 <body id="body" class="noscript main_page">
-    <!-- Для браузеров, где не работает js, применяем дополнительные стили -->
-    <script>document.getElementById('body').classList.remove("noscript")</script>
 
-    <div class="wrapper">
+<!--#include virtual="/include/layout.shtml"-->
 
-        <!-- Боковое меню для мобильных устройств -->
-        <div id="sidebar">
-            <div id="sidebar_menu" class="sidemenu"></div>
+<!-- Фотоплёнка вверху на главной странице -->
+<div class="photo_film_wrap">
+    <div id="photo_film" class="photo_film">
+        <div class="photo_film_block">
+            <a href="/portfolio" title="">
+                <img src="images/home-slideshow/home_photo_film-01.jpg" alt="" height="150">
+                <div class="tooltip">Открыть портфолио</div>
+            </a>
         </div>
-        <div id="close_sidebar"></div>  <!-- Этот блок затеняет основной контент, чтобы потом скрывать боковое меню -->
+        <div class="photo_film_block">
+            <a href="/portfolio" title="">
+                <img src="images/home-slideshow/home_photo_film-02.jpg" alt="" height="150">
+                <div class="tooltip">Открыть портфолио</div>
+            </a>
+        </div>
+        <div class="photo_film_block">
+            <a href="/portfolio" title="">
+                <img src="images/home-slideshow/home_photo_film-03.jpg" alt="" height="150">
+                <div class="tooltip">Открыть портфолио</div>
+            </a>
+        </div>
+        <div class="photo_film_block">
+            <a href="/portfolio" title="">
+                <img src="images/home-slideshow/home_photo_film-09.jpg" alt="" height="150">
+                <div class="tooltip">Открыть портфолио</div>
+            </a>
+        </div>
+        <div class="photo_film_block">
+            <a href="/portfolio" title="">
+                <img src="images/home-slideshow/home_photo_film-10.jpg" alt="" height="150">
+                <div class="tooltip">Открыть портфолио</div>
+            </a>
+        </div>
+        <div class="photo_film_block">
+            <a href="/portfolio" title="">
+                <img src="images/home-slideshow/home_photo_film-11.jpg" alt="" height="150">
+                <div class="tooltip">Открыть портфолио</div>
+            </a>
+        </div>
+        <div class="photo_film_block">
+            <a href="/portfolio" title="">
+                <img src="images/home-slideshow/home_photo_film-13.jpg" alt="" height="150">
+                <div class="tooltip">Открыть портфолио</div>
+            </a>
+        </div>
+        <div class="photo_film_block">
+            <a href="/portfolio" title="">
+                <img src="images/home-slideshow/home_photo_film-14.jpg" alt="" height="150">
+                <div class="tooltip">Открыть портфолио</div>
+            </a>
+        </div>
+    </div>
+</div>
 
-        <!-- Фоновая картинка вверху сайта с эффектом parallax -->
-        <div id="parallaxBackground" class="tm_background" style="top: 0"></div>
+<div class="container">
 
-        <!-- Фотоплёнка вверху на главной странице -->
-        <div class="photo_film_wrap">
-            <div id="photo_film" class="photo_film">
-                <div class="photo_film_block">
-                    <a href="/portfolio" title="">
-                        <img src="images/home-slideshow/home_photo_film-01.jpg" alt="" height="150">
-                        <div class="tooltip">Открыть портфолио</div>
-                    </a>
+    <!--#include virtual="/include/header.html" -->
+
+    <section class="grid box">
+        <div class="col00">
+            <div class="block">
+                Меня зовут Оксана Найденко. Очень рада видеть Вас в моём мирке. Своё призвание я вижу
+                в фото- и видеосъёмке и буду очень благодарна за содействие моей цели — дарить людям
+                положительные эмоции. Живу и работаю в Днепропетровске, но очень люблю новые города и
+                яркие впечатления, поэтому буду рада запечатлеть важное для Вас событие в любом городе Украины.
+            </div>
+        </div>
+    </section>
+
+    <section class="grid box">
+        <div class="col66x960">
+            <div id="home_slideshow">
+                <ul>
+                    <li>
+                        <img src="images/home-slideshow/home_slideshow-1.jpg" alt="Мужчина и женщина хранят ключи от сердец друг друга">
+                        <h3 style="top: 30px;">Мужчина и женщина хранят ключи от <strong>сердец друг друга</strong></h3>
+                    </li>
+                    <li>
+                        <img src="images/home-slideshow/home_slideshow-2.jpg" alt="С дорогими людьми всегда мало общих фотографий">
+                        <h3 style="bottom: 30px;">С дорогими людьми всегда мало<br /><strong>общих фотографий</strong></h3>
+                    </li>
+                    <li>
+                        <img src="images/home-slideshow/home_slideshow-3.jpg" alt="Счастье рядом. Просто протяни руку.">
+                        <h3 style="bottom: 30px;">Счастье рядом. <strong>Просто протяни руку.</strong></h3>
+                    </li>
+                    <li>
+                        <img src="images/home-slideshow/home_slideshow-4.jpg" alt="Ты + Я = Семья.">
+                        <h3 style="top: 30px;">Ты + Я <strong>= Семья.</strong></h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- LoveStory в подарок -->
+        <div class="col33x960">
+            <div class="block primary center">
+                <i class="fa fa-gift block-icon"></i>
+                <h3>LoveStory в подарок</h3>
+                <h4>Действующая акция</h4>
+                <p>При заказе свадебной съёмки LoveStory вы получаете в подарок.</p>
+                <p style="padding-top: 15px;">
+                    <a class="button button-large" href="javascript:void(0);">Подробнее</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="grid box">
+
+        <div class="col66x768r clear_grid">
+            <div class="grid box">
+
+                <!-- Свадебная фотосъёмка -->
+                <div class="col50x960r">
+                    <div class="block secondary center">
+                        <i class="fa fa-camera block-icon"></i>
+                        <h3>Свадебная<br/>фотосъёмка</h3>
+                        <p class="margin-large-bottom">
+                            Любые, даже самые непредсказуемые события, которые окружают
+                            вас в этот день, останутся на фото и будут радовать вас много лет.
+                        </p>
+                        <a class="button button-align-bottom" href="/portfolio/wedding">Примеры работ</a>
+                    </div>
                 </div>
-                <div class="photo_film_block">
-                    <a href="/portfolio" title="">
-                        <img src="images/home-slideshow/home_photo_film-02.jpg" alt="" height="150">
-                        <div class="tooltip">Открыть портфолио</div>
-                    </a>
+
+                <!-- Свадебная видеосъёмка -->
+                <div class="col50x960r">
+                    <div class="block secondary center">
+                        <i class="fa fa-film block-icon"></i>
+                        <h3>Свадебная<br/>видеосъёмка</h3>
+                        <p class="margin-large-bottom">
+                            Чтобы все ваши эмоции остались в памяти, чтобы вы могли пережить
+                            этот день снова я снимаю видеофильм о вашей свадьбе.
+                        </p>
+                        <a class="button button-align-bottom" href="/video/wedding">Примеры работ</a>
+                    </div>
                 </div>
-                <div class="photo_film_block">
-                    <a href="/portfolio" title="">
-                        <img src="images/home-slideshow/home_photo_film-03.jpg" alt="" height="150">
-                        <div class="tooltip">Открыть портфолио</div>
-                    </a>
-                </div>
-                <div class="photo_film_block">
-                    <a href="/portfolio" title="">
-                        <img src="images/home-slideshow/home_photo_film-09.jpg" alt="" height="150">
-                        <div class="tooltip">Открыть портфолио</div>
-                    </a>
-                </div>
-                <div class="photo_film_block">
-                    <a href="/portfolio" title="">
-                        <img src="images/home-slideshow/home_photo_film-10.jpg" alt="" height="150">
-                        <div class="tooltip">Открыть портфолио</div>
-                    </a>
-                </div>
-                <div class="photo_film_block">
-                    <a href="/portfolio" title="">
-                        <img src="images/home-slideshow/home_photo_film-11.jpg" alt="" height="150">
-                        <div class="tooltip">Открыть портфолио</div>
-                    </a>
-                </div>
-                <div class="photo_film_block">
-                    <a href="/portfolio" title="">
-                        <img src="images/home-slideshow/home_photo_film-13.jpg" alt="" height="150">
-                        <div class="tooltip">Открыть портфолио</div>
-                    </a>
-                </div>
-                <div class="photo_film_block">
-                    <a href="/portfolio" title="">
-                        <img src="images/home-slideshow/home_photo_film-14.jpg" alt="" height="150">
-                        <div class="tooltip">Открыть портфолио</div>
-                    </a>
-                </div>
+
             </div>
         </div>
 
-        <div class="container box">
-
-            <!--#include virtual="/include/header.html" -->
-
-            <section class="grid box">
-                <div class="col00">
-                    <div class="block">
-                        Меня зовут Оксана Найденко. Очень рада видеть Вас в моём мирке. Своё призвание я вижу
-                        в фото- и видеосъёмке и буду очень благодарна за содействие моей цели — дарить людям
-                        положительные эмоции. Живу и работаю в Днепропетровске, но очень люблю новые города и
-                        яркие впечатления, поэтому буду рада запечатлеть важное для Вас событие в любом городе Украины.
-                    </div>
-                </div>
-            </section>
-
-            <section class="grid box">
-                <div class="col66x960">
-                    <div id="home_slideshow">
-                        <ul>
-                            <li>
-                                <img src="images/home-slideshow/home_slideshow-1.jpg" alt="Мужчина и женщина хранят ключи от сердец друг друга">
-                                <h3 style="top: 30px;">Мужчина и женщина хранят ключи от <strong>сердец друг друга</strong></h3>
-                            </li>
-                            <li>
-                                <img src="images/home-slideshow/home_slideshow-2.jpg" alt="С дорогими людьми всегда мало общих фотографий">
-                                <h3 style="bottom: 30px;">С дорогими людьми всегда мало<br /><strong>общих фотографий</strong></h3>
-                            </li>
-                            <li>
-                                <img src="images/home-slideshow/home_slideshow-3.jpg" alt="Счастье рядом. Просто протяни руку.">
-                                <h3 style="bottom: 30px;">Счастье рядом. <strong>Просто протяни руку.</strong></h3>
-                            </li>
-                            <li>
-                                <img src="images/home-slideshow/home_slideshow-4.jpg" alt="Ты + Я = Семья.">
-                                <h3 style="top: 30px;">Ты + Я <strong>= Семья.</strong></h3>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- LoveStory в подарок -->
-                <div class="col33x960">
-                    <div class="block primary center">
-                        <i class="fa fa-gift block-icon"></i>
-                        <h3>LoveStory в подарок</h3>
-                        <h4>Действующая акция</h4>
-                        <p>При заказе свадебной съёмки LoveStory вы получаете в подарок.</p>
-                        <p style="padding-top: 15px;">
-                            <a class="button button-large" href="javascript:void(0);">Подробнее</a>
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            <section class="grid box">
-
-                <div class="col66x768r clear_grid">
-                    <div class="grid box">
-
-                        <!-- Свадебная фотосъёмка -->
-                        <div class="col50x960r">
-                            <div class="block secondary center">
-                                <i class="fa fa-camera block-icon"></i>
-                                <h3>Свадебная<br/>фотосъёмка</h3>
-                                <p class="margin-large-bottom">
-                                    Любые, даже самые непредсказуемые события, которые окружают
-                                    вас в этот день, останутся на фото и будут радовать вас много лет.
-                                </p>
-                                <a class="button button-align-bottom" href="/portfolio/wedding">Примеры работ</a>
-                            </div>
-                        </div>
-
-                        <!-- Свадебная видеосъёмка -->
-                        <div class="col50x960r">
-                            <div class="block secondary center">
-                                <i class="fa fa-film block-icon"></i>
-                                <h3>Свадебная<br/>видеосъёмка</h3>
-                                <p class="margin-large-bottom">
-                                    Чтобы все ваши эмоции остались в памяти, чтобы вы могли пережить
-                                    этот день снова я снимаю видеофильм о вашей свадьбе.
-                                </p>
-                                <a class="button button-align-bottom" href="/video/wedding">Примеры работ</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- LoveStory, Семейные праздники, Студийная съёмка, Фотокниги -->
-                <div class="col33x768">
-                    <div class="block secondary">
-                        <i class="fa fa-camera block-icon"></i>
-                        <h3>LoveStory</h3>
-                        <p>
-                            Если вы с поводом или без собрались на прогулку — зовите с собой фотографа.
-                            Положительные эмоции и яркие фото гарантированы!
-                        </p>
-                        <a class="button" href="/portfolio/lovestory">Посмотреть примеры работ</a>
-                        <hr/>
-                        <h3>Семейные праздники</h3>
-                        <p>
-                            Какой же праздник без приятных воспоминаний? А их надо сохранить, и в этом
-                            вам поможет профессионал.
-                        </p>
-                        <a class="button" href="" style="display: none">See all Features</a>
-                        <hr/>
-                        <h3>Студийная съёмка</h3>
-                        <p>
-                            Кто устоит перед отличными студийными фото, на которых как нельзя лучше можно
-                            передать характер модели?
-                        </p>
-                        <a class="button" href="" style="display: none">See more</a>
-                        <hr/>
-                        <h3>Фотокниги</h3>
-                        <p>
-                            Это поистине волшебное чувство, когда держишь в руках и листаешь страницы своей
-                            жизни с такими теплыми воспоминаниями.
-                        </p>
-                        <a class="button" href="uslugi/photobook">Выбрать свою фотокнигу</a>
-                    </div>
-                </div>
-
-                <!-- Отзывы молодоженов -->
-                <div class="col66x768">
-                    <div class="reviews block">
-                        <div id="reviews_left_arrow" class="arrow left">
-                            <a href="javascript:void(0);"></a>
-                        </div>
-                        <div class="scrollable">
-                            <ul id="reviews_list">
-                                <li class="rv_m">
-                                    <div class="photo">
-                                        <img src="/images/otzivi_na_glavnoi/Silchuk.jpg" alt="Света">
-                                        <h4>Света</h4>
-                                    </div>
-                                    <div class="text">
-                                        Я давно мечтала о профессиональной фотосессии и, после тренинга
-                                        о женственности, попала на акцию от Ксюши. В результате увидела
-                                        себя на фотографиях в новом ракурсе: яркой, женственной и счастливой.
-                                        Спасибо Ксюше, что помогла чуть больше раскрыть себя и увидеть свои
-                                        положительные стороны.
-                                    </div>
-                                </li>
-                                <li class="rv_r">
-                                    <div class="photo">
-                                        <img src="/images/otzivi_na_glavnoi/rodkin.jpg" alt="Сергей">
-                                        <h4>Сергей</h4>
-                                    </div>
-                                    <div class="text">
-                                        Делали свадьбу на память родителям и детям. Но были приятно удивлены
-                                        качеством съёмки и монтажа! Кроме сочно нарезанного полного видео,
-                                        глаз радуют короткие клипы с избранными фрагментами. Когда погружен
-                                        в процесс — Оксану не замечаешь — где она, откуда снимает... эдакий
-                                        самурай) А в итоге приятно удивлены с получившихся ракурсов
-                                        и пойманных моментов! Рекомендую!
-                                    </div>
-                                </li>
-                                <li class="rv_r">
-                                    <div class="photo">
-                                        <img src="/images/otzivi_na_glavnoi/Nastya_Z.jpg" alt="Настя">
-                                        <h4>Настя</h4>
-                                    </div>
-                                    <div class="text">
-                                        Приглашали Оксану на видео и фото съемку детского дня рождения,
-                                        остались очень довольны, фотографиями особенно. Наши знакомые
-                                        тоже пользовались услугами Оксаны. Качество работ на 5+.
-                                        Рекомендую к сотрудничеству.
-                                    </div>
-                                </li>
-                                <li class="rv_r">
-                                    <div class="photo">
-                                        <img src="/images/otzivi_na_glavnoi/Sulaeva.jpg" alt="Юлия">
-                                        <h4>Юлия</h4>
-                                    </div>
-                                    <div class="text" style="line-height: 1">
-                                        <p>Я очень люблю все творческое, красивое, изящное, сделанное со вкусом
-                                            и любовью. И поэтому работы Оксаны Найденко, как фото, так и видео,
-                                            находят отклик в моем сердце.</p>
-                                        <p>Мы сотрудничаем с Оксаной уже несколько лет – в вопросах работы
-                                            (видеоролики, фотографии мероприятий и изображения на сайт). Это всегда
-                                            стильно и очень профессионально (поэтому, Оксаночка – еще раз огромное спасибо!).</p>
-                                        <p>Да и личные фотосессии, мне и моим подругам, делала тоже Оксана.
-                                            Она как-то умеет уловить изюминку человека, показать его характер
-                                            и индивидуальность, не забывая при этом об удачных ракурсах)).</p>
-                                        <!--<p>-->
-                                        <!--Помимо всего прочего, Оксана очень хороший, энергичный, светлый человек,-->
-                                        <!--общение с ней всегда заряжает позитивной энергией. Сделанные ею работы-->
-                                        <!--несут отпечаток этой светлой энергии и всегда радуют.-->
-                                        <!--</p>-->
-                                        <!--<p>Поэтому – очень рекомендую.</p>-->
-                                        <!--<p><i>Сулаева Юлия.</i></p>-->
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div id="reviews_right_arrow" class="arrow right">
-                            <a href="javascript:void(0);"></a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--#include virtual="/include/footer.html" -->
-
+        <!-- LoveStory, Семейные праздники, Студийная съёмка, Фотокниги -->
+        <div class="col33x768">
+            <div class="block secondary">
+                <i class="fa fa-camera block-icon"></i>
+                <h3>LoveStory</h3>
+                <p>
+                    Если вы с поводом или без собрались на прогулку — зовите с собой фотографа.
+                    Положительные эмоции и яркие фото гарантированы!
+                </p>
+                <a class="button" href="/portfolio/lovestory">Посмотреть примеры работ</a>
+                <hr/>
+                <h3>Семейные праздники</h3>
+                <p>
+                    Какой же праздник без приятных воспоминаний? А их надо сохранить, и в этом
+                    вам поможет профессионал.
+                </p>
+                <a class="button" href="" style="display: none">See all Features</a>
+                <hr/>
+                <h3>Студийная съёмка</h3>
+                <p>
+                    Кто устоит перед отличными студийными фото, на которых как нельзя лучше можно
+                    передать характер модели?
+                </p>
+                <a class="button" href="" style="display: none">See more</a>
+                <hr/>
+                <h3>Фотокниги</h3>
+                <p>
+                    Это поистине волшебное чувство, когда держишь в руках и листаешь страницы своей
+                    жизни с такими теплыми воспоминаниями.
+                </p>
+                <a class="button" href="uslugi/photobook">Выбрать свою фотокнигу</a>
+            </div>
         </div>
-    </div>
 
-    <script src="/js/jquery-1.12.2.min.js"></script>
-    <script src="/js/theme.js?v=20170613"></script>
-    <script src="/js/main_page.js?v=20170613"></script>
+        <!-- Отзывы молодоженов -->
+        <div class="col66x768">
+            <div class="reviews block">
+                <div id="reviews_left_arrow" class="arrow left">
+                    <a href="javascript:void(0);"></a>
+                </div>
+                <div class="scrollable">
+                    <ul id="reviews_list">
+                        <li class="rv_m">
+                            <div class="photo">
+                                <img src="/images/otzivi_na_glavnoi/Silchuk.jpg" alt="Света">
+                                <h4>Света</h4>
+                            </div>
+                            <div class="text">
+                                Я давно мечтала о профессиональной фотосессии и, после тренинга
+                                о женственности, попала на акцию от Ксюши. В результате увидела
+                                себя на фотографиях в новом ракурсе: яркой, женственной и счастливой.
+                                Спасибо Ксюше, что помогла чуть больше раскрыть себя и увидеть свои
+                                положительные стороны.
+                            </div>
+                        </li>
+                        <li class="rv_r">
+                            <div class="photo">
+                                <img src="/images/otzivi_na_glavnoi/rodkin.jpg" alt="Сергей">
+                                <h4>Сергей</h4>
+                            </div>
+                            <div class="text">
+                                Делали свадьбу на память родителям и детям. Но были приятно удивлены
+                                качеством съёмки и монтажа! Кроме сочно нарезанного полного видео,
+                                глаз радуют короткие клипы с избранными фрагментами. Когда погружен
+                                в процесс — Оксану не замечаешь — где она, откуда снимает... эдакий
+                                самурай) А в итоге приятно удивлены с получившихся ракурсов
+                                и пойманных моментов! Рекомендую!
+                            </div>
+                        </li>
+                        <li class="rv_r">
+                            <div class="photo">
+                                <img src="/images/otzivi_na_glavnoi/Nastya_Z.jpg" alt="Настя">
+                                <h4>Настя</h4>
+                            </div>
+                            <div class="text">
+                                Приглашали Оксану на видео и фото съемку детского дня рождения,
+                                остались очень довольны, фотографиями особенно. Наши знакомые
+                                тоже пользовались услугами Оксаны. Качество работ на 5+.
+                                Рекомендую к сотрудничеству.
+                            </div>
+                        </li>
+                        <li class="rv_r">
+                            <div class="photo">
+                                <img src="/images/otzivi_na_glavnoi/Sulaeva.jpg" alt="Юлия">
+                                <h4>Юлия</h4>
+                            </div>
+                            <div class="text" style="line-height: 1">
+                                <p>Я очень люблю все творческое, красивое, изящное, сделанное со вкусом
+                                    и любовью. И поэтому работы Оксаны Найденко, как фото, так и видео,
+                                    находят отклик в моем сердце.</p>
+                                <p>Мы сотрудничаем с Оксаной уже несколько лет – в вопросах работы
+                                    (видеоролики, фотографии мероприятий и изображения на сайт). Это всегда
+                                    стильно и очень профессионально (поэтому, Оксаночка – еще раз огромное спасибо!).</p>
+                                <p>Да и личные фотосессии, мне и моим подругам, делала тоже Оксана.
+                                    Она как-то умеет уловить изюминку человека, показать его характер
+                                    и индивидуальность, не забывая при этом об удачных ракурсах)).</p>
+                                <!--<p>-->
+                                <!--Помимо всего прочего, Оксана очень хороший, энергичный, светлый человек,-->
+                                <!--общение с ней всегда заряжает позитивной энергией. Сделанные ею работы-->
+                                <!--несут отпечаток этой светлой энергии и всегда радуют.-->
+                                <!--</p>-->
+                                <!--<p>Поэтому – очень рекомендую.</p>-->
+                                <!--<p><i>Сулаева Юлия.</i></p>-->
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="reviews_right_arrow" class="arrow right">
+                    <a href="javascript:void(0);"></a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!--#include virtual="/include/analytics.html"-->
-    
+    <!--#include virtual="/include/footer.html" -->
+
+</div>
+
+<!--#include virtual="/include/layout_end.shtml"-->
+
 </body>
 </html>
