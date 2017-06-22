@@ -5,26 +5,68 @@
  */
 
 
-var nextLink, prevLink;
-
 
 // На все ссылки всех галерей навешиваем обработку события наведения и убирания мыши
-$(function() {
-    $('.gallery_slider a').mouseover(selectSliderElement).mouseleave(deselectSliderElement);
-});
+var GallerySliderOKFilm = function() {
 
-// Расширение картинки, над которой сейчас курсор, сжатие всех остальных
-function selectSliderElement() {
-    var li = $(this).parent();
-    console.log(li.parent().width());
-    var W = (li.parent().width() / 2 - 345) / 5;
-    li.siblings().outerWidth(W+'px');
-    li.outerWidth('345px');
-}
-// Восстановление обычного размера картинок
-function deselectSliderElement() {
-    $(this).parent().parent().children().width('');
-}
+    // Расширение картинки, над которой сейчас курсор, сжатие всех остальных
+    var selectSliderElement = function() {
+        var li = $(this).parent();
+        console.log(li.parent().width());
+        var W = (li.parent().width() / 2 - 345) / 5;
+        li.siblings().outerWidth(W+'px');
+        li.outerWidth('345px');
+    };
+
+    // Восстановление обычного размера картинок
+    var deselectSliderElement = function() {
+        $(this).parent().parent().children().width('');
+    };
+
+    $('.gallery_slider a').mouseover(selectSliderElement).mouseleave(deselectSliderElement);
+};
+$(GallerySliderOKFilm);
+
+
+
+
+
+var GalleryOKFilm = function() {
+    var lightbox,
+        wrap,
+        content,
+        overlay,
+        nextLink,
+        prevLink;
+
+    var init = function() {
+        createModalWindow();
+    };
+
+    var createModalWindow = function() {
+        lightbox = document.createElement('div');
+        lightbox.style.display = 'none';
+        document.body.appendChild(lightbox);
+
+        lightbox.innerHTML =
+            '<div id="lightbox_overlay"></div>' +
+            '<div id="lightbox_wrap">' +
+                '<div id="lightbox_content"></div>' +
+                '<a id="lightbox_close"></a>' +
+                '<a id="lightbox_left"><span id="lightbox_left_ico"></span></a>' +
+                '<a id="lightbox_right"><span id="lightbox_right_ico"></span></a>' +
+            '</div>';
+        wrap    = document.getElementById('lightbox_wrap');
+        content = document.getElementById('lightbox_content');
+        overlay = document.getElementById('lightbox_overlay');
+    };
+
+    init();
+};
+$(GalleryOKFilm);
+
+
+
 
 
 // Навешиваем обработчики клика на все фотки всех галерей на странице.
