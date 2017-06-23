@@ -32,10 +32,10 @@
     width: 35%; position: absolute; top: 100px; bottom: 100px; cursor: pointer; display: none; z-index: 102;}
 #lightbox_left {left: 0;}
 #lightbox_right {right: 0;}
-#lightbox_left_ico, #lightbox_right_ico {
+.lightbox_left_ico, .lightbox_right_ico {
     background: rgba(0,0,0,0) url("/images/widgets/lightbox/buttons.png") no-repeat scroll 0 0;
     cursor: pointer; display: block; height: 50px; width: 50px;
     position: absolute; top: 50%; margin-top: -25px; left: -9999px; z-index: 1102;}
-#lightbox_right_ico {background-position: 0 -50px;}
+.lightbox_right_ico {background-position: 0 -50px;}
 #lightbox_left:hover span{left: 30px;}
 #lightbox_right:hover span{left: auto; right: 30px;}
