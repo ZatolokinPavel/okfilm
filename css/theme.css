@@ -12,17 +12,19 @@ img {border: 0 none; height: auto; max-width: 100%; vertical-align: middle;}
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {display: block;}
 
 html, body {width: 100%; margin: 0;}
-body{color:#777777; background: #887db2; font-size: 15px; line-height: 22px; overflow-x: hidden;
-     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
-.wrapper{position: relative; left: 0; transition: left 0.3s ease-in-out;}
-.container{max-width: 1200px; padding: 0 15px; margin: 0 auto;}
-#sidebar{position: fixed; top: 0; bottom: 0; left: -270px; max-width: 100%; width: 270px; background: #33373b;
-         overflow: auto; transition: left 0.3s ease-in-out;}
-#close_sidebar{position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.1); z-index: 1; display: none;}
-.open-sidebar.wrapper{left: 270px;}
-.open-sidebar #sidebar{left: 0;}
-.open-sidebar #close_sidebar{display: block;}
-hr{box-sizing: content-box; height:0; margin: 15px 0; border:0; border-top: 1px solid #d2d3d4;}
+body {color:#777777; background: #887db2; font-size: 15px; line-height: 22px; overflow-x: hidden;
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+.layout__body {position: relative;}
+.layout__basis {position: relative; left: 0; transition: left 0.3s ease-in-out;}
+.container {max-width: 1200px; padding: 0 15px; margin: 0 auto;}
+#sidebar {position: fixed; top: 0; bottom: 0; left: -270px; max-width: 100%; width: 270px; background: #33373b;
+          overflow: auto; transition: left 0.3s ease-in-out;}
+#close_sidebar {position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.1); z-index: 1; display: none;}
+.sidebar-opened.layout__body {overflow: hidden;}
+.sidebar-opened .layout__basis {left: 270px;}
+.sidebar-opened #sidebar {left: 0;}
+.sidebar-opened #close_sidebar {display: block;}
+hr {box-sizing: content-box; height:0; margin: 15px 0; border:0; border-top: 1px solid #d2d3d4;}
 
 
 /* Фоновый рисунок вверху. ВАЖНО: здесь нужно указать такой же цвет фона, как и для body! */

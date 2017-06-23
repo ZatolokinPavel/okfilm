@@ -1,16 +1,19 @@
 <!-- Для браузеров, где не работает js, применяем дополнительные стили -->
 <script>document.getElementById('body').classList.remove("noscript")</script>
 
-<div class="wrapper">
+<div class="layout__body">
 
-    <!-- Боковое меню для мобильных устройств -->
-    <div id="sidebar">
-        <div id="sidebar_menu" class="sidemenu"></div>
-    </div>
-    <div id="close_sidebar"></div>  <!-- Этот блок затеняет основной контент, чтобы потом скрывать боковое меню -->
+    <div class="layout__basis">
 
-    <!-- Фоновая картинка вверху сайта с эффектом parallax -->
-    <div id="parallaxBackground" class="tm_background" style="top: 0"></div>
+        <!-- Боковое меню для мобильных устройств -->
+        <div id="sidebar">
+            <div id="sidebar_menu" class="sidemenu"></div>
+        </div>
+        <!-- Этот блок затеняет основной контент, чтобы потом скрывать боковое меню -->
+        <div id="close_sidebar"></div>
 
-    <!-- Начало блока с основным контентом страницы -->
-    <div class="box">
+        <!-- Фоновая картинка вверху сайта с эффектом parallax -->
+        <div id="parallaxBackground" class="tm_background" style="top: 0"></div>
+
+        <!-- Начало блока с основным контентом страницы -->
+        <div class="box">

@@ -50,7 +50,7 @@ $(function() {
 });
 // Открытие/закрытие мобильного меню
 function toggleMobileMenu() {
-    $('.wrapper').toggleClass('open-sidebar');
+    $('.layout__body').toggleClass('sidebar-opened');
 }
 // Эффект прилипания для кнопки мобильного меню
 function fixMobileMenu() {
