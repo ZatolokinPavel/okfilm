@@ -10,7 +10,7 @@
 <!--#if expr="$orig_uri = \/index.shtml"-->
 <script src="/js/main_page.js?v=20170613"></script>
 <!--#endif-->
-<!--#if expr="$orig_uri = \/pages\/uslugi\/photobook.shtml"-->
+<!--#if expr="$orig_uri = \/pages/uslugi/photobook.shtml"-->
 <script src="/js/photobook.js?v=20170613"></script>
 <!--#endif-->
 
