@@ -35,7 +35,7 @@ function getPoster(video) {
         code = block.innerHTML;
         block.innerHTML = "<button>"+youtube_play+"</button>";                          // Добавляем внутрь блока кнопку ютуба
         block.addEventListener('click', playYoutube.bind(null,block,code));
-        block.style.background = "url('http://img.youtube.com/vi/"+code+"/0.jpg') no-repeat center center";
+        block.style.background = "url('https://img.youtube.com/vi/"+code+"/0.jpg') no-repeat center center";
         block.style.backgroundSize = "cover";
         block.style.display = "block";
     }
