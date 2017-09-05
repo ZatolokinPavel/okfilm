@@ -7,12 +7,12 @@
 <script src="/js/theme.js?v=20170613"></script>
 <script src="/js/gallery.js?v=20170613"></script>
 
-<!--#if expr="($DOCUMENT_URI = '/index.shtml')"-->
+<!--#if expr="$DOCUMENT_URI = '/index.shtml'"-->
 <script src="/js/main_page.js?v=20170613"></script>
 <!--#endif-->
 <script src="/js/video.js?v=20170613"></script>
 
-<!--#if expr="($DOCUMENT_URI = '/pages/uslugi/photobook.shtml')"-->
+<!--#if expr="$DOCUMENT_URI = '/pages/uslugi/photobook.shtml'"-->
 <script src="/js/photobook.js?v=20170613"></script>
 <!--#endif-->
 
