@@ -1,7 +1,6 @@
-</div>
-<!-- Конец блока с основным контентом страницы -->
-</div>  <!-- layout__basis -->
-</div>  <!-- layout__body -->
+    </div>
+    <!-- Конец блока с основным контентом страницы -->
+</div>  <!-- layout__content -->
 
 <script src="/js/jquery-1.12.2.min.js"></script>
 <script src="/js/theme.js?v=20170905"></script>

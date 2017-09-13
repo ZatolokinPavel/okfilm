@@ -20,13 +20,14 @@ var timerObj = {};
 
 // Parallax Background Scrolling
 (function backgroundParallax() {
-    var container = document.getElementById('parallaxBackground');
+    var l_content = document.getElementById('layout_content');
+    var parallaxB = document.getElementById('parallaxBackground');
     // Parallax Scrolling Speed of the background image.
     // Рекомендуется устанавливать значения 1.5, 3 или 6
     var parallax_ratio = 2;
-    window.addEventListener('scroll', function() {          // вешаем на скролл прокрутку фона
-        var x = window.pageYOffset / parallax_ratio;
-        container.style.top =  x+'px';
+    l_content.addEventListener('scroll', function() {           // вешаем на скролл прокрутку фона
+        var x = l_content.scrollTop / parallax_ratio;
+        parallaxB.style.top =  x+'px';
     });
 }());
 
@@ -37,24 +38,26 @@ var mMenuOffset = {top:0,left:0}, mMenuIsFixed = false;
 $(function() {
     $('#main_menu > ul').clone().appendTo('#sidebar_menu');
     document.getElementById('mobile_menu_toggle').addEventListener('click',toggleMobileMenu);
-    document.getElementById('close_sidebar').addEventListener('click',toggleMobileMenu);
+    document.getElementById('sidebar_coating').addEventListener('click',toggleMobileMenu);
     //var swipeFun = { left: function() {toggleMobileMenu();}, right: function(){}, top: function(){}, bottom: function(){} };
     //swipe(document.getElementById('sidebar'), swipeFun);            // закрытие бокового меню свайпом
-    //swipe(document.getElementById('close_sidebar'), swipeFun);
+    //swipe(document.getElementById('sidebar_coating'), swipeFun);
     var $mobileMenu = $(mobileMenu);
     mMenuOffset = $mobileMenu.offset();
     if ($mobileMenu.is(':visible')) {
-        fixMobileMenu();
-        window.addEventListener('scroll', fixMobileMenu);
+        var l_content = document.getElementById('layout_content');
+        fixMobileMenu(l_content);
+        l_content.addEventListener('scroll', fixMobileMenu);
     }
 });
 // Открытие/закрытие мобильного меню
 function toggleMobileMenu() {
-    $('.layout__body').toggleClass('sidebar-opened');
+    document.body.classList.toggle('sidebar-opened');
 }
 // Эффект прилипания для кнопки мобильного меню
-function fixMobileMenu() {
-    if (window.scrollY >= mMenuOffset.top != mMenuIsFixed) {
+function fixMobileMenu(event) {
+    var l_content = event.target || event;
+    if (l_content.scrollTop >= mMenuOffset.top != mMenuIsFixed) {
         mMenuIsFixed = !mMenuIsFixed;
         mobileMenu.classList.toggle('fixed', mMenuIsFixed);
     }
