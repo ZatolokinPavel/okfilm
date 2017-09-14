@@ -7,8 +7,8 @@
 
 Настройка и запуск
 ------------------
-Для работы сайта с конфигом nginx из проекта необходимо скачать проект в директорию `/var/www/okfilm.com.ua/okfilm` и подключить конфиг. Подключить конфиг можно или командой `include /var/www/okfilm.com.ua/okfilm/nginx.cfg` в главном конфиге nginx (файл `/etc/nginx/nginx.conf`). Или создав символьную ссылку на конфиг в папке подключённых сайтов nginx следующей командой:
+Для работы сайта с конфигом nginx из проекта необходимо скачать проект в директорию `/var/www/okfilm.com.ua/` и подключить конфиг. Подключить конфиг можно или командой `include /var/www/okfilm.com.ua/okfilm_2016/nginx.cfg` в главном конфиге nginx (файл `/etc/nginx/nginx.conf`). Или создав символьную ссылку на конфиг в папке подключённых сайтов nginx следующей командой:
 
-`user@node:/etc/nginx/sites-enabled $ sudo ln -s /var/www/okfilm.com.ua/okfilm/nginx.cfg okfilm.com.ua`
+`user@node:/etc/nginx/sites-enabled $ sudo ln -s /var/www/okfilm.com.ua/okfilm_2016/nginx.cfg okfilm.com.ua`
 
 Кроме того, предполагается наличие папки `/var/www/shared-global` у которой открыты права на чтение и запись для всех. Это будет папка для загрузки файлов, которые смогут скачивать клиенты, перейдя по предоставленной им ссылке.
